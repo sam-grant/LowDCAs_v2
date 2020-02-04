@@ -1,0 +1,1 @@
+gm2 -c ../fcl/RunRecoTest.fcl -s ~/gm2offline_unpacked_subrun_15922.root

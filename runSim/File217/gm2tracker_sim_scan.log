@@ -1,0 +1,43 @@
+03-Feb-2020 08:15:09 CST  Initiating request to open input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551217_1567190852.1.root"
+03-Feb-2020 08:15:10 CST  Opened input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551217_1567190852.1.root"
+03-Feb-2020 08:17:57 CST  Opened output file with pattern "gm2tracker_sim_scan.root"
+03-Feb-2020 08:17:57 CST  Closed input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551217_1567190852.1.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 03-Feb-2020 08:17:57 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 03-Feb-2020 08:17:57 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 03-Feb-2020 08:17:57 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+----------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 0 passed = 0 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          0          0          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 123.794180 Real = 123.927320
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1924.12 VmHWM = 983.146
+

@@ -1,0 +1,31 @@
+03-Feb-2020 04:29:21 CST  Initiating request to open input file "../../runSim/File203/gm2tracker_particle_gun_test.root"
+03-Feb-2020 04:29:22 CST  Opened input file "../../runSim/File203/gm2tracker_particle_gun_test.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 04:29:28 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 04:29:28 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 04:29:28 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 04:29:28 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 04:29:28 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 04:29:28 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 04:29:28 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 04:29:28 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 04:29:28 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 04:29:28 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 04:29:29 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 04:29:29 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 04:29:30 CST
+03-Feb-2020 04:29:30 CST  Closed input file "../../runSim/File203/gm2tracker_particle_gun_test.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 trackSummaryPlots
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 7.950792 Real = 7.984310
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1248.4 VmHWM = 397.615
+

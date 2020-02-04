@@ -1,0 +1,3544 @@
+03-Feb-2020 05:06:23 CST  Initiating request to open input file "../../runSim/File200/gm2tracker_sim_scan.root"
+03-Feb-2020 05:06:24 CST  Opened input file "../../runSim/File200/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:06:29 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:06:32 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:06:32 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:06:32 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:06:33 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:06:34 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:06:34 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:06:35 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:06:35 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:06:35 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:06:43 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:06:51 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:07:06 CST
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 67	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 67	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 67	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 67	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 66	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 63	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 59	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 58	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 54	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 52	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 53	wrongLRChoices = 101
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 49	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 47	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 45	wrongLRChoices = 84
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 45	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 44	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 41	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 38	wrongLRChoices = 75
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 38	wrongLRChoices = 72
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 36	wrongLRChoices = 70
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 36	wrongLRChoices = 67
+03-Feb-2020 05:07:06 CST  Closed input file "../../runSim/File200/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 29.189563 Real = 41.942272
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.85 VmHWM = 419.32
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:07:11 CST  Initiating request to open input file "../../runSim/File201/gm2tracker_sim_scan.root"
+03-Feb-2020 05:07:12 CST  Opened input file "../../runSim/File201/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:07:17 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:07:19 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:07:20 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:07:21 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:07:22 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:07:23 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:07:23 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:07:24 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:07:25 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:07:26 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:07:35 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:07:45 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:08:00 CST
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 75	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 75	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 75	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 74	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 74	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 73	wrongLRChoices = 120
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 69	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 64	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 61	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 57	wrongLRChoices = 93
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 56	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 53	wrongLRChoices = 90
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 51	wrongLRChoices = 88
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 47	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 47	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 43	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 41	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 39	wrongLRChoices = 64
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 39	wrongLRChoices = 58
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 38	wrongLRChoices = 55
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 36	wrongLRChoices = 53
+03-Feb-2020 05:08:00 CST  Closed input file "../../runSim/File201/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 32.625040 Real = 47.471414
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.89 VmHWM = 425.66
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:08:04 CST  Initiating request to open input file "../../runSim/File202/gm2tracker_sim_scan.root"
+03-Feb-2020 05:08:05 CST  Opened input file "../../runSim/File202/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:08:10 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:08:12 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:08:13 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:08:13 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:08:14 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:08:16 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:08:16 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:08:17 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:08:18 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:08:19 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:08:28 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:08:35 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:08:53 CST
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 68	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 68	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 68	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 67	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 66	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 65	wrongLRChoices = 119
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 60	wrongLRChoices = 105
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 55	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 48	wrongLRChoices = 85
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 49	wrongLRChoices = 90
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 46	wrongLRChoices = 85
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 44	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 42	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 39	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 39	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 39	wrongLRChoices = 73
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 38	wrongLRChoices = 71
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 34	wrongLRChoices = 67
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 32	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 32	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 32	wrongLRChoices = 58
+03-Feb-2020 05:08:53 CST  Closed input file "../../runSim/File202/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 32.264095 Real = 47.614570
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.93 VmHWM = 419.746
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:08:58 CST  Initiating request to open input file "../../runSim/File203/gm2tracker_sim_scan.root"
+03-Feb-2020 05:08:58 CST  Opened input file "../../runSim/File203/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:09:04 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:09:07 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:09:07 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:09:08 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:09:09 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:09:09 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:09:09 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:09:10 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:09:11 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:09:11 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:09:18 CST
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	69.4212
+p-value 	7.03326e-59
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	67.2194
+p-value 	5.56786e-57
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	65.621
+p-value 	1.32941e-55
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	64.1036
+p-value 	2.70139e-54
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	62.8221
+p-value 	3.43563e-53
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	61.7425
+p-value 	2.92601e-52
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	60.79
+p-value 	1.93593e-51
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	60.6506
+p-value 	2.55271e-51
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	59.9237
+p-value 	1.07928e-50
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	59.3045
+p-value 	3.68569e-50
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	58.7742
+p-value 	1.05514e-49
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	58.3175
+p-value 	2.60952e-49
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	57.9223
+p-value 	5.71377e-49
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	57.5784
+p-value 	1.1301e-48
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2021.11
+dt0 [ns] 	-1.60217
+chi2/ndf 	57.2777
+p-value 	2.0513e-48
+==================================================
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:09:26 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:09:42 CST
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 52	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 52	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 52	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 51	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 51	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 50	wrongLRChoices = 96
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 51	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 50	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 48	wrongLRChoices = 90
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 48	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 47	wrongLRChoices = 85
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 45	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 44	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 45	wrongLRChoices = 78
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 43	wrongLRChoices = 75
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 43	wrongLRChoices = 73
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 43	wrongLRChoices = 69
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 44	wrongLRChoices = 69
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 42	wrongLRChoices = 64
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 40	wrongLRChoices = 63
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 39	wrongLRChoices = 62
+03-Feb-2020 05:09:42 CST  Closed input file "../../runSim/File203/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 28.356690 Real = 42.461699
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.86 VmHWM = 419.918
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:09:46 CST  Initiating request to open input file "../../runSim/File204/gm2tracker_sim_scan.root"
+03-Feb-2020 05:09:47 CST  Opened input file "../../runSim/File204/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:09:52 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:09:55 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:09:55 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:09:56 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:09:57 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:09:57 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:09:57 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:09:58 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:09:59 CST
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	38.7395
+p-value 	2.31146e-47
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	37.4443
+p-value 	1.05236e-45
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	36.3459
+p-value 	2.67674e-44
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	35.4092
+p-value 	4.22245e-43
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	34.5966
+p-value 	4.61636e-42
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	33.8849
+p-value 	3.74657e-41
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	33.2932
+p-value 	2.13555e-40
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2211.87
+dt0 [ns] 	-3.45653
+chi2/ndf 	32.7726
+p-value 	9.86619e-40
+==================================================
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:10:00 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:10:07 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:10:16 CST
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	43.1451
+p-value 	1.22318e-44
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	46.4177
+p-value 	3.81554e-48
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	45.4524
+p-value 	4.13022e-47
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	44.4623
+p-value 	4.75073e-46
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	43.4672
+p-value 	5.52839e-45
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	42.4837
+p-value 	6.24599e-44
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	41.4284
+p-value 	8.41793e-43
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	40.3819
+p-value 	1.10904e-41
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	39.359
+p-value 	1.37704e-40
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	38.281
+p-value 	1.95667e-39
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	37.2374
+p-value 	2.55094e-38
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	36.1785
+p-value 	3.4501e-37
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	35.1551
+p-value 	4.27082e-36
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2088.09
+dt0 [ns] 	0.157812
+chi2/ndf 	34.1291
+p-value 	5.31305e-35
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:10:30 CST
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 73	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 73	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 73	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 73	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 71	wrongLRChoices = 119
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 69	wrongLRChoices = 115
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 68	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 61	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 61	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 59	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 57	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 57	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 55	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 54	wrongLRChoices = 84
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 52	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 50	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 49	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 48	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 47	wrongLRChoices = 71
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 45	wrongLRChoices = 69
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 45	wrongLRChoices = 68
+03-Feb-2020 05:10:30 CST  Closed input file "../../runSim/File204/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 28.892608 Real = 42.624257
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.86 VmHWM = 417.767
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:10:35 CST  Initiating request to open input file "../../runSim/File205/gm2tracker_sim_scan.root"
+03-Feb-2020 05:10:36 CST  Opened input file "../../runSim/File205/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:10:41 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:10:43 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:10:44 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:10:45 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:10:45 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:10:46 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:10:46 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:10:47 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:10:48 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:10:48 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:10:56 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:11:05 CST
+==================================================
+Hits/trk 	9
+DCA [um] 	2252.62
+dt0 [ns] 	-1.12387
+chi2/ndf 	32.1326
+p-value 	8.02956e-27
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2252.62
+dt0 [ns] 	-1.12387
+chi2/ndf 	29.9492
+p-value 	5.90298e-25
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2252.62
+dt0 [ns] 	-1.12387
+chi2/ndf 	27.9581
+p-value 	2.95877e-23
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2252.62
+dt0 [ns] 	-1.12387
+chi2/ndf 	26.141
+p-value 	1.049e-21
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:11:22 CST
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 85	wrongLRChoices = 167
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 84	wrongLRChoices = 166
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 83	wrongLRChoices = 165
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 81	wrongLRChoices = 163
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 80	wrongLRChoices = 162
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 76	wrongLRChoices = 156
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 68	wrongLRChoices = 147
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 66	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 64	wrongLRChoices = 137
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 62	wrongLRChoices = 132
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 63	wrongLRChoices = 133
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 63	wrongLRChoices = 131
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 60	wrongLRChoices = 125
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 58	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 56	wrongLRChoices = 114
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 57	wrongLRChoices = 119
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 58	wrongLRChoices = 117
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 55	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 53	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 52	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 51	wrongLRChoices = 100
+03-Feb-2020 05:11:22 CST  Closed input file "../../runSim/File205/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.281244 Real = 45.846923
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.92 VmHWM = 417.632
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:11:27 CST  Initiating request to open input file "../../runSim/File206/gm2tracker_sim_scan.root"
+03-Feb-2020 05:11:27 CST  Opened input file "../../runSim/File206/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:11:32 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:11:35 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:11:36 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:11:36 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:11:37 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:11:39 CST
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	18.0155
+p-value 	6.47172e-18
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.8757
+p-value 	9.07496e-18
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.7558
+p-value 	1.21265e-17
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.6528
+p-value 	1.55564e-17
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.564
+p-value 	1.92801e-17
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.4872
+p-value 	2.32128e-17
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	18.1853
+p-value 	4.29153e-18
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	18.0461
+p-value 	6.00984e-18
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.9256
+p-value 	8.04456e-18
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2069.31
+dt0 [ns] 	-3.58767
+chi2/ndf 	17.8205
+p-value 	1.03702e-17
+==================================================
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:11:39 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:11:39 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:11:40 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:11:41 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:11:51 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:11:58 CST
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	45.2586
+p-value 	5.8658e-91
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	44.4378
+p-value 	3.30493e-89
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	43.7772
+p-value 	8.46747e-88
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	43.2458
+p-value 	1.14955e-86
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	42.399
+p-value 	7.32958e-85
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	42.0901
+p-value 	3.33601e-84
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	41.0617
+p-value 	5.17146e-82
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	40.8006
+p-value 	1.8602e-81
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.78
+dt0 [ns] 	-0.954167
+chi2/ndf 	40.5674
+p-value 	5.83346e-81
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:12:13 CST
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 65	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 65	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 64	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 64	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 61	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 60	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 55	wrongLRChoices = 93
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 49	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 45	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 43	wrongLRChoices = 75
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 41	wrongLRChoices = 71
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 42	wrongLRChoices = 66
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 40	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 41	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 42	wrongLRChoices = 61
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 38	wrongLRChoices = 55
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 42	wrongLRChoices = 57
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 42	wrongLRChoices = 57
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 42	wrongLRChoices = 55
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 39	wrongLRChoices = 51
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 38	wrongLRChoices = 51
+03-Feb-2020 05:12:13 CST  Closed input file "../../runSim/File206/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 30.323389 Real = 45.313806
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.83 VmHWM = 419.443
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:12:18 CST  Initiating request to open input file "../../runSim/File207/gm2tracker_sim_scan.root"
+03-Feb-2020 05:12:19 CST  Opened input file "../../runSim/File207/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:12:24 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:12:26 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:12:27 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:12:27 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:12:28 CST
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.367712
+p-value 	0.831792
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.351355
+p-value 	0.843252
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.336069
+p-value 	0.85382
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.321982
+p-value 	0.86342
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.309127
+p-value 	0.872052
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.534464
+p-value 	0.710421
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.495082
+p-value 	0.739377
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.46057
+p-value 	0.764739
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.43027
+p-value 	0.786885
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.403606
+p-value 	0.806197
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.380077
+p-value 	0.823038
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.359253
+p-value 	0.837737
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2472.97
+dt0 [ns] 	2.57345
+chi2/ndf 	0.340768
+p-value 	0.850587
+==================================================
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:12:29 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:12:30 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:12:31 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:12:32 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:12:32 CST
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	32.44
+p-value 	2.62269e-39
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	32.4296
+p-value 	2.70384e-39
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	32.4186
+p-value 	2.79299e-39
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	32.407
+p-value 	2.88949e-39
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	33.2659
+p-value 	2.31377e-40
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	32.2528
+p-value 	4.54668e-39
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	31.353
+p-value 	6.39247e-38
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	30.5407
+p-value 	6.94162e-37
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	29.7964
+p-value 	6.16594e-36
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	29.1055
+p-value 	4.67835e-35
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	28.4567
+p-value 	3.13306e-34
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	27.8418
+p-value 	1.89855e-33
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2114.72
+dt0 [ns] 	-2.17537
+chi2/ndf 	27.2542
+p-value 	1.06093e-32
+==================================================
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:12:41 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:12:49 CST
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2023.32
+dt0 [ns] 	7.775
+chi2/ndf 	14.0964
+p-value 	8.13354e-14
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	222.928
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	216.356
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	210.119
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	204.874
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	200.325
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	196.417
+p-value 	0
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2241.86
+dt0 [ns] 	-4.52969
+chi2/ndf 	193.011
+p-value 	0
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:13:05 CST
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 82	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 82	wrongLRChoices = 152
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 82	wrongLRChoices = 152
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 82	wrongLRChoices = 151
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 79	wrongLRChoices = 148
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 77	wrongLRChoices = 143
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 73	wrongLRChoices = 138
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 67	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 63	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 62	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 61	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 58	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 56	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 52	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 48	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 45	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 44	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 42	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 134	tracksWithWrongLRChoices = 42	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 42	wrongLRChoices = 72
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 39	wrongLRChoices = 66
+03-Feb-2020 05:13:05 CST  Closed input file "../../runSim/File207/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 30.766323 Real = 45.408256
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.87 VmHWM = 423.461
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:13:09 CST  Initiating request to open input file "../../runSim/File208/gm2tracker_sim_scan.root"
+03-Feb-2020 05:13:10 CST  Opened input file "../../runSim/File208/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:13:15 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:13:18 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:13:19 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:13:19 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:13:20 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:13:21 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:13:21 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:13:22 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:13:23 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:13:23 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:13:30 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:13:39 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:13:53 CST
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 70	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 70	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 70	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 69	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 67	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 62	wrongLRChoices = 117
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 60	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 59	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 58	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 56	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 54	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 52	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 52	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 51	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 48	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 47	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 46	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 42	wrongLRChoices = 73
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 40	wrongLRChoices = 63
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 40	wrongLRChoices = 60
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 38	wrongLRChoices = 58
+03-Feb-2020 05:13:53 CST  Closed input file "../../runSim/File208/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 28.804621 Real = 42.245433
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.89 VmHWM = 418.071
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:13:58 CST  Initiating request to open input file "../../runSim/File209/gm2tracker_sim_scan.root"
+03-Feb-2020 05:13:58 CST  Opened input file "../../runSim/File209/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:14:04 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:14:06 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:14:07 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:14:07 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:14:08 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:14:09 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:14:09 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:14:10 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:14:10 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:14:11 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:14:20 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:14:28 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:14:45 CST
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 66	wrongLRChoices = 127
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 66	wrongLRChoices = 127
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 66	wrongLRChoices = 127
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 65	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 63	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 128	tracksWithWrongLRChoices = 58	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 56	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 56	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 55	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 53	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 53	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 53	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 52	wrongLRChoices = 104
+*** Run = 1567190852	Events = 5000	Tracks = 127	tracksWithWrongLRChoices = 52	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 49	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 46	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 45	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 44	wrongLRChoices = 69
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 41	wrongLRChoices = 65
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 40	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 40	wrongLRChoices = 61
+03-Feb-2020 05:14:45 CST  Closed input file "../../runSim/File209/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 30.405377 Real = 45.401444
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.78 VmHWM = 421.237
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:14:49 CST  Initiating request to open input file "../../runSim/File210/gm2tracker_sim_scan.root"
+03-Feb-2020 05:14:50 CST  Opened input file "../../runSim/File210/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:14:55 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:14:58 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:14:58 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:15:00 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:15:00 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:15:01 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:15:01 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:15:02 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:15:02 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:15:03 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:15:12 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:15:20 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:15:34 CST
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 66	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 66	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 66	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 65	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 64	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 63	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 62	wrongLRChoices = 104
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 55	wrongLRChoices = 96
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 52	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 51	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 48	wrongLRChoices = 75
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 46	wrongLRChoices = 78
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 44	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 41	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 42	wrongLRChoices = 68
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 43	wrongLRChoices = 69
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 40	wrongLRChoices = 65
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 43	wrongLRChoices = 67
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 39	wrongLRChoices = 61
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 37	wrongLRChoices = 59
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 35	wrongLRChoices = 57
+03-Feb-2020 05:15:34 CST  Closed input file "../../runSim/File210/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 29.648492 Real = 43.700919
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.87 VmHWM = 419.926
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:15:39 CST  Initiating request to open input file "../../runSim/File211/gm2tracker_sim_scan.root"
+03-Feb-2020 05:15:40 CST  Opened input file "../../runSim/File211/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:15:45 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:15:48 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:15:49 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:15:49 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:15:51 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:15:51 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:15:52 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:15:53 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:15:53 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:15:55 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:16:05 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:16:15 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:16:27 CST
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 81	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 81	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 81	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 81	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 80	wrongLRChoices = 149
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 77	wrongLRChoices = 145
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 73	wrongLRChoices = 138
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 69	wrongLRChoices = 129
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 68	wrongLRChoices = 129
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 64	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 62	wrongLRChoices = 118
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 60	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 58	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 55	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 55	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 52	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 52	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 48	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 46	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 45	wrongLRChoices = 78
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 45	wrongLRChoices = 75
+03-Feb-2020 05:16:27 CST  Closed input file "../../runSim/File211/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.861157 Real = 46.165509
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.86 VmHWM = 421.122
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:16:31 CST  Initiating request to open input file "../../runSim/File212/gm2tracker_sim_scan.root"
+03-Feb-2020 05:16:32 CST  Opened input file "../../runSim/File212/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:16:37 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:16:40 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:16:40 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:16:40 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:16:41 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:16:42 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:16:43 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:16:44 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:16:45 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:16:45 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:16:52 CST
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.2265
+p-value 	5.77473e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	47.6711
+p-value 	8.05277e-59
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	47.2857
+p-value 	2.51813e-58
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.9444
+p-value 	6.90963e-58
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.6422
+p-value 	1.68905e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	47.2363
+p-value 	2.91383e-58
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	47.008
+p-value 	5.72417e-58
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	46.3621
+p-value 	3.86682e-57
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2197.54
+dt0 [ns] 	4.50938
+chi2/ndf 	45.8033
+p-value 	2.01812e-56
+==================================================
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:17:00 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:17:18 CST
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 76	wrongLRChoices = 150
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 76	wrongLRChoices = 149
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 76	wrongLRChoices = 149
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 75	wrongLRChoices = 147
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 72	wrongLRChoices = 142
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 71	wrongLRChoices = 139
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 68	wrongLRChoices = 135
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 63	wrongLRChoices = 128
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 62	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 59	wrongLRChoices = 121
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 57	wrongLRChoices = 117
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 58	wrongLRChoices = 117
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 57	wrongLRChoices = 115
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 54	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 52	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 137	tracksWithWrongLRChoices = 50	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 136	tracksWithWrongLRChoices = 51	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 49	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 49	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 48	wrongLRChoices = 96
+*** Run = 1567190852	Events = 5000	Tracks = 138	tracksWithWrongLRChoices = 48	wrongLRChoices = 94
+03-Feb-2020 05:17:18 CST  Closed input file "../../runSim/File212/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.347234 Real = 45.344818
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.88 VmHWM = 421.79
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:17:23 CST  Initiating request to open input file "../../runSim/File213/gm2tracker_sim_scan.root"
+03-Feb-2020 05:17:24 CST  Opened input file "../../runSim/File213/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:17:29 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:17:31 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:17:32 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:17:32 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:17:32 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:17:34 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:17:36 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:17:36 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:17:37 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:17:38 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:17:46 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:17:55 CST
+==================================================
+Hits/trk 	14
+DCA [um] 	2259.95
+dt0 [ns] 	-2.29908
+chi2/ndf 	57.2756
+p-value 	2.78193e-105
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:18:11 CST
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 80	wrongLRChoices = 141
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 80	wrongLRChoices = 141
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 80	wrongLRChoices = 141
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 80	wrongLRChoices = 141
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 78	wrongLRChoices = 139
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 76	wrongLRChoices = 137
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 70	wrongLRChoices = 131
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 67	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 66	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 67	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 66	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 63	wrongLRChoices = 115
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 58	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 57	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 56	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 54	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 53	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 53	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 143	tracksWithWrongLRChoices = 51	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 51	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 144	tracksWithWrongLRChoices = 50	wrongLRChoices = 83
+03-Feb-2020 05:18:11 CST  Closed input file "../../runSim/File213/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.797166 Real = 46.662127
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.91 VmHWM = 419.734
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:18:15 CST  Initiating request to open input file "../../runSim/File214/gm2tracker_sim_scan.root"
+03-Feb-2020 05:18:16 CST  Opened input file "../../runSim/File214/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:18:21 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:18:24 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:18:24 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:18:25 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:18:26 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:18:26 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:18:27 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:18:27 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:18:28 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:18:28 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:18:37 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:18:44 CST
+==================================================
+Hits/trk 	15
+DCA [um] 	2330.36
+dt0 [ns] 	2.57708
+chi2/ndf 	30.7981
+p-value 	3.19146e-60
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2330.36
+dt0 [ns] 	2.57708
+chi2/ndf 	30.7969
+p-value 	3.21002e-60
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2330.36
+dt0 [ns] 	2.57708
+chi2/ndf 	31.1994
+p-value 	4.51607e-61
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:19:00 CST
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 80	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 80	wrongLRChoices = 154
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 79	wrongLRChoices = 153
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 79	wrongLRChoices = 152
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 78	wrongLRChoices = 150
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 78	wrongLRChoices = 148
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 76	wrongLRChoices = 145
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 73	wrongLRChoices = 136
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 70	wrongLRChoices = 128
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 67	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 65	wrongLRChoices = 118
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 64	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 64	wrongLRChoices = 114
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 60	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 58	wrongLRChoices = 101
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 58	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 60	wrongLRChoices = 104
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 55	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 55	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 53	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 133	tracksWithWrongLRChoices = 51	wrongLRChoices = 84
+03-Feb-2020 05:19:00 CST  Closed input file "../../runSim/File214/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 29.399531 Real = 42.724252
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.88 VmHWM = 419.66
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:19:04 CST  Initiating request to open input file "../../runSim/File215/gm2tracker_sim_scan.root"
+03-Feb-2020 05:19:05 CST  Opened input file "../../runSim/File215/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:19:10 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:19:13 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:19:13 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:19:14 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:19:14 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:19:15 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:19:16 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:19:18 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:19:19 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:19:19 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:19:29 CST
+==================================================
+Hits/trk 	12
+DCA [um] 	2340.14
+dt0 [ns] 	-0.282292
+chi2/ndf 	24.0275
+p-value 	6.03714e-33
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2340.14
+dt0 [ns] 	-0.282292
+chi2/ndf 	23.7782
+p-value 	1.40764e-32
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2340.14
+dt0 [ns] 	-0.282292
+chi2/ndf 	23.5514
+p-value 	3.04117e-32
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2340.14
+dt0 [ns] 	-0.282292
+chi2/ndf 	23.3452
+p-value 	6.12396e-32
+==================================================
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:19:37 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:19:52 CST
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 68	wrongLRChoices = 153
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 68	wrongLRChoices = 153
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 68	wrongLRChoices = 153
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 68	wrongLRChoices = 152
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 65	wrongLRChoices = 148
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 66	wrongLRChoices = 148
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 64	wrongLRChoices = 141
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 59	wrongLRChoices = 133
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 56	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 53	wrongLRChoices = 116
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 54	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 51	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 48	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 146	tracksWithWrongLRChoices = 44	wrongLRChoices = 97
+*** Run = 1567190852	Events = 5000	Tracks = 145	tracksWithWrongLRChoices = 43	wrongLRChoices = 96
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 42	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 41	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 38	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 147	tracksWithWrongLRChoices = 38	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 39	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 148	tracksWithWrongLRChoices = 37	wrongLRChoices = 81
+03-Feb-2020 05:19:52 CST  Closed input file "../../runSim/File215/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 32.141114 Real = 46.217394
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.94 VmHWM = 419.484
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:19:56 CST  Initiating request to open input file "../../runSim/File216/gm2tracker_sim_scan.root"
+03-Feb-2020 05:19:57 CST  Opened input file "../../runSim/File216/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:20:02 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:20:05 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:20:05 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:20:06 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:20:06 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:20:07 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:20:08 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:20:08 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:20:09 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:20:10 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:20:20 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:20:28 CST
+==================================================
+Hits/trk 	9
+DCA [um] 	2467.38
+dt0 [ns] 	6.56146
+chi2/ndf 	7.60419
+p-value 	4.02554e-06
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	38.6313
+p-value 	2.18176e-32
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	37.2346
+p-value 	3.43707e-31
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	35.8688
+p-value 	5.08779e-30
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	34.4903
+p-value 	7.71068e-29
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	33.1145
+p-value 	1.16045e-27
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	31.7529
+p-value 	1.69595e-26
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	30.4149
+p-value 	2.36125e-25
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	29.1082
+p-value 	3.08588e-24
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	27.8389
+p-value 	3.7397e-23
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2003.89
+dt0 [ns] 	-0.00711806
+chi2/ndf 	26.6088
+p-value 	4.18818e-22
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:20:43 CST
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 75	wrongLRChoices = 137
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 75	wrongLRChoices = 137
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 74	wrongLRChoices = 136
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 72	wrongLRChoices = 133
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 72	wrongLRChoices = 131
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 69	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 68	wrongLRChoices = 120
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 64	wrongLRChoices = 114
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 62	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 60	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 57	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 57	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 56	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 52	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 48	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 48	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 47	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 44	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 43	wrongLRChoices = 73
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 44	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 43	wrongLRChoices = 74
+03-Feb-2020 05:20:43 CST  Closed input file "../../runSim/File216/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.023283 Real = 44.687427
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.91 VmHWM = 418.214
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:20:47 CST  Initiating request to open input file "../../runSim/File217/gm2tracker_sim_scan.root"
+03-Feb-2020 05:20:48 CST  Opened input file "../../runSim/File217/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:20:53 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:20:56 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:20:57 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:20:58 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:20:58 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:20:59 CST
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	50.3617
+p-value 	7.44562e-102
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	49.8187
+p-value 	1.07706e-100
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	49.4151
+p-value 	7.84593e-100
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	49.108
+p-value 	3.55356e-99
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	48.8716
+p-value 	1.13676e-98
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	49.151
+p-value 	2.87701e-99
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	47.8964
+p-value 	1.37557e-96
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	47.3662
+p-value 	1.86401e-95
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	45.8488
+p-value 	3.22953e-92
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	44.5227
+p-value 	2.17749e-89
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	43.3629
+p-value 	6.46906e-87
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	42.3434
+p-value 	9.62856e-85
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	41.4432
+p-value 	7.96555e-83
+==================================================
+==================================================
+Hits/trk 	15
+DCA [um] 	2135.72
+dt0 [ns] 	0.74375
+chi2/ndf 	40.6561
+p-value 	3.77779e-81
+==================================================
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:21:00 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:21:01 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:21:01 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:21:01 CST
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	38.627
+p-value 	8.34826e-40
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	38.1761
+p-value 	2.53279e-39
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	37.5076
+p-value 	1.31219e-38
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	36.7368
+p-value 	8.73982e-38
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	35.8752
+p-value 	7.27344e-37
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	34.9765
+p-value 	6.62353e-36
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	34.0634
+p-value 	6.24338e-35
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	33.1441
+p-value 	5.96935e-34
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	32.2252
+p-value 	5.69528e-33
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	31.3097
+p-value 	5.38311e-32
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	30.4062
+p-value 	4.93318e-31
+==================================================
+==================================================
+Hits/trk 	10
+DCA [um] 	2003.08
+dt0 [ns] 	-3.18594
+chi2/ndf 	29.515
+p-value 	4.38156e-30
+==================================================
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:21:09 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:21:17 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:21:32 CST
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 63	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 62	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 62	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 61	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 61	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 59	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 58	wrongLRChoices = 101
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 58	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 53	wrongLRChoices = 92
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 50	wrongLRChoices = 85
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 49	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 47	wrongLRChoices = 78
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 45	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 44	wrongLRChoices = 71
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 42	wrongLRChoices = 67
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 43	wrongLRChoices = 67
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 41	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 39	wrongLRChoices = 57
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 38	wrongLRChoices = 58
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 38	wrongLRChoices = 56
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 38	wrongLRChoices = 56
+03-Feb-2020 05:21:32 CST  Closed input file "../../runSim/File217/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 29.447524 Real = 43.438615
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.85 VmHWM = 421.712
+
+Art has completed and will exit with status 0.
+%MSG-s ArtException:  Early 03-Feb-2020 05:21:37 CST JobSetup
+cet::exception caught in art
+---- CatalogServiceError BEGIN
+  Input file not found: ../../runSim/File218/gm2tracker_sim_scan.root.
+---- CatalogServiceError END
+%MSG
+Art has completed and will exit with status 24.
+03-Feb-2020 05:21:40 CST  Initiating request to open input file "../../runSim/File219/gm2tracker_sim_scan.root"
+03-Feb-2020 05:21:41 CST  Opened input file "../../runSim/File219/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:21:46 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:21:48 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:21:49 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:21:50 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:21:51 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:21:51 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:21:52 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:21:53 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:21:53 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:21:54 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:22:02 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:22:09 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:22:24 CST
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 70	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 70	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 70	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 69	wrongLRChoices = 139
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 68	wrongLRChoices = 136
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 64	wrongLRChoices = 132
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 61	wrongLRChoices = 129
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 61	wrongLRChoices = 126
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 59	wrongLRChoices = 120
+*** Run = 1567190852	Events = 5000	Tracks = 132	tracksWithWrongLRChoices = 53	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 52	wrongLRChoices = 107
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 51	wrongLRChoices = 104
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 48	wrongLRChoices = 99
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 48	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 48	wrongLRChoices = 88
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 46	wrongLRChoices = 84
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 45	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 41	wrongLRChoices = 75
+*** Run = 1567190852	Events = 5000	Tracks = 130	tracksWithWrongLRChoices = 40	wrongLRChoices = 73
+*** Run = 1567190852	Events = 5000	Tracks = 129	tracksWithWrongLRChoices = 39	wrongLRChoices = 71
+*** Run = 1567190852	Events = 5000	Tracks = 131	tracksWithWrongLRChoices = 39	wrongLRChoices = 77
+03-Feb-2020 05:22:24 CST  Closed input file "../../runSim/File219/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 29.418528 Real = 41.967948
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.77 VmHWM = 422.818
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:22:28 CST  Initiating request to open input file "../../runSim/File220/gm2tracker_sim_scan.root"
+03-Feb-2020 05:22:29 CST  Opened input file "../../runSim/File220/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:22:34 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:22:37 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:22:37 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:22:38 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:22:38 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:22:38 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:22:39 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:22:40 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:22:40 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:22:41 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:22:50 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:22:56 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:23:11 CST
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 67	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 67	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 67	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 67	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 67	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 64	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 62	wrongLRChoices = 105
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 59	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 52	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 51	wrongLRChoices = 90
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 51	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 49	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 48	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 48	wrongLRChoices = 80
+*** Run = 1567190852	Events = 5000	Tracks = 125	tracksWithWrongLRChoices = 47	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 45	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 45	wrongLRChoices = 72
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 44	wrongLRChoices = 70
+*** Run = 1567190852	Events = 5000	Tracks = 126	tracksWithWrongLRChoices = 42	wrongLRChoices = 68
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 43	wrongLRChoices = 68
+*** Run = 1567190852	Events = 5000	Tracks = 124	tracksWithWrongLRChoices = 40	wrongLRChoices = 60
+03-Feb-2020 05:23:11 CST  Closed input file "../../runSim/File220/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 28.166718 Real = 41.142070
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.78 VmHWM = 423.281
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:23:15 CST  Initiating request to open input file "../../runSim/File221/gm2tracker_sim_scan.root"
+03-Feb-2020 05:23:16 CST  Opened input file "../../runSim/File221/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:23:21 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:23:24 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:23:25 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:23:25 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:23:26 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:23:26 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:23:27 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:23:28 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:23:28 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:23:29 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:23:37 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:23:45 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:23:57 CST
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 66	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 66	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 66	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 66	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 64	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 59	wrongLRChoices = 101
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 57	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 54	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 54	wrongLRChoices = 93
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 52	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 50	wrongLRChoices = 87
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 50	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 46	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 48	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 46	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 44	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 41	wrongLRChoices = 68
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 41	wrongLRChoices = 67
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 39	wrongLRChoices = 65
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 37	wrongLRChoices = 62
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 38	wrongLRChoices = 61
+03-Feb-2020 05:23:57 CST  Closed input file "../../runSim/File221/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 27.802773 Real = 39.898909
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.82 VmHWM = 419.484
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:24:01 CST  Initiating request to open input file "../../runSim/File222/gm2tracker_sim_scan.root"
+03-Feb-2020 05:24:02 CST  Opened input file "../../runSim/File222/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:24:07 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:24:10 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:24:11 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:24:11 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:24:11 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:24:12 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:24:13 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:24:14 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:24:14 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:24:15 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:24:24 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:24:34 CST
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.541472
+p-value 	0.581891
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.524592
+p-value 	0.591797
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.508778
+p-value 	0.60123
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.494023
+p-value 	0.610167
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.480296
+p-value 	0.6186
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.467555
+p-value 	0.626532
+==================================================
+==================================================
+Hits/trk 	7
+DCA [um] 	2458.27
+dt0 [ns] 	0.810714
+chi2/ndf 	0.455746
+p-value 	0.633975
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	6.48865
+p-value 	3.23185e-05
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	7.56028
+p-value 	4.37121e-06
+==================================================
+==================================================
+Hits/trk 	9
+DCA [um] 	2149.95
+dt0 [ns] 	7.55278
+chi2/ndf 	7.24014
+p-value 	7.96288e-06
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:24:50 CST
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 88	wrongLRChoices = 146
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 88	wrongLRChoices = 146
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 87	wrongLRChoices = 145
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 86	wrongLRChoices = 144
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 84	wrongLRChoices = 142
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 84	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 77	wrongLRChoices = 130
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 71	wrongLRChoices = 122
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 69	wrongLRChoices = 117
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 65	wrongLRChoices = 111
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 62	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 59	wrongLRChoices = 101
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 60	wrongLRChoices = 102
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 59	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 55	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 55	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 150	tracksWithWrongLRChoices = 49	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 51	wrongLRChoices = 80
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 49	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 152	tracksWithWrongLRChoices = 46	wrongLRChoices = 70
+*** Run = 1567190852	Events = 5000	Tracks = 153	tracksWithWrongLRChoices = 45	wrongLRChoices = 66
+03-Feb-2020 05:24:50 CST  Closed input file "../../runSim/File222/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 32.334084 Real = 47.426446
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.95 VmHWM = 420.135
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:24:54 CST  Initiating request to open input file "../../runSim/File223/gm2tracker_sim_scan.root"
+03-Feb-2020 05:24:55 CST  Opened input file "../../runSim/File223/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:25:00 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:25:03 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:25:03 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:25:03 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:25:04 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:25:05 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:25:06 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:25:07 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:25:08 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:25:09 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:25:16 CST
+==================================================
+Hits/trk 	12
+DCA [um] 	2019.55
+dt0 [ns] 	0.764583
+chi2/ndf 	44.6368
+p-value 	1.31992e-63
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2019.55
+dt0 [ns] 	0.764583
+chi2/ndf 	41.8258
+p-value 	2.10464e-59
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2019.55
+dt0 [ns] 	0.764583
+chi2/ndf 	39.4389
+p-value 	7.72575e-56
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2019.55
+dt0 [ns] 	0.764583
+chi2/ndf 	37.8468
+p-value 	1.83471e-53
+==================================================
+==================================================
+Hits/trk 	12
+DCA [um] 	2019.55
+dt0 [ns] 	0.764583
+chi2/ndf 	36.0488
+p-value 	8.79414e-51
+==================================================
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:25:23 CST
+==================================================
+Hits/trk 	11
+DCA [um] 	2307.73
+dt0 [ns] 	5.54311
+chi2/ndf 	36.3947
+p-value 	2.31829e-44
+==================================================
+==================================================
+Hits/trk 	11
+DCA [um] 	2307.73
+dt0 [ns] 	5.54311
+chi2/ndf 	36.0767
+p-value 	5.91501e-44
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:25:36 CST
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 66	wrongLRChoices = 103
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 62	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 62	wrongLRChoices = 98
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 60	wrongLRChoices = 96
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 58	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 58	wrongLRChoices = 93
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 56	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 55	wrongLRChoices = 90
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 50	wrongLRChoices = 84
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 47	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 46	wrongLRChoices = 76
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 46	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 46	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 43	wrongLRChoices = 74
+*** Run = 1567190852	Events = 5000	Tracks = 123	tracksWithWrongLRChoices = 42	wrongLRChoices = 72
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 41	wrongLRChoices = 65
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 41	wrongLRChoices = 64
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 38	wrongLRChoices = 60
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 40	wrongLRChoices = 61
+*** Run = 1567190852	Events = 5000	Tracks = 122	tracksWithWrongLRChoices = 40	wrongLRChoices = 60
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 38	wrongLRChoices = 57
+03-Feb-2020 05:25:36 CST  Closed input file "../../runSim/File223/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 27.854765 Real = 40.340065
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.84 VmHWM = 424.862
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:25:41 CST  Initiating request to open input file "../../runSim/File224/gm2tracker_sim_scan.root"
+03-Feb-2020 05:25:42 CST  Opened input file "../../runSim/File224/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:25:47 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:25:49 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:25:50 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:25:50 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:25:51 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:25:52 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:25:53 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:25:54 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:25:55 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:25:56 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:26:03 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:26:11 CST
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.05046
+p-value 	0.397998
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.15355
+p-value 	0.314132
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.08043
+p-value 	0.37237
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.02143
+p-value 	0.423728
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	0.973554
+p-value 	0.467946
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.18965
+p-value 	0.287731
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.1254
+p-value 	0.335813
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.07184
+p-value 	0.379615
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.12288
+p-value 	0.337798
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.06726
+p-value 	0.383511
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	1.02069
+p-value 	0.4244
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	0.98107
+p-value 	0.460869
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	0.947108
+p-value 	0.493209
+==================================================
+==================================================
+Hits/trk 	16
+DCA [um] 	2080.6
+dt0 [ns] 	-0.19375
+chi2/ndf 	0.917789
+p-value 	0.521802
+==================================================
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:26:24 CST
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 62	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 60	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 60	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 60	wrongLRChoices = 110
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 60	wrongLRChoices = 109
+*** Run = 1567190852	Events = 5000	Tracks = 119	tracksWithWrongLRChoices = 59	wrongLRChoices = 113
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 56	wrongLRChoices = 106
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 53	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 50	wrongLRChoices = 94
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 47	wrongLRChoices = 89
+*** Run = 1567190852	Events = 5000	Tracks = 117	tracksWithWrongLRChoices = 47	wrongLRChoices = 91
+*** Run = 1567190852	Events = 5000	Tracks = 119	tracksWithWrongLRChoices = 45	wrongLRChoices = 86
+*** Run = 1567190852	Events = 5000	Tracks = 118	tracksWithWrongLRChoices = 43	wrongLRChoices = 83
+*** Run = 1567190852	Events = 5000	Tracks = 119	tracksWithWrongLRChoices = 43	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 119	tracksWithWrongLRChoices = 45	wrongLRChoices = 84
+*** Run = 1567190852	Events = 5000	Tracks = 120	tracksWithWrongLRChoices = 45	wrongLRChoices = 82
+*** Run = 1567190852	Events = 5000	Tracks = 120	tracksWithWrongLRChoices = 45	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 45	wrongLRChoices = 81
+*** Run = 1567190852	Events = 5000	Tracks = 121	tracksWithWrongLRChoices = 45	wrongLRChoices = 79
+*** Run = 1567190852	Events = 5000	Tracks = 120	tracksWithWrongLRChoices = 43	wrongLRChoices = 77
+*** Run = 1567190852	Events = 5000	Tracks = 120	tracksWithWrongLRChoices = 41	wrongLRChoices = 70
+03-Feb-2020 05:26:24 CST  Closed input file "../../runSim/File224/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 28.660643 Real = 41.846885
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.85 VmHWM = 418.218
+
+Art has completed and will exit with status 0.
+03-Feb-2020 05:26:29 CST  Initiating request to open input file "../../runSim/File225/gm2tracker_sim_scan.root"
+03-Feb-2020 05:26:29 CST  Opened input file "../../runSim/File225/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 03-Feb-2020 05:26:34 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 03-Feb-2020 05:26:37 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 03-Feb-2020 05:26:38 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 03-Feb-2020 05:26:39 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 03-Feb-2020 05:26:39 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 03-Feb-2020 05:26:40 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 03-Feb-2020 05:26:40 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 03-Feb-2020 05:26:41 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 03-Feb-2020 05:26:42 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 03-Feb-2020 05:26:42 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 03-Feb-2020 05:26:51 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 03-Feb-2020 05:27:01 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 03-Feb-2020 05:27:16 CST
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 89	wrongLRChoices = 171
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 88	wrongLRChoices = 170
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 88	wrongLRChoices = 170
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 86	wrongLRChoices = 168
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 85	wrongLRChoices = 165
+*** Run = 1567190852	Events = 5000	Tracks = 139	tracksWithWrongLRChoices = 82	wrongLRChoices = 158
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 82	wrongLRChoices = 159
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 80	wrongLRChoices = 150
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 76	wrongLRChoices = 140
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 76	wrongLRChoices = 137
+*** Run = 1567190852	Events = 5000	Tracks = 140	tracksWithWrongLRChoices = 71	wrongLRChoices = 132
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 73	wrongLRChoices = 134
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 70	wrongLRChoices = 129
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 69	wrongLRChoices = 124
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 67	wrongLRChoices = 123
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 62	wrongLRChoices = 112
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 60	wrongLRChoices = 108
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 59	wrongLRChoices = 105
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 57	wrongLRChoices = 100
+*** Run = 1567190852	Events = 5000	Tracks = 141	tracksWithWrongLRChoices = 55	wrongLRChoices = 95
+*** Run = 1567190852	Events = 5000	Tracks = 142	tracksWithWrongLRChoices = 53	wrongLRChoices = 93
+03-Feb-2020 05:27:16 CST  Closed input file "../../runSim/File225/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 plots0
+TrigReport     0    0       5000       5000          0 plots1
+TrigReport     0    0       5000       5000          0 plots2
+TrigReport     0    0       5000       5000          0 plots3
+TrigReport     0    0       5000       5000          0 plots4
+TrigReport     0    0       5000       5000          0 plots5
+TrigReport     0    0       5000       5000          0 plots6
+TrigReport     0    0       5000       5000          0 plots7
+TrigReport     0    0       5000       5000          0 plots8
+TrigReport     0    0       5000       5000          0 plots9
+TrigReport     0    0       5000       5000          0 plots10
+TrigReport     0    0       5000       5000          0 plots11
+TrigReport     0    0       5000       5000          0 plots12
+TrigReport     0    0       5000       5000          0 plots13
+TrigReport     0    0       5000       5000          0 plots14
+TrigReport     0    0       5000       5000          0 plots15
+TrigReport     0    0       5000       5000          0 plots16
+TrigReport     0    0       5000       5000          0 plots17
+TrigReport     0    0       5000       5000          0 plots18
+TrigReport     0    0       5000       5000          0 plots19
+TrigReport     0    0       5000       5000          0 plots20
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 31.007286 Real = 45.875805
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1193.89 VmHWM = 419.598
+
+Art has completed and will exit with status 0.
+hadd Target file: simScanPlots.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: plots200/simScanPlots.root
+hadd Source file 2: plots201/simScanPlots.root
+hadd Source file 3: plots202/simScanPlots.root
+hadd Source file 4: plots203/simScanPlots.root
+hadd Source file 5: plots204/simScanPlots.root
+hadd Source file 6: plots205/simScanPlots.root
+hadd Source file 7: plots206/simScanPlots.root
+hadd Source file 8: plots207/simScanPlots.root
+hadd Source file 9: plots208/simScanPlots.root
+hadd Source file 10: plots209/simScanPlots.root
+hadd Source file 11: plots210/simScanPlots.root
+hadd Source file 12: plots211/simScanPlots.root
+hadd Source file 13: plots212/simScanPlots.root
+hadd Source file 14: plots213/simScanPlots.root
+hadd Source file 15: plots214/simScanPlots.root
+hadd Source file 16: plots215/simScanPlots.root
+hadd Source file 17: plots216/simScanPlots.root
+hadd Source file 18: plots217/simScanPlots.root
+hadd Source file 19: plots218/simScanPlots.root
+hadd Source file 20: plots219/simScanPlots.root
+hadd Source file 21: plots220/simScanPlots.root
+hadd Source file 22: plots221/simScanPlots.root
+hadd Source file 23: plots222/simScanPlots.root
+hadd Source file 24: plots223/simScanPlots.root
+hadd Source file 25: plots224/simScanPlots.root
+hadd Source file 26: plots225/simScanPlots.root
+hadd Target path: simScanPlots.root:/
+hadd Target path: simScanPlots.root:/plots0
+hadd Target path: simScanPlots.root:/plots0/AllHits
+hadd Target path: simScanPlots.root:/plots0/WrongHits
+hadd Target path: simScanPlots.root:/plots0/RightHits
+hadd Target path: simScanPlots.root:/plots0/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots1
+hadd Target path: simScanPlots.root:/plots1/AllHits
+hadd Target path: simScanPlots.root:/plots1/WrongHits
+hadd Target path: simScanPlots.root:/plots1/RightHits
+hadd Target path: simScanPlots.root:/plots1/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots10
+hadd Target path: simScanPlots.root:/plots10/AllHits
+hadd Target path: simScanPlots.root:/plots10/WrongHits
+hadd Target path: simScanPlots.root:/plots10/RightHits
+hadd Target path: simScanPlots.root:/plots10/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots11
+hadd Target path: simScanPlots.root:/plots11/AllHits
+hadd Target path: simScanPlots.root:/plots11/WrongHits
+hadd Target path: simScanPlots.root:/plots11/RightHits
+hadd Target path: simScanPlots.root:/plots11/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots12
+hadd Target path: simScanPlots.root:/plots12/AllHits
+hadd Target path: simScanPlots.root:/plots12/WrongHits
+hadd Target path: simScanPlots.root:/plots12/RightHits
+hadd Target path: simScanPlots.root:/plots12/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots13
+hadd Target path: simScanPlots.root:/plots13/AllHits
+hadd Target path: simScanPlots.root:/plots13/WrongHits
+hadd Target path: simScanPlots.root:/plots13/RightHits
+hadd Target path: simScanPlots.root:/plots13/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots14
+hadd Target path: simScanPlots.root:/plots14/AllHits
+hadd Target path: simScanPlots.root:/plots14/WrongHits
+hadd Target path: simScanPlots.root:/plots14/RightHits
+hadd Target path: simScanPlots.root:/plots14/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots15
+hadd Target path: simScanPlots.root:/plots15/AllHits
+hadd Target path: simScanPlots.root:/plots15/WrongHits
+hadd Target path: simScanPlots.root:/plots15/RightHits
+hadd Target path: simScanPlots.root:/plots15/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots16
+hadd Target path: simScanPlots.root:/plots16/AllHits
+hadd Target path: simScanPlots.root:/plots16/WrongHits
+hadd Target path: simScanPlots.root:/plots16/RightHits
+hadd Target path: simScanPlots.root:/plots16/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots17
+hadd Target path: simScanPlots.root:/plots17/AllHits
+hadd Target path: simScanPlots.root:/plots17/WrongHits
+hadd Target path: simScanPlots.root:/plots17/RightHits
+hadd Target path: simScanPlots.root:/plots17/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots18
+hadd Target path: simScanPlots.root:/plots18/AllHits
+hadd Target path: simScanPlots.root:/plots18/WrongHits
+hadd Target path: simScanPlots.root:/plots18/RightHits
+hadd Target path: simScanPlots.root:/plots18/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots19
+hadd Target path: simScanPlots.root:/plots19/AllHits
+hadd Target path: simScanPlots.root:/plots19/WrongHits
+hadd Target path: simScanPlots.root:/plots19/RightHits
+hadd Target path: simScanPlots.root:/plots19/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots2
+hadd Target path: simScanPlots.root:/plots2/AllHits
+hadd Target path: simScanPlots.root:/plots2/WrongHits
+hadd Target path: simScanPlots.root:/plots2/RightHits
+hadd Target path: simScanPlots.root:/plots2/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots20
+hadd Target path: simScanPlots.root:/plots20/AllHits
+hadd Target path: simScanPlots.root:/plots20/WrongHits
+hadd Target path: simScanPlots.root:/plots20/RightHits
+hadd Target path: simScanPlots.root:/plots20/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots3
+hadd Target path: simScanPlots.root:/plots3/AllHits
+hadd Target path: simScanPlots.root:/plots3/WrongHits
+hadd Target path: simScanPlots.root:/plots3/RightHits
+hadd Target path: simScanPlots.root:/plots3/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots4
+hadd Target path: simScanPlots.root:/plots4/AllHits
+hadd Target path: simScanPlots.root:/plots4/WrongHits
+hadd Target path: simScanPlots.root:/plots4/RightHits
+hadd Target path: simScanPlots.root:/plots4/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots5
+hadd Target path: simScanPlots.root:/plots5/AllHits
+hadd Target path: simScanPlots.root:/plots5/WrongHits
+hadd Target path: simScanPlots.root:/plots5/RightHits
+hadd Target path: simScanPlots.root:/plots5/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots6
+hadd Target path: simScanPlots.root:/plots6/AllHits
+hadd Target path: simScanPlots.root:/plots6/WrongHits
+hadd Target path: simScanPlots.root:/plots6/RightHits
+hadd Target path: simScanPlots.root:/plots6/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots7
+hadd Target path: simScanPlots.root:/plots7/AllHits
+hadd Target path: simScanPlots.root:/plots7/WrongHits
+hadd Target path: simScanPlots.root:/plots7/RightHits
+hadd Target path: simScanPlots.root:/plots7/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots8
+hadd Target path: simScanPlots.root:/plots8/AllHits
+hadd Target path: simScanPlots.root:/plots8/WrongHits
+hadd Target path: simScanPlots.root:/plots8/RightHits
+hadd Target path: simScanPlots.root:/plots8/AmbiguousHits
+hadd Target path: simScanPlots.root:/plots9
+hadd Target path: simScanPlots.root:/plots9/AllHits
+hadd Target path: simScanPlots.root:/plots9/WrongHits
+hadd Target path: simScanPlots.root:/plots9/RightHits
+hadd Target path: simScanPlots.root:/plots9/AmbiguousHits

@@ -1,0 +1,1 @@
+gm2 -c ../fcl/RunRecoPlotsScan.fcl -s ../runReco/gm2tracker_reco_scan.root

@@ -1,0 +1,66 @@
+31-Jan-2020 05:36:06 CST  Initiating request to open input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+31-Jan-2020 05:36:07 CST  Opened input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+Begin processing the 1st record. run: 15922 subRun: 246 event: 1 at 31-Jan-2020 05:38:26 CST
+31-Jan-2020 05:38:26 CST  Opened output file with pattern "gm2tracker_reco_scan.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 3863 (of 78235, 4.93769%)
+  Total num digits kept = 74372 (of 78235, 95.0623%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 78235, 0%)
+  Total num digits kept = 78235 (of 78235, 100%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 78235, 0%)
+  Total num digits kept = 78235 (of 78235, 100%)
+----------------------------------------------
+
+%MSG
+31-Jan-2020 06:16:53 CST  Closed input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 21 passed = 10 failed = 11
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         10         10          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 2336.516795 Real = 2415.740932
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 3028.34 VmHWM = 2060.41
+
+%MSG-s ArtException:  PostEndJob 31-Jan-2020 06:16:53 CST ModuleEndJob
+cet::exception caught in art
+---- OtherArt BEGIN
+  ---- FatalRootError BEGIN
+    Fatal Root Error: @SUB=TFile::WriteBuffer
+    error writing to file ./RootOutput-3178-23d1-f7a7-45fb.root (-1) (Disk quota exceeded)
+  ---- FatalRootError END
+  ---- OtherArt BEGIN
+    ---- FatalRootError BEGIN
+      Fatal Root Error: @SUB=TBranchElement::TBranch::WriteBasketImpl
+      basket's WriteBuffer failed.
+      
+    ---- FatalRootError END
+  ---- OtherArt END
+  ---- OtherArt BEGIN
+    ---- FatalRootError BEGIN
+      Fatal Root Error: @SUB=TTree::SetEntries
+      Tree branches have different numbers of entries, eg RunAuxiliary has 0 entries while gm2geom::CoordSystemsStoreData_artg4__offline. has 1 entries.
+    ---- FatalRootError END
+  ---- OtherArt END
+---- OtherArt END
+%MSG
