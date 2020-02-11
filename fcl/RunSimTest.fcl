@@ -1,5 +1,5 @@
 // Simplest version MC sim fcl - for de-bugging
-// Sam Grant - Dec 2019
+// Sam Grant - Feb 2020
 
 // Run on this test file (gm2ucl): gm2ringsim_muon_gasgun_truth_testfile.root
 // or on PNFS: /pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551200_1567190852.1.root

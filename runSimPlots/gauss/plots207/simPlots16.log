@@ -1,0 +1,41 @@
+11-Feb-2020 13:58:17 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File207/gm2tracker_sim_scan_gauss.root"
+11-Feb-2020 13:58:18 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File207/gm2tracker_sim_scan_gauss.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 11-Feb-2020 13:58:26 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 11-Feb-2020 13:58:26 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 11-Feb-2020 13:58:27 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 11-Feb-2020 13:58:27 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 11-Feb-2020 13:58:27 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 11-Feb-2020 13:58:28 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 11-Feb-2020 13:58:29 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 11-Feb-2020 13:58:29 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 11-Feb-2020 13:58:29 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 11-Feb-2020 13:58:30 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 11-Feb-2020 13:58:35 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 11-Feb-2020 13:58:39 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 11-Feb-2020 13:58:47 CST
+11-Feb-2020 13:58:47 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File207/gm2tracker_sim_scan_gauss.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 nonePlusWrong
+TrigReport     0    0       5000       5000          0 noneWrong
+TrigReport     0    0       5000       5000          0 onePlusWrong
+TrigReport     0    0       5000       5000          0 oneWrong
+TrigReport     0    0       5000       5000          0 twoPlusWrong
+TrigReport     0    0       5000       5000          0 twoWrong
+TrigReport     0    0       5000       5000          0 threePlusWrong
+TrigReport     0    0       5000       5000          0 threeWrong
+TrigReport     0    0       5000       5000          0 fourPlusWrong
+TrigReport     0    0       5000       5000          0 fourWrong
+TrigReport     0    0       5000       5000          0 fivePlusWrong
+TrigReport     0    0       5000       5000          0 fiveWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 23.945360 Real = 27.307938
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1189.57 VmHWM = 348.32
+

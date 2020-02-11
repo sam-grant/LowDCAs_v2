@@ -1,0 +1,5 @@
+for i in {200..225}; do
+    ls File$i/*.root
+    # rm -f File{i}/*.root
+    
+done

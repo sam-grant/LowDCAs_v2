@@ -4,11 +4,11 @@
 #returnPath=/gm2/app/users/sgrant/Offline/LowDCAs/
 
 # If STOP file is created, pause job
-if [ -f STOP ]; then 
-  echo "STOP file found. Not processing"
-  return
-  exit
-fi
+# if [ -f STOP ]; then 
+#   echo "STOP file found. Not processing"
+#   return
+#   exit
+# fi
 
 # Label piped input file
 inFile=$1
@@ -34,11 +34,11 @@ done
 
 # Run sim
 echo $filesToRun
-#gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs/fcl/RunSimLongScan.fcl -s $filesToRun
-gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs/fcl/RunSimScanTruthT0.fcl -s $filesToRun
-#gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs/fcl/RunSimTest.fcl -s $filesToRun
-#gm2 -c /gm2/app/users/sgrant/Offline/LowDCAs/FCL/RunSimLowDCAs500.fcl -S $inFile
-# -T TrackCaloMatchingSim_${inFile}.root
+
+#gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGauss.fcl -s $filesToRun
+gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanPerfect.fcl -s $filesToRun
+# gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGarfield.fcl -s $filesToRun
+
 # Return to run dir
 cd ../
 

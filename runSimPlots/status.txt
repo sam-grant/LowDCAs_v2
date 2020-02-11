@@ -1,0 +1,2 @@
+generate fcl bash scripts is not working.
+

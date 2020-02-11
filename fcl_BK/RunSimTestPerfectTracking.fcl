@@ -1,0 +1,167 @@
+// Simplest version MC sim fcl - for de-bugging
+// Sam Grant - Dec 2019
+
+// Run on this test file (gm2ucl): gm2ringsim_muon_gasgun_truth_testfile.root
+// or on PNFS: /pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551200_1567190852.1.root
+
+#include "messageParams.fcl"
+#include "trackingConfig.fcl"
+#include "caloConfig.fcl"
+
+process_name : offline
+
+source : 
+{
+  module_type : RootInput
+  maxEvents   : -1
+}
+
+services : 
+{
+  FileCatalogMetadata : {
+      applicationFamily  : "tracker"
+      applicationVersion : "v9_37_00"
+      fileType           : "offline"
+  }
+
+  message : {
+    debugModules : []
+    suppressInfo : []
+
+    destinations : {
+      LogToConsole : {
+        type       : "cout"
+        threshold  : "INFO"
+        categories : @local::message_categories
+      }
+      LogToFile : {
+        type      : "file"
+        filename  : "gm2tracker_sim_test_perfect_tracking.log"
+        append    :  false
+        threshold : "INFO"
+        categories : @local::message_categories
+      }
+    }
+  } // end of message services
+ 
+   // the coordinate system data is used throughout the tracking code
+  // for now, the tracking uses GEANT for the coordinates
+  // to build the coordinates requires dependent on artg4
+
+  DetectorHolder    : {}
+  ActionHolder      : {}
+  CoordSystemsStore : {}
+  Gm2Constants      : {}
+  RandomNumberGenerator : {}
+
+  @table::trackingChain.reducedGeometry
+  @table::trackingChain.field
+
+  scheduler : { errorOnFailureToPut : false }
+  TrackQuality : {}
+
+
+} // end of services block 
+
+physics : 
+
+{
+  producers : {
+     // digitization of simulation
+     digitizer : @local::digit_params
+     @table::trackingChain.producers
+     // Fit the tracks, retain detail art track art record for all tracks
+      // tracks0 : @local::geanefit_params_detailed
+      tracks0 : @local::geanefit_params_detailed // 0 um 
+     // Reco chain
+   } // end of producer block 
+   
+  
+ 
+ filters : {
+
+     // Put many muons into same fill 
+     fillEvents : @local::fill_params
+  
+  } // end of filter block
+
+  // My path, reconstructing tracks with different lockLowDCA values. No vertices
+   path : [ 
+     artg4,
+     fillEvents,
+     digitizer,
+     removeFlash,
+     killStraws,
+     digitTimeSync,
+     deadTime,
+     timeIslands,
+     clustering,
+     seeds,
+     trackCandidates,
+     t0Finder,
+     driftDistReco,
+     tracks0
+]
+
+  outputPath    : [out] 
+  trigger_paths : [path]
+  end_paths     : [outputPath]
+} // end of physics block
+
+outputs :
+{
+  out : { 
+     module_type  : RootOutput
+     fileName     : "gm2tracker_sim_test_perfect_tracking.root"
+     dataTier     : "full"
+     outputCommands : [ "keep *",
+	                      "drop gm2truth*_*_*_mdc*",
+                        @sequence::trackingChain.outputDrops
+                      ]		
+		      
+     SelectEvents : ["path"] 
+     //SelectEvents:["offline:strawPathwithDQC"]
+
+  }
+
+} // end of outputs block
+
+//
+// MAKE TRACKING AS PERFECT AS POSSIBLE
+// 
+
+// Truth t0 and secondary removal
+physics.producers.driftDistReco.useTrueDigitT0 : true
+// Remove secondaries
+physics.producers.digitizer.promoteSecondaryToDigit : false
+physics.producers.tracks.onlyPrimaryPositrons : true
+// Make negative drift times positive
+// physics.producers.digitizer.allowNegativeTimes : false // Maybe this shifts the t0?
+// Set drift time resolution to zero
+physics.producers.digitizer.driftTimeResolution : 0.00
+
+// Drift time estimator patch
+// physics.producers.driftDistReco.calculatorName : garfieldDriftDistanceEstimator
+physics.producers.driftDistReco.calculatorName : linearDriftDistanceEstimator
+
+// Use Garfield
+physics.producers.digitizer.driftTimeModelName : GaussianDriftModel
+
+// t0 finder patches
+// Do you need this if you're using true t0?
+physics.producers.t0Finder.meanTimeOffset : 28.65 // garfield
+
+// Don't overwrite runs
+source.firstRun    : 1
+source.firstSubRun : 1
+
+// Ghost detectors
+physics.filters.fillEvents.KeepGhostDetHits    : true
+//physics.filters.fillEvents.KeepTrajectories    : true
+
+// If you have a track collection error, pick true or false at random and one of them will work
+// physics.filters.fillEvents.KeepTrackingActions : true
+physics.filters.fillEvents.KeepTrackingActions : false
+
+// Low DCAs
+// physics.producers.tracks0.lockLowDCAs : 0.000

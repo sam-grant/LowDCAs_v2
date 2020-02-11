@@ -1,0 +1,36 @@
+04-Feb-2020 15:50:54 CST  Initiating request to open input file "../../runSim/File215/gm2tracker_sim_scan.root"
+04-Feb-2020 15:50:54 CST  Opened input file "../../runSim/File215/gm2tracker_sim_scan.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 04-Feb-2020 15:50:59 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 04-Feb-2020 15:50:59 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 04-Feb-2020 15:51:00 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 04-Feb-2020 15:51:00 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 04-Feb-2020 15:51:00 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 04-Feb-2020 15:51:00 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 04-Feb-2020 15:51:00 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 04-Feb-2020 15:51:01 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 04-Feb-2020 15:51:01 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 04-Feb-2020 15:51:02 CST
+04-Feb-2020 15:51:03 CST  Closed input file "../../runSim/File215/gm2tracker_sim_scan.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1436 passed = 1436 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       1436       1436          0 nonePlusWrong
+TrigReport     0    0       1436       1436          0 noneWrong
+TrigReport     0    0       1436       1436          0 twoPlusWrong
+TrigReport     0    0       1436       1436          0 twoWrong
+TrigReport     0    0       1436       1436          0 threePlusWrong
+TrigReport     0    0       1436       1436          0 threeWrong
+TrigReport     0    0       1436       1436          0 fourPlusWrong
+TrigReport     0    0       1436       1436          0 fourWrong
+TrigReport     0    0       1436       1436          0 fivePlusWrong
+TrigReport     0    0       1436       1436          0 fiveWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 7.936794 Real = 7.966254
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1175.46 VmHWM = 342.417
+

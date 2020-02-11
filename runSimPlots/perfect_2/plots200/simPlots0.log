@@ -1,0 +1,26 @@
+06-Feb-2020 11:46:32 CST  Initiating request to open input file "../../../runSim/File200/gm2tracker_sim_scan_perfect_2.root"
+06-Feb-2020 11:46:33 CST  Opened input file "../../../runSim/File200/gm2tracker_sim_scan_perfect_2.root"
+06-Feb-2020 11:46:38 CST  Closed input file "../../../runSim/File200/gm2tracker_sim_scan_perfect_2.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 0 passed = 0 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          0          0          0 nonePlusWrong
+TrigReport     0    0          0          0          0 noneWrong
+TrigReport     0    0          0          0          0 twoPlusWrong
+TrigReport     0    0          0          0          0 twoWrong
+TrigReport     0    0          0          0          0 threePlusWrong
+TrigReport     0    0          0          0          0 threeWrong
+TrigReport     0    0          0          0          0 fourPlusWrong
+TrigReport     0    0          0          0          0 fourWrong
+TrigReport     0    0          0          0          0 fivePlusWrong
+TrigReport     0    0          0          0          0 fiveWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.024389 Real = 4.042279
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.04 VmHWM = 344.15
+
