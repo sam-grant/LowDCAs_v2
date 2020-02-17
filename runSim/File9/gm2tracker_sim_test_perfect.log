@@ -1,0 +1,55 @@
+17-Feb-2020 11:21:52 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00180.root"
+17-Feb-2020 11:21:53 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00180.root"
+Begin processing the 1st record. run: 1 subRun: 180 event: 1 at 17-Feb-2020 11:52:03 CST
+17-Feb-2020 11:52:03 CST  Opened output file with pattern "gm2tracker_sim_test_perfect.root"
+Begin processing the 101st record. run: 1 subRun: 180 event: 101 at 17-Feb-2020 11:52:07 CST
+Begin processing the 201st record. run: 1 subRun: 180 event: 201 at 17-Feb-2020 11:52:08 CST
+Begin processing the 301st record. run: 1 subRun: 180 event: 301 at 17-Feb-2020 11:52:09 CST
+Begin processing the 401st record. run: 1 subRun: 180 event: 401 at 17-Feb-2020 11:52:10 CST
+Begin processing the 501st record. run: 1 subRun: 180 event: 501 at 17-Feb-2020 11:52:11 CST
+Begin processing the 601st record. run: 1 subRun: 180 event: 601 at 17-Feb-2020 11:52:12 CST
+Begin processing the 701st record. run: 1 subRun: 180 event: 701 at 17-Feb-2020 11:52:13 CST
+Begin processing the 801st record. run: 1 subRun: 180 event: 801 at 17-Feb-2020 11:52:14 CST
+Begin processing the 901st record. run: 1 subRun: 180 event: 901 at 17-Feb-2020 11:52:15 CST
+Begin processing the 2000th record. run: 1 subRun: 180 event: 2000 at 17-Feb-2020 11:52:29 CST
+Begin processing the 3000th record. run: 1 subRun: 180 event: 3000 at 17-Feb-2020 11:52:49 CST
+17-Feb-2020 11:53:35 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00180.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 17-Feb-2020 11:53:35 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 0 (of 2099, 0%)
+  Total num digits kept = 2099 (of 2099, 100%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 17-Feb-2020 11:53:36 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 2099, 0%)
+  Total num digits kept = 2099 (of 2099, 100%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 17-Feb-2020 11:53:36 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 2099, 0%)
+  Total num digits kept = 2099 (of 2099, 100%)
+----------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 3524 passed = 3524 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       3524       3524          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 808.389106 Real = 1392.381075
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 2575.31 VmHWM = 1598.36
+

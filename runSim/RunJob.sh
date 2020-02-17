@@ -22,7 +22,9 @@ echo $inFile
 #fi
 
 # If not, create a new dir for output, copy input file into it
-# mkdir $inFile
+
+mkdir $inFile
+
 cd $inFile
 cp ../Files/$inFile .
 

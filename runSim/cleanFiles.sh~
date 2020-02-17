@@ -1,0 +1,15 @@
+echo Deleting RootOutput files
+rm File*/RootOutput*.root
+echo Deleting log files
+rm File*/*.log
+echo DANGER! DELETING ALL ROOT FILES. CONTINUE? [Y/n]
+read varname
+if [ $varname -eq Y ] 
+    then 
+    rm File*/*.root
+    echo Done.
+fi
+
+if [ $varname -eq n ] 
+    echo Stopping.
+fi

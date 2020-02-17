@@ -1,0 +1,48 @@
+17-Feb-2020 11:21:51 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00060.root"
+17-Feb-2020 11:21:53 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00060.root"
+Begin processing the 1st record. run: 1 subRun: 60 event: 1 at 17-Feb-2020 11:52:29 CST
+17-Feb-2020 11:52:31 CST  Opened output file with pattern "gm2tracker_sim_test_perfect.root"
+Begin processing the 101st record. run: 1 subRun: 60 event: 101 at 17-Feb-2020 11:53:31 CST
+Begin processing the 201st record. run: 1 subRun: 60 event: 201 at 17-Feb-2020 11:53:31 CST
+Begin processing the 301st record. run: 1 subRun: 60 event: 301 at 17-Feb-2020 11:53:32 CST
+Begin processing the 401st record. run: 1 subRun: 60 event: 401 at 17-Feb-2020 11:53:34 CST
+17-Feb-2020 11:53:36 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00060.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 17-Feb-2020 11:53:36 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 0 (of 190, 0%)
+  Total num digits kept = 190 (of 190, 100%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 17-Feb-2020 11:53:36 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 190, 0%)
+  Total num digits kept = 190 (of 190, 100%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 17-Feb-2020 11:53:36 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 190, 0%)
+  Total num digits kept = 190 (of 190, 100%)
+----------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 443 passed = 443 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0        443        443          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 793.292401 Real = 1392.432162
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 2553.62 VmHWM = 1558.76
+

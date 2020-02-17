@@ -1,19 +1,19 @@
-11-Feb-2020 15:27:00 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
-11-Feb-2020 15:27:01 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
-Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 11-Feb-2020 15:27:08 CST
-Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 11-Feb-2020 15:27:09 CST
-Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 11-Feb-2020 15:27:09 CST
-Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 11-Feb-2020 15:27:10 CST
-Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 11-Feb-2020 15:27:10 CST
-Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 11-Feb-2020 15:27:10 CST
-Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 11-Feb-2020 15:27:10 CST
-Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 11-Feb-2020 15:27:11 CST
-Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 11-Feb-2020 15:27:11 CST
-Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 11-Feb-2020 15:27:11 CST
-Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 11-Feb-2020 15:27:15 CST
-Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 11-Feb-2020 15:27:20 CST
-Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 11-Feb-2020 15:27:29 CST
-11-Feb-2020 15:27:29 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
+12-Feb-2020 13:41:36 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
+12-Feb-2020 13:41:37 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 12-Feb-2020 13:41:44 CST
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 12-Feb-2020 13:41:46 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 12-Feb-2020 13:41:46 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 12-Feb-2020 13:41:47 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 12-Feb-2020 13:41:47 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 12-Feb-2020 13:41:47 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 12-Feb-2020 13:41:47 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 12-Feb-2020 13:41:48 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 12-Feb-2020 13:41:48 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 12-Feb-2020 13:41:48 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 12-Feb-2020 13:41:52 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 12-Feb-2020 13:41:57 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 12-Feb-2020 13:42:07 CST
+12-Feb-2020 13:42:07 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File205/gm2tracker_sim_scan_perfect.root"
 
 TrigReport ---------- Event  Summary ------------
 TrigReport Events total = 5000 passed = 5000 failed = 0
@@ -34,8 +34,8 @@ TrigReport     0    0       5000       5000          0 fivePlusWrong
 TrigReport     0    0       5000       5000          0 fiveWrong
 
 TimeReport ---------- Time  Summary ---[sec]----
-TimeReport CPU = 21.294763 Real = 25.989515
+TimeReport CPU = 23.609411 Real = 28.451748
 
 MemReport  ---------- Memory  Summary ---[base-10 MB]----
-MemReport  VmPeak = 1192.56 VmHWM = 348.299
+MemReport  VmPeak = 1191.71 VmHWM = 365.38
 

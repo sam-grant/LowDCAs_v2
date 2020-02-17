@@ -1,0 +1,44 @@
+17-Feb-2020 11:21:51 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00080.root"
+17-Feb-2020 11:21:52 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00080.root"
+Begin processing the 1st record. run: 1 subRun: 80 event: 1 at 17-Feb-2020 11:52:36 CST
+17-Feb-2020 11:52:45 CST  Opened output file with pattern "gm2tracker_sim_test_perfect.root"
+17-Feb-2020 11:53:39 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00080.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 17-Feb-2020 11:53:39 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 17-Feb-2020 11:53:39 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 17-Feb-2020 11:53:39 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 0, 0%)
+  Total num digits kept = 0 (of 0, 0%)
+----------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1 passed = 1 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          1          1          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 790.034897 Real = 1395.801741
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 2551.75 VmHWM = 1553.43
+

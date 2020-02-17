@@ -223,8 +223,10 @@ physics.producers.digitizer.driftTimeResolution : 0.00
 // physics.producers.digitizer.fitMode : truthLRFit
 
 // Drift time estimator patch
-physics.producers.digitizer.driftTimeModelName : GarfieldDriftModel
-physics.producers.driftDistReco.calculatorName : garfieldDriftDistanceEstimator
+// physics.producers.digitizer.driftTimeModelName : GarfieldDriftModel
+// physics.producers.driftDistReco.calculatorName : garfieldDriftDistanceEstimator
+physics.producers.digitizer.driftTimeModelName : GaussianDriftModel
+physics.producers.driftDistReco.calculatorName : linearDriftDistanceEstimator
 
 source.firstRun    : 1
 source.firstSubRun : 1

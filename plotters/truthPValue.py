@@ -20,7 +20,7 @@ def FancyDraw1D(hist1, title, fname):
 	hist1.SetLineColor(1)	
 	hist1.SetLineColor(1)
 
-	c0.SetLogy()
+	# c0.SetLogy()
 
 	hist1.Draw()
 
@@ -30,8 +30,8 @@ def FancyDraw1D(hist1, title, fname):
 	c0.SaveAs(fname+".pdf")
 
 perfectFile = TFile.Open("../runSimPlots/perfect/simPlotsMerged0.root") # Truth, no DCA threshold
-# perfectHist = perfectFile.Get("nonePlusWrong/pValues")
 perfectHist = perfectFile.Get("nonePlusWrong/pValues")
+# perfectHist = perfectFile.Get("pValues")
 
 # FancyDraw1D(perfectHist, "Truth data, no wrong LR choices;p-values;Tracks","../images/truthDataPValuesNoLRWrong")
-FancyDraw1D(perfectHist, "Truth data, no wrong LR choices;p-values;Tracks","../images/truthDataPValues")
+FancyDraw1D(perfectHist, "Created: 14:14;p-values;Tracks","../images/truthDataPValues")
