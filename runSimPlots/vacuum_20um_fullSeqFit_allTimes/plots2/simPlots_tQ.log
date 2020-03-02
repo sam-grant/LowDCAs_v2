@@ -1,0 +1,21 @@
+02-Mar-2020 16:46:36 CST  Initiating request to open input file "../../../runSim/File2/gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
+02-Mar-2020 16:46:37 CST  Opened input file "../../../runSim/File2/gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 40 event: 1 at 02-Mar-2020 16:46:43 CST
+02-Mar-2020 16:46:43 CST  Opened output file with pattern "fails_filter_tQ.root"
+02-Mar-2020 16:46:43 CST  Opened output file with pattern "passes_filter_tQ.root"
+Begin processing the 101st record. run: 1 subRun: 40 event: 101 at 02-Mar-2020 16:46:43 CST
+Begin processing the 201st record. run: 1 subRun: 40 event: 201 at 02-Mar-2020 16:46:43 CST
+Begin processing the 301st record. run: 1 subRun: 40 event: 301 at 02-Mar-2020 16:46:44 CST
+Begin processing the 401st record. run: 1 subRun: 40 event: 401 at 02-Mar-2020 16:46:44 CST
+Begin processing the 501st record. run: 1 subRun: 40 event: 501 at 02-Mar-2020 16:46:44 CST
+Begin processing the 601st record. run: 1 subRun: 40 event: 601 at 02-Mar-2020 16:46:44 CST
+Begin processing the 701st record. run: 1 subRun: 40 event: 701 at 02-Mar-2020 16:46:45 CST
+Begin processing the 801st record. run: 1 subRun: 40 event: 801 at 02-Mar-2020 16:46:45 CST
+Begin processing the 901st record. run: 1 subRun: 40 event: 901 at 02-Mar-2020 16:46:45 CST
+Begin processing the 2000th record. run: 1 subRun: 40 event: 2000 at 02-Mar-2020 16:46:49 CST
+Begin processing the 3000th record. run: 1 subRun: 40 event: 3000 at 02-Mar-2020 16:46:52 CST
+Begin processing the 5000th record. run: 1 subRun: 40 event: 5000 at 02-Mar-2020 16:46:58 CST
+Begin processing the 9000th record. run: 1 subRun: 41 event: 4000 at 02-Mar-2020 16:47:11 CST
+Begin processing the 17000th record. run: 1 subRun: 43 event: 2000 at 02-Mar-2020 16:47:37 CST
+Begin processing the 33000th record. run: 1 subRun: 46 event: 3000 at 02-Mar-2020 16:48:29 CST
+Begin processing the 65000th record. run: 1 subRun: 52 event: 5000 at 02-Mar-2020 16:50:12 CST

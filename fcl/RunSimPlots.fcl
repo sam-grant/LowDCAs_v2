@@ -6,10 +6,14 @@
 #include "geom/strawtracker.fcl"
 #include "conDBParams.fcl"
 
-process_name : plot
+process_name : plot2
 
 source : {
   module_type : RootInput
+  inputCommands : ["keep *",
+    "drop gm2strawtracker::TrackerAlignmentConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::TrackerTimeConstantsArtRecord_*_*_*"]//,
+    // @sequence::trackingChain.inputDrops]
   //fileNames : ["gm2tracker_reco.root"]
   maxEvents   : -1
 }
@@ -57,8 +61,56 @@ services : {
 
 } // end of services block
 physics : {
+  
+ // producers : { 
+
+    filters : {
+
+      // Put many muons into same fill 
+     // fillEvents : @local::fill_params
+
+      //trackFilter : 
+      ////TrackFilter : 
+      //{
+      //  //module_type : WrongLRDigitFilter
+      //   module_type : TrackFilter //TrackFilter // erFillTypeFilter
+      //   fillType    : 1
+      //   throwOnEmptyHeaderCollection : false
+      //   TrackModuleLabel : "tracks0"
+      //  //TrackInstanceName : "straws"
+      //}
+
+      wrongLRDigitFilter : 
+      //TrackFilter : 
+      {
+        //module_type : WrongLRDigitFilter
+         module_type : WrongLRDigitFilter //TrackFilter // erFillTypeFilter
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracks0"
+         TrackInstanceName : "straws"
+      }
+
+    } // filters
+
+  //} // producers
+
+  //fpath: [ trackFilter, wrongLRDigitFilter ] 
+  // filter_path : [ wrongLRDigitFilter ] 
+  
+  //} // end of filter block
 
   analyzers : {
+
+     // wrongLRDigitFilter : 
+     // {
+     //   module_type : WrongLRDigitFilter
+     //   // module_type : TrackerFillTypeFilter
+     //   //fillType    : 1
+     //   //throwOnEmptyHeaderCollection : false
+     //   //TrackModuleLabel : "tracks0"
+     //   //TrackInstanceName : "straws"
+     // }
 
 
     nonePlusWrong : {
@@ -69,6 +121,8 @@ physics : {
       TrackInstanceName : "straws"
       nonePlusWrong : true
       dirName : "nonePlusWrong"
+
+       //SelectEvents: [ filter_path ]
 
     }
 
@@ -196,11 +250,33 @@ physics : {
 
   } // ana
 
-  plot : [ nonePlusWrong, noneWrong, onePlusWrong, oneWrong, twoPlusWrong, twoWrong, 
-          threePlusWrong, threeWrong, fourPlusWrong, fourWrong, fivePlusWrong, fiveWrong ] // , trackSummaryPlots ] 
+  fpath : [ wrongLRDigitFilter ] 
 
-  trigger_paths : [] 
-  end_paths     : [plot]
+
+  plot : [nonePlusWrong, oneWrong]
+  // plot_again : [nonePlusWrong, oneWrong]
+//  plot : [ nonePlusWrong, noneWrong, onePlusWrong, oneWrong, twoPlusWrong, twoWrong, 
+//          threePlusWrong, threeWrong, fourPlusWrong, fourWrong, fivePlusWrong, fiveWrong ] // , trackSummaryPlots ] 
+  outputs   : [ o1, o2 ]
+
+  trigger_paths : [fpath] 
+
+  // end_paths     : [plot, outputs]
+  end_paths     : [outputs]
 
 } // end of physics block
+
+
+outputs : {
+  o1 : {
+      module_type : RootOutput
+      fileName : "passes_filter.root" 
+      SelectEvents: [ "fpath&noexception" ]
+  }
+  o2 : {
+      module_type : RootOutput
+      fileName : "fails_filter.root" 
+      SelectEvents: [ "!fpath&noexception" ]
+  }
+} // end of outputs block
 

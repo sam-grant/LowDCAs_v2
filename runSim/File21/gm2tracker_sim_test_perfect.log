@@ -1,55 +1,118 @@
-17-Feb-2020 11:21:46 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
-17-Feb-2020 11:21:47 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
-Begin processing the 1st record. run: 1 subRun: 420 event: 1 at 17-Feb-2020 11:52:10 CST
-17-Feb-2020 11:52:11 CST  Opened output file with pattern "gm2tracker_sim_test_perfect.root"
-Begin processing the 101st record. run: 1 subRun: 420 event: 101 at 17-Feb-2020 11:52:13 CST
-Begin processing the 201st record. run: 1 subRun: 420 event: 201 at 17-Feb-2020 11:52:14 CST
-Begin processing the 301st record. run: 1 subRun: 420 event: 301 at 17-Feb-2020 11:52:14 CST
-Begin processing the 401st record. run: 1 subRun: 420 event: 401 at 17-Feb-2020 11:52:15 CST
-Begin processing the 501st record. run: 1 subRun: 420 event: 501 at 17-Feb-2020 11:52:16 CST
-Begin processing the 601st record. run: 1 subRun: 420 event: 601 at 17-Feb-2020 11:52:18 CST
-Begin processing the 701st record. run: 1 subRun: 420 event: 701 at 17-Feb-2020 11:52:18 CST
-Begin processing the 801st record. run: 1 subRun: 420 event: 801 at 17-Feb-2020 11:52:19 CST
-Begin processing the 901st record. run: 1 subRun: 420 event: 901 at 17-Feb-2020 11:52:20 CST
-Begin processing the 2000th record. run: 1 subRun: 420 event: 2000 at 17-Feb-2020 11:52:33 CST
-Begin processing the 3000th record. run: 1 subRun: 420 event: 3000 at 17-Feb-2020 11:53:33 CST
-17-Feb-2020 11:53:36 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
-%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 17-Feb-2020 11:53:38 CST  ModuleEndJob
+18-Feb-2020 16:37:27 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
+18-Feb-2020 16:37:28 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
+Begin processing the 1st record. run: 1 subRun: 420 event: 1 at 18-Feb-2020 16:39:52 CST
+18-Feb-2020 16:39:52 CST  Opened output file with pattern "gm2tracker_sim_test_perfect.root"
+Begin processing the 101st record. run: 1 subRun: 420 event: 101 at 18-Feb-2020 16:39:54 CST
+Begin processing the 201st record. run: 1 subRun: 420 event: 201 at 18-Feb-2020 16:39:55 CST
+Begin processing the 301st record. run: 1 subRun: 420 event: 301 at 18-Feb-2020 16:39:55 CST
+Begin processing the 401st record. run: 1 subRun: 420 event: 401 at 18-Feb-2020 16:39:56 CST
+Begin processing the 501st record. run: 1 subRun: 420 event: 501 at 18-Feb-2020 16:39:56 CST
+Begin processing the 601st record. run: 1 subRun: 420 event: 601 at 18-Feb-2020 16:39:57 CST
+Begin processing the 701st record. run: 1 subRun: 420 event: 701 at 18-Feb-2020 16:39:58 CST
+Begin processing the 801st record. run: 1 subRun: 420 event: 801 at 18-Feb-2020 16:39:58 CST
+Begin processing the 901st record. run: 1 subRun: 420 event: 901 at 18-Feb-2020 16:39:59 CST
+Begin processing the 2000th record. run: 1 subRun: 420 event: 2000 at 18-Feb-2020 16:40:09 CST
+Begin processing the 3000th record. run: 1 subRun: 420 event: 3000 at 18-Feb-2020 16:40:19 CST
+Begin processing the 5000th record. run: 1 subRun: 420 event: 5000 at 18-Feb-2020 16:40:37 CST
+18-Feb-2020 16:40:37 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00420.root"
+18-Feb-2020 16:40:37 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00421.root"
+18-Feb-2020 16:40:37 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00421.root"
+Begin processing the 9000th record. run: 1 subRun: 421 event: 4000 at 18-Feb-2020 16:41:34 CST
+18-Feb-2020 16:41:43 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00421.root"
+18-Feb-2020 16:41:43 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00422.root"
+18-Feb-2020 16:41:46 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00422.root"
+18-Feb-2020 16:42:50 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00422.root"
+18-Feb-2020 16:42:50 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00423.root"
+18-Feb-2020 16:42:51 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00423.root"
+Begin processing the 17000th record. run: 1 subRun: 423 event: 2000 at 18-Feb-2020 16:43:17 CST
+18-Feb-2020 16:43:52 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00423.root"
+18-Feb-2020 16:43:52 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00424.root"
+18-Feb-2020 16:43:52 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00424.root"
+18-Feb-2020 16:45:03 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00424.root"
+18-Feb-2020 16:45:03 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00425.root"
+18-Feb-2020 16:45:04 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00425.root"
+18-Feb-2020 16:46:12 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00425.root"
+18-Feb-2020 16:46:12 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00426.root"
+18-Feb-2020 16:46:13 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00426.root"
+Begin processing the 33000th record. run: 1 subRun: 426 event: 3000 at 18-Feb-2020 16:46:52 CST
+18-Feb-2020 16:47:15 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00426.root"
+18-Feb-2020 16:47:15 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00427.root"
+18-Feb-2020 16:47:16 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00427.root"
+18-Feb-2020 16:48:18 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00427.root"
+18-Feb-2020 16:48:18 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00428.root"
+18-Feb-2020 16:48:19 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00428.root"
+18-Feb-2020 16:49:22 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00428.root"
+18-Feb-2020 16:49:22 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00429.root"
+18-Feb-2020 16:49:24 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00429.root"
+18-Feb-2020 16:50:31 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00429.root"
+18-Feb-2020 16:50:31 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00430.root"
+18-Feb-2020 16:50:32 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00430.root"
+18-Feb-2020 16:51:36 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00430.root"
+18-Feb-2020 16:51:36 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00431.root"
+18-Feb-2020 16:51:37 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00431.root"
+18-Feb-2020 16:52:44 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00431.root"
+18-Feb-2020 16:52:44 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00432.root"
+18-Feb-2020 16:52:45 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00432.root"
+Begin processing the 65000th record. run: 1 subRun: 432 event: 5000 at 18-Feb-2020 16:53:56 CST
+18-Feb-2020 16:53:56 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00432.root"
+18-Feb-2020 16:53:56 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00433.root"
+18-Feb-2020 16:54:06 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00433.root"
+18-Feb-2020 16:55:07 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00433.root"
+18-Feb-2020 16:55:07 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00434.root"
+18-Feb-2020 16:55:08 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00434.root"
+18-Feb-2020 16:56:13 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00434.root"
+18-Feb-2020 16:56:13 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00435.root"
+18-Feb-2020 16:56:15 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00435.root"
+18-Feb-2020 16:57:21 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00435.root"
+18-Feb-2020 16:57:21 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00436.root"
+18-Feb-2020 16:57:23 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00436.root"
+18-Feb-2020 16:58:26 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00436.root"
+18-Feb-2020 16:58:26 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00437.root"
+18-Feb-2020 16:58:26 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00437.root"
+18-Feb-2020 16:59:32 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00437.root"
+18-Feb-2020 16:59:32 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00438.root"
+18-Feb-2020 16:59:33 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00438.root"
+18-Feb-2020 17:00:38 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00438.root"
+18-Feb-2020 17:00:38 CST  Initiating request to open input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00439.root"
+18-Feb-2020 17:00:38 CST  Opened input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00439.root"
+18-Feb-2020 17:01:37 CST  Closed output file "gm2tracker_sim_test_perfect.root"
+18-Feb-2020 17:01:37 CST  Closed input file "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00439.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 18-Feb-2020 17:01:37 CST  ModuleEndJob
 
 --------- Tracker Impose Dead Time Report ---------
-  Total num digits killed = 0 (of 1752, 0%)
-  Total num digits kept = 1752 (of 1752, 100%)
+  Total num digits killed = 0 (of 60115, 0%)
+  Total num digits kept = 60115 (of 60115, 100%)
 ------------------------------------------------
 
 %MSG
-%MSG-i summary:  KillStraws:killStraws@EndJob 17-Feb-2020 11:53:38 CST  ModuleEndJob
+%MSG-i summary:  KillStraws:killStraws@EndJob 18-Feb-2020 17:01:37 CST  ModuleEndJob
 
 --------- Tracker Kill Straws Report ---------
   Num straws to kill = 0
-  Total num digits killed = 0 (of 1752, 0%)
-  Total num digits kept = 1752 (of 1752, 100%)
+  Total num digits killed = 0 (of 60115, 0%)
+  Total num digits kept = 60115 (of 60115, 100%)
 ----------------------------------------------
 
 %MSG
-%MSG-i summary:  RemoveFlash:removeFlash@EndJob 17-Feb-2020 11:53:38 CST  ModuleEndJob
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 18-Feb-2020 17:01:37 CST  ModuleEndJob
 
 --------- Tracker Remove Flash Report ---------
-  Total num digits removed = 0 (of 1752, 0%)
-  Total num digits kept = 1752 (of 1752, 100%)
+  Total num digits removed = 0 (of 60115, 0%)
+  Total num digits kept = 60115 (of 60115, 100%)
 ----------------------------------------------
 
 %MSG
 
 TrigReport ---------- Event  Summary ------------
-TrigReport Events total = 3151 passed = 3151 failed = 0
+TrigReport Events total = 100000 passed = 100000 failed = 0
 
 TrigReport ------ Modules in End-Path: end_path ------------
 TrigReport  Trig Bit#        Run    Success      Error Name
-TrigReport     0    0       3151       3151          0 out
+TrigReport     0    0     100000     100000          0 out
 
 TimeReport ---------- Time  Summary ---[sec]----
-TimeReport CPU = 810.000861 Real = 1395.300349
+TimeReport CPU = 558.453102 Real = 1399.837553
 
 MemReport  ---------- Memory  Summary ---[base-10 MB]----
-MemReport  VmPeak = 2557.07 VmHWM = 1573.08
+MemReport  VmPeak = 2211.76 VmHWM = 1052.84
 

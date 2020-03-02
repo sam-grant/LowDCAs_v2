@@ -1,0 +1,19 @@
+02-Mar-2020 13:35:47 CST  Initiating request to open input file "test/passes_filter.root"
+02-Mar-2020 13:35:48 CST  Opened input file "test/passes_filter.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1187 at 02-Mar-2020 13:35:53 CST
+02-Mar-2020 13:35:53 CST  Closed input file "test/passes_filter.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 4 passed = 4 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          4          4          0 nonePlusWrong
+TrigReport     0    0          4          4          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.416328 Real = 4.457368
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1170.42 VmHWM = 298.611
+

@@ -1,0 +1,37 @@
+25-Feb-2020 16:51:46 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_nonimalRes_mainFit.root"
+25-Feb-2020 16:51:47 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_nonimalRes_mainFit.root"
+Begin processing the 1st record. run: 1 subRun: 60 event: 1 at 25-Feb-2020 16:51:53 CST
+Begin processing the 101st record. run: 1 subRun: 60 event: 101 at 25-Feb-2020 16:51:53 CST
+Begin processing the 201st record. run: 1 subRun: 60 event: 201 at 25-Feb-2020 16:51:53 CST
+Begin processing the 301st record. run: 1 subRun: 60 event: 301 at 25-Feb-2020 16:51:54 CST
+Begin processing the 401st record. run: 1 subRun: 60 event: 401 at 25-Feb-2020 16:51:54 CST
+Begin processing the 501st record. run: 1 subRun: 60 event: 501 at 25-Feb-2020 16:51:54 CST
+Begin processing the 601st record. run: 1 subRun: 60 event: 601 at 25-Feb-2020 16:51:54 CST
+Begin processing the 701st record. run: 1 subRun: 60 event: 701 at 25-Feb-2020 16:51:54 CST
+Begin processing the 801st record. run: 1 subRun: 60 event: 801 at 25-Feb-2020 16:51:54 CST
+Begin processing the 901st record. run: 1 subRun: 60 event: 901 at 25-Feb-2020 16:51:54 CST
+Begin processing the 2000th record. run: 1 subRun: 60 event: 2000 at 25-Feb-2020 16:51:55 CST
+Begin processing the 3000th record. run: 1 subRun: 60 event: 3000 at 25-Feb-2020 16:51:56 CST
+Begin processing the 5000th record. run: 1 subRun: 60 event: 5000 at 25-Feb-2020 16:51:58 CST
+Begin processing the 9000th record. run: 1 subRun: 61 event: 4000 at 25-Feb-2020 16:52:02 CST
+Begin processing the 17000th record. run: 1 subRun: 63 event: 2000 at 25-Feb-2020 16:52:10 CST
+Begin processing the 33000th record. run: 1 subRun: 66 event: 3000 at 25-Feb-2020 16:52:24 CST
+Begin processing the 65000th record. run: 1 subRun: 72 event: 5000 at 25-Feb-2020 16:52:54 CST
+25-Feb-2020 16:53:23 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_nonimalRes_mainFit.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 95.261518 Real = 95.671584
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1192.44 VmHWM = 270.266
+
+41 VmHWM = 297.849
+

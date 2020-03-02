@@ -1,0 +1,32 @@
+27-Feb-2020 10:40:01 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_vacuum_20um_truthLR.root"
+27-Feb-2020 10:40:02 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_vacuum_20um_truthLR.root"
+Begin processing the 1st record. run: 1 subRun: 60 event: 1 at 27-Feb-2020 10:40:11 CST
+Begin processing the 101st record. run: 1 subRun: 60 event: 101 at 27-Feb-2020 10:40:11 CST
+Begin processing the 201st record. run: 1 subRun: 60 event: 201 at 27-Feb-2020 10:40:11 CST
+Begin processing the 301st record. run: 1 subRun: 60 event: 301 at 27-Feb-2020 10:40:11 CST
+Begin processing the 401st record. run: 1 subRun: 60 event: 401 at 27-Feb-2020 10:40:12 CST
+Begin processing the 501st record. run: 1 subRun: 60 event: 501 at 27-Feb-2020 10:40:12 CST
+Begin processing the 601st record. run: 1 subRun: 60 event: 601 at 27-Feb-2020 10:40:12 CST
+Begin processing the 701st record. run: 1 subRun: 60 event: 701 at 27-Feb-2020 10:40:12 CST
+Begin processing the 801st record. run: 1 subRun: 60 event: 801 at 27-Feb-2020 10:40:12 CST
+Begin processing the 901st record. run: 1 subRun: 60 event: 901 at 27-Feb-2020 10:40:12 CST
+Begin processing the 2000th record. run: 1 subRun: 60 event: 2000 at 27-Feb-2020 10:40:14 CST
+Begin processing the 3000th record. run: 1 subRun: 60 event: 3000 at 27-Feb-2020 10:40:15 CST
+Begin processing the 5000th record. run: 1 subRun: 60 event: 5000 at 27-Feb-2020 10:40:17 CST
+Begin processing the 9000th record. run: 1 subRun: 61 event: 4000 at 27-Feb-2020 10:40:20 CST
+Begin processingBegin processing the 17000th record. run: 1 subRun: 383 event: 2000 at 27-Feb-2Begin processing Begin processing the 33000th record. run: 1 subRun: 386 event: 3000 at 27-Feb-Begin processing tBegin processing the 65000th record. run: 1 subRun: 332 event: 5000 at 27-Feb27-Feb-2020 10:41:527-Feb-2020 10:41:54 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File16/gm2tracker_sim_test_vacuum_20um_truthLR.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 119.419846 Real = 119.861872
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1192.42 VmHWM = 271.557
+

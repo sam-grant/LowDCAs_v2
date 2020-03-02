@@ -1,0 +1,47 @@
+
+Size on disk for the file: ../../runSim/File0/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root
+Total size on disk: 367185231
+
+     Size in bytes   Fraction TTree/TKey Name
+         355699667      0.969 Events
+           5629130      0.015 EventMetaData
+           2431909      0.007 Runs
+           1876032      0.005 RootFileDB
+            760164      0.002 FileIndex
+            396570      0.001 EventHistory
+              5273      0.000 MetaData
+              1150      0.000 Parentage
+               744      0.000 RunMetaData
+               682      0.000 SubRuns
+               581      0.000 SubRunMetaData
+               517      0.000 ResultsMetaData
+               504      0.000 ResultsTree
+------------------------------
+         366802923      0.999 Total
+
+Details for each TTree that occupies more than the fraction 0.05 of the size on disk.
+
+
+Details for branch: Events
+
+     Size in bytes   Fraction Data Product Name
+         158735899      0.446 gm2truth::TrajectoryArtRecords_fillEvents_trackFill_offline.
+          51795235      0.146 gm2strawtracker::TrackDetailArtRecords_tracks0_straws_offline.
+          46801266      0.132 gm2truth::GhostDetectorArtRecords_fillEvents_trackerdummyplane_offline.
+          45878893      0.129 gm2truth::StrawArtRecords_fillEvents_strawFill_offline.
+          28964161      0.081 gm2strawtracker::TrackArtRecords_tracks0_straws_offline.
+           5500706      0.015 gm2strawtracker::StrawDigitArtRecords_deadTime_straws_offline.
+           5258635      0.015 gm2strawtracker::StrawDigitArtRecords_digitizer_straws_offline.
+           3853552      0.011 gm2strawtracker::TrackCandidateArtRecords_t0Finder_straws_offline.
+           2702508      0.008 gm2strawtracker::StrawSeedArtRecords_trackCandidates_straws_offline.
+           1735104      0.005 gm2strawtracker::StrawClusterArtRecords_clustering_straws_offline.
+            908521      0.003 gm2truth::RingTrackingPlaneArtRecords_fillEvents_rtpFill_offline.
+            811067      0.002 gm2strawtracker::StrawTimeIslandArtRecords_timeIslands_straws_offline.
+            773468      0.002 gm2strawtracker::StrawDCADigitArtRecords_driftDistReco_straws_offline.
+            662443      0.002 gm2strawtracker::StrawDCADigitArtRecordgm2strawtracker::StrawDigitArtRecordintart::Assns_driftDistReco_straws_offline.
+            512953      0.001 gm2strawtracker::StrawDCADigitArtRecordgm2strawtracker::TrackCandidateArtRecordvoidart::Assns_driftDistReco_straws_offline.
+            505461      0.001 EventAuxiliary
+            293365      0.001 art::TriggerResults_TriggerResults__offline.
+------------------------------
+         355693237      1.000 Total
+

@@ -1,17 +1,15 @@
-for i in {200..225}; do
-#    mkdir plots${i}
+#dir="vacuum_20um_fullSeqFit_allTimes" # DONE
+dir="vacuum_20um_fullSeqFit_posTimes" # TODO
+#dir="vacuum_20um_mainFit_allTimes" # TODO
+#dir="vacuum_20um_fullSeqFit_posTimes" # TODO
+#mkdir $dir
+cd $dir
+for i in {0..24}; do # for vacuum files
+    mkdir plots${i}
     cd plots${i}
-#    gm2 -c ../../fcl/RunPlotsSimTest.fcl -s ../../runSim/File${i}/gm2tracker_particle_gun_test.root
-#    gm2 -c ../../fcl/RunPlotsSimScan.fcl -s ../../runSim/File${i}/gm2tracker_sim_scan.root
-#    gm2 -c ../../fcl/RunPlotsSimLongScan.fcl -s ../../runSim/File${i}/gm2tracker_sim_long_scan.root
-#    gm2 -c ../../fcl/RunPlotsSimScanTruthT0.fcl -s ../../runSim/File${i}/gm2tracker_sim_scan_truth_t0.root
-    # gm2 -c ../../fcl/RunPlotsTestTruthT0.fcl -s ../../runSim/File${i}/gm2tracker_sim_scan_truth_t0.root
-#    gm2 -c ../../fcl/RunPlotsSimTestPerfectTracking.fcl -s ../../runSim/File${i}/gm2tracker_sim_test_perfect_tracking.root
-    gm2 -c ../../fcl/RunSimPlots.fcl -s ../../runSim/File${i}/gm2tracker_sim_scan.root
+    gm2 -c ../../../fcl/RunSimPlots.fcl -s ../../../runSim/File${i}/gm2tracker_sim_test_${dir}.root
+#    gm2 -c ../../fcl/RunSimPlots_PassesFilter.fcl -s ../../../runSimPlots/${dir}/plots${i}/passes_filter.root    # gm2tracker_sim_test_${dir}.root
     cd ../
 done
-
-#hadd -f simTestPlots.root plots*/simTestPlots.root
-#hadd -f simScanPlots.root plots*/simScanPlots.root
-#hadd -f simLongScanPlots.root plots*/simLongScanPlots.root
-hadd -f simPlots.root plots*/simPlotsNoScan.root
+hadd -f ${dir}_passed_filter.root plots{0..24}/passes_filter_plots.root
+cd ..

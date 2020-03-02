@@ -1,0 +1,47 @@
+21-Feb-2020 12:48:36 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_0.15res.root"
+21-Feb-2020 12:48:36 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_0.15res.root"
+Begin processing the 1st record. run: 1 subRun: 60 event: 1 at 21-Feb-2020 12:48:44 CST
+Begin processing the 101st record. run: 1 subRun: 60 event: 101 at 21-Feb-2020 12:48:44 CST
+Begin processing the 201st record. run: 1 subRun: 60 event: 201 at 21-Feb-2020 12:48:44 CST
+Begin processing the 301st record. run: 1 subRun: 60 event: 301 at 21-Feb-2020 12:48:44 CST
+Begin processing the 401st record. run: 1 subRun: 60 event: 401 at 21-Feb-2020 12:48:45 CST
+Begin processing the 501st record. run: 1 subRun: 60 event: 501 at 21-Feb-2020 12:48:46 CST
+Begin processing the 601st record. run: 1 subRun: 60 event: 601 at 21-Feb-2020 12:48:47 CST
+Begin processing the 701st record. run: 1 subRun: 60 event: 701 at 21-Feb-2020 12:48:47 CST
+Begin processing the 801st record. run: 1 subRun: 60 event: 801 at 21-Feb-2020 12:48:47 CST
+Begin processing the 901st record. run: 1 subRun: 60 event: 901 at 21-Feb-2020 12:48:48 CST
+Begin processing the 2000th record. run: 1 subRun: 60 event: 2000 at 21-Feb-2020 12:48:54 CST
+Begin processing the 3000th record. run: 1 subRun: 60 event: 3000 at 21-Feb-2020 12:48:58 CST
+Begin processing the 5000th record. run: 1 subRun: 60 event: 5000 at 21-Feb-2020 12:49:05 CST
+Begin processing the 9000th record. run: 1 subRun: 61 event: 4000 at 21-Feb-2020 12:49:24 CST
+Begin processing the 17000th record. run: 1 subRun: 63 event: 2000 at 21-Feb-2020 12:49:58 CST
+Begin processing the 33000th record. run: 1 subRun: 66 event: 3000 at 21-Feb-2020 12:50:57 CST
+Begin processing the 65000th record. run: 1 subRun: 72 event: 5000 at 21-Feb-2020 12:53:26 CST
+21-Feb-2020 12:55:58 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_perfect_0.15res.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 noneWrong
+TrigReport     0    0     100000     100000          0 onePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+TrigReport     0    0     100000     100000          0 twoPlusWrong
+TrigReport     0    0     100000     100000          0 twoWrong
+TrigReport     0    0     100000     100000          0 threePlusWrong
+TrigReport     0    0     100000     100000          0 threeWrong
+TrigReport     0    0     100000     100000          0 fourPlusWrong
+TrigReport     0    0     100000     100000          0 fourWrong
+TrigReport     0    0     100000     100000          0 fivePlusWrong
+TrigReport     0    0     100000     100000          0 fiveWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 440.022107 Real = 440.815685
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1191 VmHWM = 291.254
+
+90.94 VmHWM = 352.162
+

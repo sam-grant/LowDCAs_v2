@@ -29,9 +29,12 @@ def FancyDraw1D(hist1, title, fname):
 	c0.SaveAs(fname+".png")
 	c0.SaveAs(fname+".pdf")
 
-perfectFile = TFile.Open("../runSimPlots/perfect/simPlotsMerged0.root") # Truth, no DCA threshold
-perfectHist = perfectFile.Get("nonePlusWrong/pValues")
-# perfectHist = perfectFile.Get("pValues")
+names = ["vacuum_20um_truthLR_allTimes","vacuum_20um_truthLR_posTimes","vacuum_20um_mainFit_allTimes","vacuum_20um_mainFit_posTimes","vacuum_20um_fullSeqFit_posTimes"]#,"vacuum_20um_fullSeqFit_posTimes"]
 
-# FancyDraw1D(perfectHist, "Truth data, no wrong LR choices;p-values;Tracks","../images/truthDataPValuesNoLRWrong")
-FancyDraw1D(perfectHist, "Created: 14:14;p-values;Tracks","../images/truthDataPValues")
+for i in range(0,len(names)):
+	
+	file = TFile.Open("../runSimPlots/"+names[i]+"/"+names[i]+".root") 
+
+	hist = file.Get("nonePlusWrong/pValues")
+
+	FancyDraw1D(hist, ";p-values;Tracks","../images/"+names[i])

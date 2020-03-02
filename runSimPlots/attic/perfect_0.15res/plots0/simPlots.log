@@ -1,0 +1,36 @@
+21-Feb-2020 11:13:51 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File17/gm2tracker_sim_test_perfect_0.15res.root"221-Feb-2020 11:13:53 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File19/gm2tracker_sim_test_perfect_0.15res.rootBeBegin processing the 1st record. run: 1 subRun: 400 event: 1 at 21-Feb-2020 11:14:02 CST
+Begin processing the 101st record. run: 1 subRun: 400 event: 101 at 21-Feb-2020 11:14:04 CST
+Begin processing the 201st record. run: 1 subRun: 400 event: 201 at 21-Feb-2020 11:14:04 CST
+Begin processing the 301st record. run: 1 subRun: 400 event: 301 at 21-Feb-2020 11:14:05 CST
+Begin processing the 401st record. run: 1 subRun: 400 event: 401 at 21-Feb-2020 11:14:05 CST
+Begin processing the 501st record. run: 1 subRun: 400 event: 501 at 21-Feb-2020 11:14:06 CST
+Begin processing the 601st record. run: 1 subRun: 400 event: 601 at 21-Feb-2020 11:14:06 CST
+Begin processing the 701st record. run: 1 subRun: 400 event: 701 at 21-Feb-2020 11:14:06 CST
+Begin processing the 801st record. run: 1 subRun: 400 event: 801 at 21-Feb-2020 11:14:07 CST
+Begin processing the 901st record. run: 1 subRun: 400 event: 901 at 21-Begin procBegin procesBegin processing the 2000th record. run: 1 subRun: 400 event: 2000 at 2Begin proceBegin processBegin processing the 3000th record. run: 1 subRun: 400 event: 3000 atBegin procesBegin processiBegin processing the 5000th record. run: 1 subRun: 400 event: 5000 Begin processBegin processinBegin processing the 9000th record. run: 1 subRun: 401 event: 400Begin processing the 17000thBeBegin processing the 17000th record. run: 1 subRun: 403 event: 2Begin processing the 33000th recBegin processing the 33000th record. run: 1 subRun: 406 event:Begin processingBegin processing tBegin processing the 65000th record. run: 1 subRun: 412 event21-Feb-2020 11:221-Feb-2020 11:24:121-Feb-2020 11:24:35 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File20/gm2tracker_sim_test_perfect_0.15res.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 noneWrong
+TrigReport     0    0     100000     100000          0 onePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+TrigReport     0    0     100000     100000          0 twoPlusWrong
+TrigReport     0    0     100000     100000          0 twoWrong
+TrigReport     0    0     100000     100000          0 threePlusWrong
+TrigReport     0    0     100000     100000          0 threeWrong
+TrigReport     0    0     100000     100000          0 fourPlusWrong
+TrigReport     0    0     100000     100000          0 fourWrong
+TrigReport     0    0     100000     100000          0 fivePlusWrong
+TrigReport     0    0     100000     100000          0 fiveWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 386.228285 Real = 640.235959
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1190.93 VmHWM = 371.38
+
+

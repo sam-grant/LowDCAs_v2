@@ -3,8 +3,12 @@
 # - Fraction of tracks with p-values below 5%
 # - Reduced chi^2
 
+
+# keep this around for it's many useful functions that took ages to write
 #
-# ONLY USE THIS PLOTTER FOR TRUTH STUFF! 
+# INTENDED FOR LOW DCA TRUTH SCANS, BUT IT'S OLD AND VERY CONFUSING
+
+# IT DOES HAVE UNIQUE CODE THAT MAKES A PLOT OF THE FRACTION OF WRONG HITS PER TRACK FOR EACH THRESHOLD
 #
 
 from ROOT import TFile, TCanvas, TH1F, TH1D, TLegend, TAxis, TAttMarker, TGraph, TGraphErrors
@@ -249,6 +253,7 @@ def main():
 	flavour = "garfield"
 	# flavour = "gauss"
 	# flavour = "perfect"
+	# flavour = "perfectVacuum"
 
 	# Initiate file list
 	files_ = []
@@ -267,17 +272,13 @@ def main():
 	
 	# Low DCA thresholds
 	DCAs_ = list(range(0,525,25)) # ] # , list(range(0,2600,100))]
-	# DCASCoarse_ = list(range(0,600,100))
-
+	
 	# Map DCAs to floats
 	map(float, DCAs_)
 
 	nWrongEntriesPerThres_ = []
 
-	# l1 = TLegend(0.69,0.69,0.89,0.89)
-	# i_counter = 0
-
-	for i_lowDCA in range(0,21):
+	for i_lowDCA in range(0,len(DCAs_)):
 
 		nWrongEntries_ = []
 
@@ -332,12 +333,6 @@ def main():
 
 	
 	#################################################################################
-
-
-	
-
-
-
 
 	# tmp = files_[0].Get(nPlusWrong[i_wrong]+"/Run")
 #	g1 = DefineScat([1,2,3,4,5,6,7], nWrongEntriesPerThres_[i_counter])

@@ -33,7 +33,7 @@ services :
       }
       LogToFile : {
         type      : "file"
-        filename  : "gm2tracker_sim_test_perfect.log"
+        filename  : "gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.log"
         append    :  false
         threshold : "INFO"
         categories : @local::message_categories
@@ -52,7 +52,7 @@ services :
   Gm2Constants      : {}
   RandomNumberGenerator : {}
 
-  @table::trackingChain.geometry
+  @table::trackingChain.reducedGeometry
   @table::trackingChain.field
 
 //  Database: {
@@ -105,6 +105,14 @@ physics :
 
      // Put many muons into same fill 
      fillEvents : @local::fill_params
+
+     // Throw away everything that isn't a wrong hit above 2000 um
+     //WrongLRDigitFilter : 
+     // {
+     //   module_type : WrongLRDigitFilter
+     //   fillType    : 1
+     //   throwOnEmptyHeaderCollection : false
+     // }
   
   } // end of filter block
 
@@ -115,6 +123,7 @@ physics :
 //  strawPathwithDQC : [trackFilter, fillEvents, digitizer,  @sequence::trackingChain.trackingPath, @sequence::caloChain.caloSimPath, trackCaloMatching, trackCaloMatchMCFilter]
   // My path, reconstructing tracks with different lockLowDCA values
    path : [ 
+     WrongLRDigitFilter,
      artg4,
      fillEvents,
      digitizer,
@@ -142,7 +151,7 @@ outputs :
 {
   out : { 
      module_type  : RootOutput
-     fileName     : "gm2tracker_sim_test_perfect.root"
+     fileName     : "gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
      dataTier     : "full"
      outputCommands : [ "keep *",
 	                "drop gm2truth*_*_*_mdc*",
@@ -187,8 +196,30 @@ physics.producers.digitizer.promoteSecondaryToDigit : false
 // physics.producers.tracks0.onlyPrimaryPositrons : true
 // Make negative drift times positive
 physics.producers.digitizer.allowNegativeTimes : true
-// Set drift time resolution to zero
-physics.producers.digitizer.driftTimeResolution : 0
+// Set drift time resolution to zero, seems to send all p-values to one
+// physics.producers.digitizer.driftTimeResolution : 0.005
+
+// Set measurement resolution????
+// driftVelocity: 5.46e-2 [mm/ns] = 5.46e3 m/s
+// driftTimeResolution: 2.747253 ns?
+// d = vt, 5 um = 5.0 um = 5.46e-2 * t * 1e-3 [us] -> t = 5.0 um / (5.46e-2 * 1e-3)
+// Set resolution to 5 um 
+// 5e-6 [m] = 5.46e3 m/s * t [s] -> t [s] = 5e-6/5.46e3 = 9.1575092e-10 s
+// Try setting drfit time resolution to 0.916 ns?
+// Sanity check, calculate the nonimal resolution.
+// measurement resolution = 2.75e-9 * 5.46e3 = 0.000015015 (factor of ten off)
+
+// Let's say it's about 100 um, s=vt is linear, 5 um is a 20th of 100 um, so just divide by 20. 2.747253/20 = 
+
+// Need to set the actual measurement resolution as well as the resolution that gets used in the fit p-values
+// 5 um 
+// physics.producers.digitizer.driftTimeResolution : 0.13736265
+// physics.producers.driftDistReco.driftTimeResolution : 0.13736265
+
+// 20 um, one fifth of 100. 2.747253/5 = 
+physics.producers.digitizer.driftTimeResolution : 0.5494506
+physics.producers.driftDistReco.driftTimeResolution : 0.5494506
+
 // Use truth LR info (this is in geaneFitParams)
 // physics.producers.tracks0.fitMode : "truthLRFit"
 

@@ -1,0 +1,21 @@
+02-Mar-2020 16:44:35 CST  Initiating request to open input file "../../../runSim/File11/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+02-Mar-2020 16:44:35 CST  Opened input file "../../../runSim/File11/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 220 event: 1 at 02-Mar-2020 16:44:43 CST
+02-Mar-2020 16:44:44 CST  Opened output file with pattern "passes_filter.root"
+02-Mar-2020 16:44:44 CST  Opened output file with pattern "fails_filter.root"
+Begin processing the 101st record. run: 1 subRun: 220 event: 101 at 02-Mar-2020 16:44:44 CST
+Begin processing the 201st record. run: 1 subRun: 220 event: 201 at 02-Mar-2020 16:44:45 CST
+Begin processing the 301st record. run: 1 subRun: 220 event: 301 at 02-Mar-2020 16:44:45 CST
+Begin processing the 401st record. run: 1 subRun: 220 event: 401 at 02-Mar-2020 16:44:45 CST
+Begin processing the 501st record. run: 1 subRun: 220 event: 501 at 02-Mar-2020 16:44:45 CST
+Begin processing the 601st record. run: 1 subRun: 220 event: 601 at 02-Mar-2020 16:44:46 CST
+Begin processing the 701st record. run: 1 subRun: 220 event: 701 at 02-Mar-2020 16:44:46 CST
+Begin processing the 801st record. run: 1 subRun: 220 event: 801 at 02-Mar-2020 16:44:46 CST
+Begin processing the 901st record. run: 1 subRun: 220 event: 901 at 02-Mar-2020 16:44:47 CST
+Begin processing the 2000th record. run: 1 subRun: 220 event: 2000 at 02-Mar-2020 16:44:51 CST
+Begin processing the 3000th record. run: 1 subRun: 220 event: 3000 at 02-Mar-2020 16:44:55 CST
+Begin processing the 5000th record. run: 1 subRun: 220 event: 5000 at 02-Mar-2020 16:45:03 CST
+Begin processing the 9000th record. run: 1 subRun: 221 event: 4000 at 02-Mar-2020 16:45:19 CST
+Begin processing the 17000th record. run: 1 subRun: 223 event: 2000 at 02-Mar-2020 16:45:55 CST
+Begin processing the 33000th record. run: 1 subRun: 226 event: 3000 at 02-Mar-2020 16:47:02 CST
+Begin processing the 65000th record. run: 1 subRun: 232 event: 5000 at 02-Mar-2020 16:49:19 CST

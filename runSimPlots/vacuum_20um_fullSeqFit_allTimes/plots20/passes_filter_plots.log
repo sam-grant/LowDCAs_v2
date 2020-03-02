@@ -1,0 +1,19 @@
+02-Mar-2020 15:17:24 CST  Initiating request to open input file "../../../runSimPlots/vacuum_20um_fullSeqFit_allTimes/plots20/passes_filter.root"
+02-Mar-2020 15:17:24 CST  Opened input file "../../../runSimPlots/vacuum_20um_fullSeqFit_allTimes/plots20/passes_filter.root"
+Begin processing the 1st record. run: 1 subRun: 403 event: 2689 at 02-Mar-2020 15:17:29 CST
+02-Mar-2020 15:17:29 CST  Closed input file "../../../runSimPlots/vacuum_20um_fullSeqFit_allTimes/plots20/passes_filter.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1 passed = 1 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          1          1          0 nonePlusWrong
+TrigReport     0    0          1          1          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.136371 Real = 4.220354
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1172.09 VmHWM = 315.867
+

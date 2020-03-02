@@ -1,0 +1,18 @@
+25-Feb-2020 14:50:03 CST  Initiating request to open input file "../runReco/gm2tracker_reco_test.root"
+25-Feb-2020 14:50:03 CST  Opened input file "../runReco/gm2tracker_reco_test.root"
+Begin processing the 1st record. run: 15922 subRun: 246 event: 2 at 25-Feb-2020 14:50:07 CST
+25-Feb-2020 14:50:19 CST  Closed input file "../runReco/gm2tracker_reco_test.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 71 passed = 71 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         71         71          0 plots0
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 14.764756 Real = 14.806089
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1179.77 VmHWM = 348.934
+

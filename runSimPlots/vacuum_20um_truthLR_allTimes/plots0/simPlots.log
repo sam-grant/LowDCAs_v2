@@ -1,0 +1,27 @@
+27-Feb-2020 10:28:30 CST  Initiating request to open input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File11/gm2tracker_sim_test_vacuum_20um_truthLR.root"227-Feb-2020 10:28:31 CST  Opened input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File19/gm2tracker_sim_test_vacuum_20um_truthLR.rootBegin processing the 1st record. run: 1 subRun: 80 event: 1 at 27-Feb-2020 10:28:57 CSTBBegBegin processing the 101st record. run: 1 subRun: 380 event: 101 at 27-Feb-2020 10:29:03 BegiBegin processing the 201st record. run: 1 subRun: 380 event: 201 at 27-Feb-2020 10:29:04 CST
+Begin processing the 301st record. run: 1 subRun: 380 event: 301 at 27-Feb-2020 10:29:05 CST
+Begin processing the 401st record. run: 1 subRun: 380 event: 401 at 27-Feb-2020 10:29:06 CST
+Begin processing the 501st record. run: 1 subRun: 380 event: 501 at 27-Feb-2020 10:29:06 CST
+Begin processing the 601st record. run: 1 subRun: 380 event: 601 at 27-Feb-2020 10:29:07 CST
+Begin processing the 701st record. run: 1 subRun: 200 event: 701 at 27-Feb-2020 10:29:07 CST
+Begin processing the 801st record. run: 1 subRun: 200 event: 801 at 27-Feb-2020 10:29:08 CST
+Begin processing the 901st record. run: 1 subRun: 200 event: 901 at 27-Begin procBegin procesBegin processing the 2000th record. run: 1 subRun: 380 event: 2000 at 2Begin proceBegin processBegin processing the 3000th record. run: 1 subRun: 400 event: 3000 atBegin procesBegin processiBegin processing the 5000th record. run: 1 subRun: 400 event: 5000 Begin processBegin processinBegin processing the 9000th record. run: 1 subRun: 401 event: 400Begin processiBegin processing the 17000th record. run: 1 subRun: 83 event: 2000 at 27-Feb-202Begin processinBegin processing the 33000th record. run: 1 subRun: 86 event: 3000 at 27-Feb-20Begin processingBegin processingBegin processing the 65000th record. run: 1 subRun: 172 event: 27-Feb-2020 10:327-Feb-2020 10:39:57 CST  Closed input file "/gm2/app/users/sgrant/analysis/LowDCAs_v2/runSim/File3/gm2tracker_sim_test_vacuum_20um_truthLR.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 91.307119 Real = 678.591059
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1192.44 VmHWM = 345.506
+
+VmHWM = 348.099
+
+7
+

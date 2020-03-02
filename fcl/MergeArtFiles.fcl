@@ -1,0 +1,26 @@
+#include "messageParams.fcl"
+#include "geom/strawtracker.fcl"
+#include "conDBParams.fcl"
+
+source: {
+
+  module_type: RootInput
+
+}
+
+outputs : {
+  o1 : {
+      module_type : RootOutput
+      fileName : "passes_filter_all.root" 
+  }
+
+} // end of outputs block
+
+physics : { 
+
+
+  outputs   : [ o1 ]
+  trigger_paths : []
+  end_paths     : [outputs]
+
+}

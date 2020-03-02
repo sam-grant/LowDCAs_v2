@@ -1,0 +1,22 @@
+02-Mar-2020 16:45:02 CST  Initiating request to open input file "../../../runSim/File13/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+02-Mar-2020 16:45:02 CST  Opened input file "../../../runSim/File13/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+Begin processing the 1st record. run: 1 subRun: 260 event: 1 at 02-Mar-2020 16:45:07 CST
+02-Mar-2020 16:45:08 CST  Opened output file with pattern "passes_filter.root"
+02-Mar-2020 16:45:08 CST  Opened output file with pattern "fails_filter.root"
+Begin processing the 101st record. run: 1 subRun: 260 event: 101 at 02-Mar-2020 16:45:08 CST
+Begin processing the 201st record. run: 1 subRun: 260 event: 201 at 02-Mar-2020 16:45:08 CST
+Begin processing the 301st record. run: 1 subRun: 260 event: 301 at 02-Mar-2020 16:45:09 CST
+Begin processing the 401st record. run: 1 subRun: 260 event: 401 at 02-Mar-2020 16:45:09 CST
+Begin processing the 501st record. run: 1 subRun: 260 event: 501 at 02-Mar-2020 16:45:09 CST
+Begin processing the 601st record. run: 1 subRun: 260 event: 601 at 02-Mar-2020 16:45:10 CST
+Begin processing the 701st record. run: 1 subRun: 260 event: 701 at 02-Mar-2020 16:45:10 CST
+Begin processing the 801st record. run: 1 subRun: 260 event: 801 at 02-Mar-2020 16:45:10 CST
+Begin processing the 901st record. run: 1 subRun: 260 event: 901 at 02-Mar-2020 16:45:11 CST
+Begin processing the 2000th record. run: 1 subRun: 260 event: 2000 at 02-Mar-2020 16:45:14 CST
+Begin processing the 3000th record. run: 1 subRun: 260 event: 3000 at 02-Mar-2020 16:45:17 CST
+Begin processing the 5000th record. run: 1 subRun: 260 event: 5000 at 02-Mar-2020 16:45:23 CST
+Begin processing the 9000th record. run: 1 subRun: 261 event: 4000 at 02-Mar-2020 16:45:37 CST
+Begin processing the 17000th record. run: 1 subRun: 263 event: 2000 at 02-Mar-2020 16:46:03 CST
+Begin processing the 33000th record. run: 1 subRun: 266 event: 3000 at 02-Mar-2020 16:46:56 CST
+Begin processing the 65000th record. run: 1 subRun: 272 event: 5000 at 02-Mar-2020 16:48:41 CST
+02-Mar-2020 16:50:42 CST  Closed output file "passes_filter.root"

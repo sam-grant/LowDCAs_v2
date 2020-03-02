@@ -1,0 +1,35 @@
+28-Feb-2020 17:59:57 CST  Initiating request to open input file "../../../runSim/File16/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+28-Feb-2020 17:59:58 CST  Opened input file "../../../runSim/File16/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+Begin processing the 1st record. run: 1 subRun: 320 event: 1 at 28-Feb-2020 18:00:04 CST
+Begin processing the 101st record. run: 1 subRun: 320 event: 101 at 28-Feb-2020 18:00:05 CST
+Begin processing the 201st record. run: 1 subRun: 320 event: 201 at 28-Feb-2020 18:00:05 CST
+Begin processing the 301st record. run: 1 subRun: 320 event: 301 at 28-Feb-2020 18:00:05 CST
+Begin processing the 401st record. run: 1 subRun: 320 event: 401 at 28-Feb-2020 18:00:05 CST
+Begin processing the 501st record. run: 1 subRun: 320 event: 501 at 28-Feb-2020 18:00:05 CST
+Begin processing the 601st record. run: 1 subRun: 320 event: 601 at 28-Feb-2020 18:00:06 CST
+Begin processing the 701st record. run: 1 subRun: 320 event: 701 at 28-Feb-2020 18:00:06 CST
+Begin processing the 801st record. run: 1 subRun: 320 event: 801 at 28-Feb-2020 18:00:06 CST
+Begin processing the 901st record. run: 1 subRun: 320 event: 901 at 28-Feb-2020 18:00:06 CST
+Begin processing the 2000th record. run: 1 subRun: 320 event: 2000 at 28-Feb-2020 18:00:07 CST
+Begin processing the 3000th record. run: 1 subRun: 320 event: 3000 at 28-Feb-2020 18:00:08 CST
+Begin processing the 5000th record. run: 1 subRun: 320 event: 5000 at 28-Feb-2020 18:00:10 CST
+Begin processing the 9000th record. run: 1 subRun: 321 event: 4000 at 28-Feb-2020 18:00:16 CST
+Begin processing the 17000th record. run: 1 subRun: 323 event: 2000 at 28-Feb-2020 18:00:26 CST
+Begin processing the 33000th record. run: 1 subRun: 326 event: 3000 at 28-Feb-2020 18:00:46 CST
+Begin processing the 65000th record. run: 1 subRun: 332 event: 5000 at 28-Feb-2020 18:01:27 CST
+28-Feb-2020 18:02:11 CST  Closed input file "../../../runSim/File16/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 100000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0     100000     100000          0 nonePlusWrong
+TrigReport     0    0     100000     100000          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 67.223780 Real = 131.987758
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1192.46 VmHWM = 355.803
+
