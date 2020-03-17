@@ -1,66 +1,46 @@
-31-Jan-2020 05:36:06 CST  Initiating request to open input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
-31-Jan-2020 05:36:07 CST  Opened input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
-Begin processing the 1st record. run: 15922 subRun: 246 event: 1 at 31-Jan-2020 05:38:26 CST
-31-Jan-2020 05:38:26 CST  Opened output file with pattern "gm2tracker_reco_scan.root"
-%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+02-Mar-2020 20:51:23 CST  Initiating request to open input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+02-Mar-2020 20:51:23 CST  Opened input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+Begin processing the 1st record. run: 15922 subRun: 246 event: 1 at 02-Mar-2020 21:00:40 CST
+02-Mar-2020 21:00:40 CST  Opened output file with pattern "gm2tracker_reco_scan.root"
+Begin processing the 101st record. run: 15922 subRun: 246 event: 101 at 03-Mar-2020 00:10:13 CST
+03-Mar-2020 01:50:54 CST  Closed output file "gm2tracker_reco_scan.root"
+03-Mar-2020 01:50:54 CST  Closed input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 03-Mar-2020 01:50:54 CST  ModuleEndJob
 
 --------- Tracker Impose Dead Time Report ---------
-  Total num digits killed = 3863 (of 78235, 4.93769%)
-  Total num digits kept = 74372 (of 78235, 95.0623%)
+  Total num digits killed = 28032 (of 579069, 4.84087%)
+  Total num digits kept = 551037 (of 579069, 95.1591%)
 ------------------------------------------------
 
 %MSG
-%MSG-i summary:  KillStraws:killStraws@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+%MSG-i summary:  KillStraws:killStraws@EndJob 03-Mar-2020 01:50:54 CST  ModuleEndJob
 
 --------- Tracker Kill Straws Report ---------
   Num straws to kill = 0
-  Total num digits killed = 0 (of 78235, 0%)
-  Total num digits kept = 78235 (of 78235, 100%)
+  Total num digits killed = 0 (of 579069, 0%)
+  Total num digits kept = 579069 (of 579069, 100%)
 ----------------------------------------------
 
 %MSG
-%MSG-i summary:  RemoveFlash:removeFlash@EndJob 31-Jan-2020 06:16:53 CST  ModuleEndJob
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 03-Mar-2020 01:50:54 CST  ModuleEndJob
 
 --------- Tracker Remove Flash Report ---------
-  Total num digits removed = 0 (of 78235, 0%)
-  Total num digits kept = 78235 (of 78235, 100%)
+  Total num digits removed = 0 (of 579069, 0%)
+  Total num digits kept = 579069 (of 579069, 100%)
 ----------------------------------------------
 
 %MSG
-31-Jan-2020 06:16:53 CST  Closed input file "/home/sgrant/gm2offline_unpacked_subrun_15922.root"
 
 TrigReport ---------- Event  Summary ------------
-TrigReport Events total = 21 passed = 10 failed = 11
+TrigReport Events total = 154 passed = 71 failed = 83
 
 TrigReport ------ Modules in End-Path: end_path ------------
 TrigReport  Trig Bit#        Run    Success      Error Name
-TrigReport     0    0         10         10          0 out
+TrigReport     0    0         71         71          0 out
 
 TimeReport ---------- Time  Summary ---[sec]----
-TimeReport CPU = 2336.516795 Real = 2415.740932
+TimeReport CPU = 17271.616315 Real = 17901.751770
 
 MemReport  ---------- Memory  Summary ---[base-10 MB]----
-MemReport  VmPeak = 3028.34 VmHWM = 2060.41
+MemReport  VmPeak = 3741.84 VmHWM = 2777.48
 
-%MSG-s ArtException:  PostEndJob 31-Jan-2020 06:16:53 CST ModuleEndJob
-cet::exception caught in art
----- OtherArt BEGIN
-  ---- FatalRootError BEGIN
-    Fatal Root Error: @SUB=TFile::WriteBuffer
-    error writing to file ./RootOutput-3178-23d1-f7a7-45fb.root (-1) (Disk quota exceeded)
-  ---- FatalRootError END
-  ---- OtherArt BEGIN
-    ---- FatalRootError BEGIN
-      Fatal Root Error: @SUB=TBranchElement::TBranch::WriteBasketImpl
-      basket's WriteBuffer failed.
-      
-    ---- FatalRootError END
-  ---- OtherArt END
-  ---- OtherArt BEGIN
-    ---- FatalRootError BEGIN
-      Fatal Root Error: @SUB=TTree::SetEntries
-      Tree branches have different numbers of entries, eg RunAuxiliary has 0 entries while gm2geom::CoordSystemsStoreData_artg4__offline. has 1 entries.
-    ---- FatalRootError END
-  ---- OtherArt END
----- OtherArt END
-%MSG

@@ -1,0 +1,68 @@
+09-Mar-2020 23:48:57 CDT  Initiating request to open input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+09-Mar-2020 23:48:57 CDT  Opened input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+Begin processing the 1st record. run: 1 subRun: 109 event: 1660 at 09-Mar-2020 23:49:02 CDT
+============================================================================
+STATION: 18
+RUN: 1	SUBRUN: 109	EVENT: 1660	HITS/TRK: 14
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | -LL- | LRRL | RLRL | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | -RL- | LRRL | RLRL | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+RUN: 1	SUBRUN: 180	EVENT: 3617	HITS/TRK: 12
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | -L-- | LRRL | RLLR | L-LR | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | -R-- | LRRL | RLLR | L-LR | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+RUN: 1	SUBRUN: 220	EVENT: 2449	HITS/TRK: 13
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | --L- | LRLR | LRLR | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | --R- | LRLR | LRLR | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | --X- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+RUN: 1	SUBRUN: 256	EVENT: 2300	HITS/TRK: 13
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | -LRL | RLRL | L-RL | RLL- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | -RRL | RLRL | L-RL | RLL- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+RUN: 1	SUBRUN: 271	EVENT: 420	HITS/TRK: 14
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | -LL- | LRRL | RLRL | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | -RL- | LRRL | RLRL | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+RUN: 1	SUBRUN: 285	EVENT: 1332	HITS/TRK: 12
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | --L- | RLLR | RLL- | LRRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | --R- | RLLR | RLL- | LRRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | --X- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+RUN: 1	SUBRUN: 362	EVENT: 1661	HITS/TRK: 12
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | --L- | RLLR | LRRL | LLL- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | --R- | RLLR | LRRL | LLL- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | --X- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+RUN: 1	SUBRUN: 415	EVENT: 2235	HITS/TRK: 13
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | -L-- | RLLR | RLLR | LRRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | -R-- | RLLR | RLLR | LRRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | ---- | 
+*** Run = 1	Events = 8	Tracks = 8	tracksWithWrongLRChoices = 8	wrongLRChoices = 8	allHits =8	leadingWrongHits = 8
+09-Mar-2020 23:49:02 CDT  Closed input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 8 passed = 8 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          8          8          0 nonePlusWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.158368 Real = 4.221897
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1196.13 VmHWM = 314.876
+
+Art has completed and will exit with status 0.

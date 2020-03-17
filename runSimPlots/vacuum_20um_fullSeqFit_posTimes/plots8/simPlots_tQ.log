@@ -1,0 +1,31 @@
+02-Mar-2020 17:14:18 CST  Initiating request to open input file "../../../runSim/File8/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+02-Mar-2020 17:14:18 CST  Opened input file "../../../runSim/File8/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+Begin processing the 1st record. run: 1 subRun: 160 event: 1 at 02-Mar-2020 17:14:24 CST
+02-Mar-2020 17:14:24 CST  Opened output file with pattern "fails_filter_tQ.root"
+02-Mar-2020 17:14:24 CST  Opened output file with pattern "passes_filter_tQ.root"
+Begin processing the 101st record. run: 1 subRun: 160 event: 101 at 02-Mar-2020 17:14:25 CST
+Begin processing the 201st record. run: 1 subRun: 160 event: 201 at 02-Mar-2020 17:14:25 CST
+Begin processing the 301st record. run: 1 subRun: 160 event: 301 at 02-Mar-2020 17:14:25 CST
+Begin processing the 401st record. run: 1 subRun: 160 event: 401 at 02-Mar-2020 17:14:25 CST
+Begin processing the 501st record. run: 1 subRun: 160 event: 501 at 02-Mar-2020 17:14:26 CST
+Begin processing the 601st record. run: 1 subRun: 160 event: 601 at 02-Mar-2020 17:14:26 CST
+Begin processing the 701st record. run: 1 subRun: 160 event: 701 at 02-Mar-2020 17:14:26 CST
+Begin processing the 801st record. run: 1 subRun: 160 event: 801 at 02-Mar-2020 17:14:26 CST
+Begin processing the 901st record. run: 1 subRun: 160 event: 901 at 02-Mar-2020 17:14:27 CST
+Begin processing the 2000th record. run: 1 subRun: 160 event: 2000 at 02-Mar-2020 17:14:30 CST
+02-Mar-2020 17:14:31 CST  Closed input file "../../../runSim/File8/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 2244 passed = 0 failed = 2244
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          0          0          0 o1
+TrigReport     0    0       2244       2244          0 o2
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 8.649685 Real = 11.586744
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1173.29 VmHWM = 329.118
+

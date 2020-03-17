@@ -1,0 +1,51 @@
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -----------------------L-LRLRRLRL
+RECO HIT SIDES:  -----------------------R-LRLRRLRL
+WRONG HIT SIDES: -----------------------X---------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ---L--RLRLRRL--------------------
+RECO HIT SIDES:  ---R--RLRLRRL--------------------
+WRONG HIT SIDES: ---X-----------------------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -------------------L-RRL--RRLLLLL
+RECO HIT SIDES:  -------------------R-RRL--RRLLLLL
+WRONG HIT SIDES: -------------------X-------------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------LLRLRLRL---
+RECO HIT SIDES:  ----------------------RLRLRLRL---
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------L--RRLRLLRL
+RECO HIT SIDES:  ----------------------R--RRLRLLRL
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ----------------------LRLRLRLRLLR
+RECO HIT SIDES:  ----------------------RRLRLRLRLLR
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -------------------L-LRRLLLLL----
+RECO HIT SIDES:  -------------------R-LRRLLLLL----
+WRONG HIT SIDES: -------------------X-------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ----LLRLRRL-R--------------------
+RECO HIT SIDES:  ----RLRLRRL-R--------------------
+WRONG HIT SIDES: ----X----------------------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ---------------L-RLL-RLRL--------
+RECO HIT SIDES:  ---------------R-RLL-RLRL--------
+WRONG HIT SIDES: ---------------X-----------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ----------------------LL-L-RRRR--
+RECO HIT SIDES:  ----------------------RL-L-RRRR--
+WRONG HIT SIDES: ----------------------X----------
+

@@ -1,0 +1,57 @@
+02-Mar-2020 19:24:29 CST  Initiating request to open input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551210_1567190852.1.root"
+02-Mar-2020 19:24:29 CST  Opened input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551210_1567190852.1.root"
+Begin processing the 1st record. run: 1567190852 subRun: 1 event: 1 at 02-Mar-2020 19:27:13 CST
+02-Mar-2020 19:27:13 CST  Opened output file with pattern "gm2tracker_sim_scan_garfield.root"
+Begin processing the 101st record. run: 1567190852 subRun: 1 event: 101 at 02-Mar-2020 19:27:23 CST
+Begin processing the 201st record. run: 1567190852 subRun: 1 event: 201 at 02-Mar-2020 19:27:27 CST
+Begin processing the 301st record. run: 1567190852 subRun: 1 event: 301 at 02-Mar-2020 19:27:37 CST
+Begin processing the 401st record. run: 1567190852 subRun: 1 event: 401 at 02-Mar-2020 19:27:42 CST
+Begin processing the 501st record. run: 1567190852 subRun: 1 event: 501 at 02-Mar-2020 19:27:47 CST
+Begin processing the 601st record. run: 1567190852 subRun: 1 event: 601 at 02-Mar-2020 19:27:53 CST
+Begin processing the 701st record. run: 1567190852 subRun: 1 event: 701 at 02-Mar-2020 19:27:54 CST
+Begin processing the 801st record. run: 1567190852 subRun: 1 event: 801 at 02-Mar-2020 19:27:58 CST
+Begin processing the 901st record. run: 1567190852 subRun: 1 event: 901 at 02-Mar-2020 19:28:06 CST
+Begin processing the 2000th record. run: 1567190852 subRun: 1 event: 2000 at 02-Mar-2020 19:29:23 CST
+Begin processing the 3000th record. run: 1567190852 subRun: 1 event: 3000 at 02-Mar-2020 19:30:19 CST
+Begin processing the 5000th record. run: 1567190852 subRun: 1 event: 5000 at 02-Mar-2020 19:32:19 CST
+02-Mar-2020 19:32:25 CST  Closed output file "gm2tracker_sim_scan_garfield.root"
+02-Mar-2020 19:32:25 CST  Closed input file "/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852/gm2ringsim_muon_gasgun_truth_22551210_1567190852.1.root"
+%MSG-i summary:  ImposeDeadTime:deadTime@EndJob 02-Mar-2020 19:32:25 CST  ModuleEndJob
+
+--------- Tracker Impose Dead Time Report ---------
+  Total num digits killed = 0 (of 4078, 0%)
+  Total num digits kept = 4078 (of 4078, 100%)
+------------------------------------------------
+
+%MSG
+%MSG-i summary:  KillStraws:killStraws@EndJob 02-Mar-2020 19:32:25 CST  ModuleEndJob
+
+--------- Tracker Kill Straws Report ---------
+  Num straws to kill = 0
+  Total num digits killed = 0 (of 4078, 0%)
+  Total num digits kept = 4078 (of 4078, 100%)
+----------------------------------------------
+
+%MSG
+%MSG-i summary:  RemoveFlash:removeFlash@EndJob 02-Mar-2020 19:32:25 CST  ModuleEndJob
+
+--------- Tracker Remove Flash Report ---------
+  Total num digits removed = 0 (of 4078, 0%)
+  Total num digits kept = 4078 (of 4078, 100%)
+----------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 5000 passed = 5000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0       5000       5000          0 out
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 383.903638 Real = 430.782151
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 2092.64 VmHWM = 1112.5
+

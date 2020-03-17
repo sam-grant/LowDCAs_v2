@@ -1,0 +1,112 @@
+
+// Simple version of MC low DCAs plotter, for de-bugging
+// Sam Grant - Dec 2019
+
+#include "messageParams.fcl"
+#include "geom/strawtracker.fcl"
+#include "conDBParams.fcl"
+
+process_name : filter
+
+source : {
+  module_type : RootInput
+  inputCommands : ["keep *",
+    "drop gm2strawtracker::TrackerAlignmentConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::TrackerTimeConstantsArtRecord_*_*_*"]//,
+    // @sequence::trackingChain.inputDrops]
+  //fileNames : ["gm2tracker_reco.root"]
+  maxEvents   : -1
+}
+
+
+services : {
+
+  message : {
+    debugModules : []
+    suppressInfo : []
+
+    destinations : {
+      LogToConsole : {
+        type       : "cout"
+        threshold  : "INFO"
+        categories : @local::message_categories
+      }
+      LogToFile : {
+        type      : "file"
+        filename  : "passesHighFilter_plots.log"
+//        filename  : "LowDCAsPlots.log"
+        append    :  false
+        threshold : "INFO"
+        categories : @local::message_categories
+      }
+    }
+  } // end of message services
+
+  DetectorHolder    : {}
+  ActionHolder      : {}
+  CoordSystemsStore : {}
+  Gm2Constants      : {}
+  RandomNumberGenerator : {}
+
+  Geometry : { strawtracker : @local::strawtracker_geom }
+  StrawTrackerGeometry : {}
+  StrawTrackerGeometryConstants : { DatabaseURL : @local::condb_prod_params } // dev db is @local::condb_dev_params
+
+  // See TrackQuality
+  TrackQuality : { ignoredCuts : [3, 11, 12, 13, 14] }
+
+ // TFileService: {
+ //     fileName: "passesHighFilter_plots.root"
+//    fileName: "LowDCAsPlots.root"
+ // }
+
+} // end of services block
+physics : {
+
+    filters : {
+
+      wrongLRDigitFilter : 
+      //TrackFilter : 
+      {
+        //module_type : WrongLRDigitFilter
+         module_type : WrongLRDigitFilter //TrackFilter // erFillTypeFilter
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracks0"
+         TrackInstanceName : "straws"
+
+         //
+         // TOGGLE TO CHANGE FROM > 300 (FALSE) TO < 2000 (TRUE)
+         //
+
+         filterHighDCAs : true
+      }
+
+    } // filters
+
+ 
+  fpath : [ wrongLRDigitFilter ] 
+
+ 
+  outputs   : [ o1, o2 ]
+
+  trigger_paths : [fpath] 
+
+  end_paths     : [outputs]
+
+} // end of physics block
+
+
+outputs : {
+  o1 : {
+      module_type : RootOutput
+      fileName : "passesHighFilter_plots.root" 
+      SelectEvents: [ "fpath&noexception" ]
+  }
+  o2 : {
+      module_type : RootOutput
+      fileName : "failsHighFilter_plots.root" 
+      SelectEvents: [ "!fpath&noexception" ]
+  }
+} // end of outputs block
+

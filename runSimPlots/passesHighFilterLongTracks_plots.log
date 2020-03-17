@@ -1,0 +1,116 @@
+10-Mar-2020 00:32:42 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File0/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:32:42 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File0/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1 at 10-Mar-2020 00:32:48 CDT
+10-Mar-2020 00:32:48 CDT  Opened output file with pattern "passesHighFilterLongTracks_plots.root"
+10-Mar-2020 00:32:48 CDT  Opened output file with pattern "failsHighFilterLongTracks_plots.root"
+Begin processing the 101st record. run: 1 subRun: 1 event: 101 at 10-Mar-2020 00:32:48 CDT
+Begin processing the 201st record. run: 1 subRun: 1 event: 201 at 10-Mar-2020 00:32:48 CDT
+Begin processing the 301st record. run: 1 subRun: 1 event: 301 at 10-Mar-2020 00:32:48 CDT
+Begin processing the 401st record. run: 1 subRun: 1 event: 401 at 10-Mar-2020 00:32:49 CDT
+Begin processing the 501st record. run: 1 subRun: 1 event: 501 at 10-Mar-2020 00:32:49 CDT
+Begin processing the 601st record. run: 1 subRun: 1 event: 601 at 10-Mar-2020 00:32:49 CDT
+Begin processing the 701st record. run: 1 subRun: 1 event: 701 at 10-Mar-2020 00:32:49 CDT
+Begin processing the 801st record. run: 1 subRun: 1 event: 801 at 10-Mar-2020 00:32:50 CDT
+Begin processing the 901st record. run: 1 subRun: 1 event: 901 at 10-Mar-2020 00:32:50 CDT
+Begin processing the 2000th record. run: 1 subRun: 1 event: 2000 at 10-Mar-2020 00:32:52 CDT
+Begin processing the 3000th record. run: 1 subRun: 1 event: 3000 at 10-Mar-2020 00:32:54 CDT
+Begin processing the 5000th record. run: 1 subRun: 1 event: 5000 at 10-Mar-2020 00:32:58 CDT
+Begin processing the 9000th record. run: 1 subRun: 2 event: 4000 at 10-Mar-2020 00:33:06 CDT
+Begin processing the 17000th record. run: 1 subRun: 4 event: 2000 at 10-Mar-2020 00:33:22 CDT
+Begin processing the 33000th record. run: 1 subRun: 7 event: 3000 at 10-Mar-2020 00:33:54 CDT
+Begin processing the 65000th record. run: 1 subRun: 13 event: 5000 at 10-Mar-2020 00:34:55 CDT
+10-Mar-2020 00:35:54 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File0/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:35:54 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File1/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:35:54 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File1/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 129000th record. run: 1 subRun: 26 event: 4000 at 10-Mar-2020 00:37:03 CDT
+10-Mar-2020 00:39:10 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File1/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:39:10 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File2/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:39:10 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File2/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 257000th record. run: 1 subRun: 52 event: 2000 at 10-Mar-2020 00:41:14 CDT
+10-Mar-2020 00:42:27 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File2/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:42:27 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File3/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:42:27 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File3/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:45:49 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File3/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:45:49 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File4/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:45:49 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File4/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:49:11 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File4/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:49:11 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File5/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:49:11 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File5/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 513000th record. run: 1 subRun: 103 event: 3000 at 10-Mar-2020 00:49:50 CDT
+10-Mar-2020 00:52:27 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File5/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:52:27 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File6/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:52:27 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File6/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:55:45 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File6/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:55:45 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File7/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:55:45 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File7/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:59:03 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File7/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:59:03 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File8/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 00:59:03 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File8/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:02:19 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File8/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:02:19 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File9/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:02:19 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File9/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:05:40 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File9/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:05:40 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File10/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:05:40 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File10/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 1025000th record. run: 1 subRun: 205 event: 5000 at 10-Mar-2020 01:06:43 CDT
+10-Mar-2020 01:08:59 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File10/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:08:59 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File11/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:08:59 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File11/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:12:14 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File11/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:12:14 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File12/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:12:14 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File12/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:15:32 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File12/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:15:32 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File13/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:15:32 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File13/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:18:54 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File13/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:18:54 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File14/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:18:54 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File14/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:22:15 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File14/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:22:15 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File15/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:22:15 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File15/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:25:35 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File15/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:25:35 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File16/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:25:35 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File16/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:28:55 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File16/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:28:55 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File17/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:28:55 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File17/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:32:12 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File17/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:32:12 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File18/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:32:12 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File18/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:35:29 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File18/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:35:29 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File19/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:35:29 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File19/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:38:46 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File19/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:38:46 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File20/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:38:46 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File20/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 2049000th record. run: 1 subRun: 410 event: 4000 at 10-Mar-2020 01:40:37 CDT
+10-Mar-2020 01:42:05 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File20/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:42:05 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File21/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:42:05 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File21/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:45:26 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File21/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:45:26 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File22/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:45:26 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File22/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:48:48 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File22/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:48:48 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File23/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:48:48 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File23/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:52:09 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File23/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:52:09 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File24/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:52:09 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File24/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 01:56:14 CDT  Closed output file "passesHighFilterLongTracks_plots.root"
+10-Mar-2020 01:57:30 CDT  Closed output file "failsHighFilterLongTracks_plots.root"
+10-Mar-2020 01:57:30 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/simTracks/File24/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 2495000 passed = 8 failed = 2494992
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          8          8          0 o1
+TrigReport     0    0    2494992    2494992          0 o2
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 3577.015211 Real = 5086.999308
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1801.7 VmHWM = 880.497
+

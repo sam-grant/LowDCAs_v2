@@ -1,5 +1,5 @@
-#dir="garfield"
-dir="perfect"
+dir="garfield"
+#dir="perfect"
 #dir="gauss"
     
 for j in {0..20}; do

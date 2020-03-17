@@ -1,0 +1,86 @@
+#include "messageParams.fcl"
+#include "geom/strawtracker.fcl"
+#include "conDBParams.fcl"
+
+process_name : trackRecoPlots
+
+source : {
+  module_type : RootInput
+  maxEvents   : -1
+}
+
+services : {
+
+  message : {
+    debugModules : []
+    suppressInfo : []
+
+    destinations : {
+      LogToConsole : {
+        type       : "cout"
+        threshold  : "INFO"
+	categories : @local::message_categories
+      }
+      LogToFile : {
+        type      : "file"
+        filename  : "trackRecoPlots.log"
+        append    :  false
+        threshold : "INFO"
+	categories : @local::message_categories
+      }
+    }
+  } #end of message services
+ 
+  DetectorHolder    : {}
+  ActionHolder      : {}
+  CoordSystemsStore : {}
+  Gm2Constants      : {}
+  RandomNumberGenerator : {}
+
+  Geometry : {
+    strawtracker : @local::strawtracker_geom
+  }
+
+  StrawTrackerGeometry : {}
+  StrawTrackerGeometryConstants : { DatabaseURL : @local::condb_prod_params } # dev db is @local::condb_dev_params
+
+  TFileService: {
+//    fileName: "trackRecoPlots.root"
+      fileName: "trackRecoPlots_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root"
+  }
+
+  TrackQuality : {}
+
+} // end of services block
+   
+physics : {
+
+  analyzers : {
+
+    summaryPlots      : { 
+                          module_type : SummaryPlots
+	                  //SelectEvents:["path"]
+	                  TrackModuleLabel : "tracks0"
+	                  TrackInstanceName : "straws"
+			}
+
+    geanePlots        : { 
+                          module_type : GeanePlots
+			  //SelectEvents:["path"]
+	                  TrackModuleLabel : "tracks0"
+	                  TrackInstanceName : "straws"
+			}
+
+    qualityPlots      : {
+	                  module_type : QualityCutPlots
+			  //SelectEvents:["path"]
+	                  TrackModuleLabel : "tracks0"
+	                  TrackInstanceName : "straws"
+   }   
+  } 			
+
+  plot : [summaryPlots, geanePlots] // , extrapPlots, qualityPlots]
+
+  trigger_paths : [] 
+  end_paths     : [plot]
+} # end of physics block

@@ -113,7 +113,7 @@ physics : {
 
 } // end of physics block
 
-physics.producers.driftDistReco.calculatorName : garfieldDriftDistanceEstimator
+// physics.producers.driftDistReco.calculatorName : garfieldDriftDistanceEstimator
 
 physics.producers.t0Finder.meanTimeOffset : 34 // 36.5 is for 1550V, 34 for 1625V. Different for Sim.
 

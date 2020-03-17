@@ -22,7 +22,7 @@ echo $inFile
 #fi
 
 # If not, create a new dir for output, copy input file into it
-
+echo $inFile
 mkdir $inFile
 
 cd $inFile
@@ -39,8 +39,8 @@ echo $filesToRun
 
 #gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGauss.fcl -s $filesToRun
 #gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimTestPerfect.fcl -s $filesToRun
-gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScan_Remove.fcl -s $filesToRun
-# gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGarfield.fcl -s $filesToRun
+#gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScan_Remove.fcl -s $filesToRun
+gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGarfield.fcl -s $filesToRun
 
 # Return to run dir
 cd ../

@@ -1,6 +1,0 @@
-%MSG-s ArtException:  Early 05-Feb-2020 16:29:07 CST JobSetup
-cet::exception caught in art
----- CatalogServiceError BEGIN
-  Input file not found: ../../../runSim/File218/gm2tracker_sim_scan_garfield.root.
----- CatalogServiceError END
-%MSG

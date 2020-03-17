@@ -1,0 +1,87 @@
+#include "messageParams.fcl"
+#include "conDBParams.fcl"
+#include "geom/world.fcl"
+#include "geom/strawtracker.fcl"
+
+process_name : makeSingleEventViews
+
+source : {
+   module_type : RootInput
+   fileNames   : [""]
+   maxEvents   :  -1
+
+
+  inputCommands : ["keep *",
+    "drop gm2strawtracker::TrackerAlignmentConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::TrackerTimeConstantsArtRecord_*_*_*"]//,
+    // @sequence::trackingChain.inputDrops]
+  //fileNames : ["gm2tracker_reco.root"]
+
+}
+
+services : {
+   
+   message : {
+      debugModules : [""] //Off for all
+      suppressInfo : []
+      
+      destinations : {
+	 LogToConsole : {
+            type       : "cout"
+            threshold  : "INFO"
+            categories : @local::message_categories
+	 }
+	 LogToFile : {
+            type       : "file"
+            filename   : "makeSingleEventViews.log"
+            append     : false
+            threshold  : "DEBUG"
+            categories : @local::message_categories
+	 }
+      }
+
+   }
+   
+
+      // Mandatory ArtG4 services
+      ActionHolder: {}
+      DetectorHolder: {}
+
+      // Geometry 
+      Geometry: {
+	 world        : @local::world_geom
+	 strawtracker : @local::strawtracker_geom
+      } 
+
+   StrawTrackerGeometry : {}
+   StrawTrackerGeometryConstants : { DatabaseURL : @local::condb_prod_params } // dev db is @local::condb_dev_params      
+      // need to get the coordinate system tools
+      CoordSystemsStore: {}    
+   
+   TFileService: {
+      fileName: "singleEventViewerPlots.root"
+   }   
+   
+} # end of services block
+
+
+physics : {
+
+   analyzers : {
+      singleEventViewer : {
+         module_type        : SingleEventViewer
+	 digitModuleLabel   : deadTime
+	 digitInstanceName  : straws
+	 islandModuleLabel  : timeIslands
+	 islandInstanceName : straws
+	 islandList         : []
+	 maxEventsToPlot    : 100
+	 colourByTime       : true
+     }
+   }
+   
+   plotPath  : [singleEventViewer]
+   end_paths : [plotPath]
+   
+} # end of physics block
+

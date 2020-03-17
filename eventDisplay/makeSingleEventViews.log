@@ -1,0 +1,18 @@
+10-Mar-2020 10:38:15 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/filtered_vacuum_20um_mainFit_allTimes.root"
+10-Mar-2020 10:38:15 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/filtered_vacuum_20um_mainFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1187 at 10-Mar-2020 10:38:21 CDT
+10-Mar-2020 10:38:22 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/filtered_vacuum_20um_mainFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 38 passed = 38 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         38         38          0 singleEventViewer
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 5.881107 Real = 6.085817
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1167.28 VmHWM = 359.948
+

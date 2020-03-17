@@ -1,0 +1,2 @@
+04-Mar-2020 09:17:37 CST  Initiating request to open input file "../tracks/filtered_vacuum_20um_mainFit_allTimes.root"
+04-Mar-2020 09:17:37 CST  Opened input file "../tracks/filtered_vacuum_20um_mainFit_allTimes.root"

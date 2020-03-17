@@ -1,0 +1,42 @@
+02-Mar-2020 19:32:10 CST  Initiating request to open input file "vacuum_20um_mainFit_allTimes/plots6/passes_filter.root"
+02-Mar-2020 19:32:11 CST  Opened input file "vacuum_20um_mainFit_allTimes/plots6/passes_filter.root"
+Begin processing the 1st record. run: 1 subRun: 120 event: 4453 at 02-Mar-2020 19:32:16 CST
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------L--LRRLL-RR
+RECO HIT SIDES:  ----------------------R--LRRLL-RR
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------L--LRRLL-RR
+RECO HIT SIDES:  ----------------------R--LRRLL-RR
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -----------------------L--RLRLRRL
+RECO HIT SIDES:  -----------------------R--RLRLRRL
+WRONG HIT SIDES: -----------------------X---------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -----------------------L--RLRLRRL
+RECO HIT SIDES:  -----------------------R--RLRLRRL
+WRONG HIT SIDES: -----------------------X---------
+*** Run = 1	Events = 2	Tracks = 2	tracksWithWrongLRChoices = 2	wrongLRChoices = 2
+*** Run = 1	Events = 2	Tracks = 2	tracksWithWrongLRChoices = 2	wrongLRChoices = 2
+02-Mar-2020 19:32:16 CST  Closed input file "vacuum_20um_mainFit_allTimes/plots6/passes_filter.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 2 passed = 2 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          2          2          0 nonePlusWrong
+TrigReport     0    0          2          2          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.836264 Real = 4.946352
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1172 VmHWM = 316.621
+
+Art has completed and will exit with status 0.

@@ -18,3 +18,22 @@ Begin processing the 5000th record. run: 1 subRun: 40 event: 5000 at 02-Mar-2020
 Begin processing the 9000th record. run: 1 subRun: 41 event: 4000 at 02-Mar-2020 16:48:19 CST
 Begin processing the 17000th record. run: 1 subRun: 43 event: 2000 at 02-Mar-2020 16:48:44 CST
 Begin processing the 33000th record. run: 1 subRun: 46 event: 3000 at 02-Mar-2020 16:49:36 CST
+Begin processing the 65000th record. run: 1 subRun: 52 event: 5000 at 02-Mar-2020 16:51:18 CST
+02-Mar-2020 16:53:12 CST  Closed output file "passes_filter_tQ.root"
+02-Mar-2020 16:53:17 CST  Closed output file "fails_filter_tQ.root"
+02-Mar-2020 16:53:17 CST  Closed input file "../../../runSim/File2/gm2tracker_sim_test_vacuum_20um_mainFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 4 failed = 99996
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          4          4          0 o1
+TrigReport     0    0      99996      99996          0 o2
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 185.248837 Real = 331.423987
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1231.48 VmHWM = 401.564
+

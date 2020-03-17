@@ -1,0 +1,82 @@
+02-Mar-2020 19:55:30 CST  Initiating request to open input file "../vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+02-Mar-2020 19:55:30 CST  Opened input file "../vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1187 at 02-Mar-2020 19:55:35 CST
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -----------------------L-LRLRRLRL
+RECO HIT SIDES:  -----------------------R-LRLRRLRL
+WRONG HIT SIDES: -----------------------X---------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -----------------------L-LRLRRLRL
+RECO HIT SIDES:  -----------------------R-LRLRRLRL
+WRONG HIT SIDES: -----------------------X---------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ---L--RLRLRRL--------------------
+RECO HIT SIDES:  ---R--RLRLRRL--------------------
+WRONG HIT SIDES: ---X-----------------------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ---L--RLRLRRL--------------------
+RECO HIT SIDES:  ---R--RLRLRRL--------------------
+WRONG HIT SIDES: ---X-----------------------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -------------------L-RRL--RRLLLLL
+RECO HIT SIDES:  -------------------R-RRL--RRLLLLL
+WRONG HIT SIDES: -------------------X-------------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  -------------------L-RRL--RRLLLLL
+RECO HIT SIDES:  -------------------R-RRL--RRLLLLL
+WRONG HIT SIDES: -------------------X-------------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------LLRLRLRL---
+RECO HIT SIDES:  ----------------------RLRLRLRL---
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------LLRLRLRL---
+RECO HIT SIDES:  ----------------------RLRLRLRL---
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------L--RRLRLLRL
+RECO HIT SIDES:  ----------------------R--RRLRLLRL
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 12
+TRUE HIT SIDES:  ----------------------L--RRLRLLRL
+RECO HIT SIDES:  ----------------------R--RRLRLLRL
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ----------------------LRLRLRLRLLR
+RECO HIT SIDES:  ----------------------RRLRLRLRLLR
+WRONG HIT SIDES: ----------------------X----------
+==================================================
+STATION: 18
+TRUE HIT SIDES:  ----------------------LRLRLRLRLLR
+RECO HIT SIDES:  ----------------------RRLRLRLRLLR
+WRONG HIT SIDES: ----------------------X----------
+*** Run = 1	Events = 6	Tracks = 6	tracksWithWrongLRChoices = 6	wrongLRChoices = 6
+*** Run = 1	Events = 6	Tracks = 6	tracksWithWrongLRChoices = 6	wrongLRChoices = 6
+02-Mar-2020 19:55:36 CST  Closed input file "../vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 6 passed = 6 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          6          6          0 nonePlusWrong
+TrigReport     0    0          6          6          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.588303 Real = 4.638763
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1175.6 VmHWM = 319.283
+
+Art has completed and will exit with status 0.

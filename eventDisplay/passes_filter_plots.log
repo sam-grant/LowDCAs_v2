@@ -1,0 +1,19 @@
+02-Mar-2020 20:20:48 CST  Initiating request to open input file "../runSimPlots/vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+02-Mar-2020 20:20:49 CST  Opened input file "../runSimPlots/vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1187 at 02-Mar-2020 20:20:54 CST
+02-Mar-2020 20:20:54 CST  Closed input file "../runSimPlots/vacuum_20um_mainFit_allTimes/passes_filter_all.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 10 passed = 10 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         10         10          0 nonePlusWrong
+TrigReport     0    0         10         10          0 oneWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.710284 Real = 4.733044
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1175.62 VmHWM = 318.939
+

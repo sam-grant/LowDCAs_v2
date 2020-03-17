@@ -1,0 +1,9 @@
+10-Mar-2020 00:29:42 CDT  Initiating request to open input file "../runSimPlots/simPlots_planesHit14.root"
+10-Mar-2020 00:29:42 CDT  Opened input file "../runSimPlots/simPlots_planesHit14.root"
+%MSG-s ArtException:  Early 10-Mar-2020 00:29:42 CDT JobSetup
+cet::exception caught in art
+---- FileReadError BEGIN
+  RootInputTree for branch type Event could not be initialized correctly from input file.
+---- FileReadError END
+%MSG
+Art has completed and will exit with status 21.

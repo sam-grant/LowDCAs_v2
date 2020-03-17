@@ -1,0 +1,137 @@
+============================================================================
+STATION: 18
+Run: 1	 Subrun: 1	Event: 1187
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | LRLR | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | LRLR | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 7	Event: 2932
+TRUE HIT SIDES:  - | --L- | -RLR | LRRL | ---- | ---- | ---- | ---- | ---- | 
+RECO HIT SIDES:  - | --R- | -RLR | LRRL | ---- | ---- | ---- | ---- | ---- | 
+WRONG HIT SIDES: - | --X- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 8	Event: 2835
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | --L- | RRL- | -RRL | LLLL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | --R- | RRL- | -RRL | LLLL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | --X- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 14	Event: 4082
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -LLR | LRLR | L--- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -RLR | LRLR | L--- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 21	Event: 603
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -L-- | RRLR | LLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -R-- | RRLR | LLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 31	Event: 1630
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -LRL | RLRL | RLLR | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -RRL | RLRL | RLLR | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 31	Event: 2450
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | --L- | LRRL | LLLL | ---- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | --R- | LRRL | LLLL | ---- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | --X- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 31	Event: 4270
+TRUE HIT SIDES:  - | ---L | LRLR | RL-R | ---- | ---- | ---- | ---- | ---- | 
+RECO HIT SIDES:  - | ---R | LRLR | RL-R | ---- | ---- | ---- | ---- | ---- | 
+WRONG HIT SIDES: - | ---X | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 44	Event: 3069
+TRUE HIT SIDES:  - | ---- | ---- | ---- | --L- | RLL- | RLRL | ---- | ---- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | --R- | RLL- | RLRL | ---- | ---- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | --X- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 54	Event: 4547
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -LL- | L-RR | RR-- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | -RL- | L-RR | RR-- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | -X-- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 55	Event: 3679
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | L-LR | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | L-LR | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 58	Event: 2992
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | RLL- | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | RLL- | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 65	Event: 3259
+TRUE HIT SIDES:  - | ---- | -L-- | LRRR | LLLL | ---- | ---- | ---- | ---- | 
+RECO HIT SIDES:  - | ---- | -R-- | LRRR | LLLL | ---- | ---- | ---- | ---- | 
+WRONG HIT SIDES: - | ---- | -X-- | ---- | ---- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 65	Event: 3659
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | RLLR | -RRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | RLLR | -RRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 65	Event: 4167
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | LRRL | L-R- | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | LRRL | L-R- | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 66	Event: 790
+TRUE HIT SIDES:  - | -LL- | L-LR | R-RR | ---- | ---- | ---- | ---- | ---- | 
+RECO HIT SIDES:  - | -RL- | L-LR | R-RR | ---- | ---- | ---- | ---- | ---- | 
+WRONG HIT SIDES: - | -X-- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 67	Event: 1651
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | LRL- | RL-R | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | LRL- | RL-R | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 82	Event: 817
+TRUE HIT SIDES:  - | ---- | ---- | -L-- | -LR- | LR-L | R--- | ---- | ---- | 
+RECO HIT SIDES:  - | ---- | ---- | -R-- | -LR- | LR-L | R--- | ---- | ---- | 
+WRONG HIT SIDES: - | ---- | ---- | -X-- | ---- | ---- | ---- | ---- | ---- | 
+============================================================================
+STATION: 18
+Run: 1	Subrun: 84	Event: 3867
+TRUE HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --L- | LRLR | RLRL | 
+RECO HIT SIDES:  - | ---- | ---- | ---- | ---- | ---- | --R- | LRLR | RLRL | 
+WRONG HIT SIDES: - | ---- | ---- | ---- | ---- | ---- | --X- | ---- | ---- | 
+============================================================================
+STATION: 12
+Run: 1	Subrun: 89	Event: 715
+TRUE HIT SIDES:  - | --L- | LRLR | RL-R | ---- | ---- | ---- | ---- | ---- | 
+RECO HIT SIDES:  - | --R- | LRLR | RL-R | ---- | ---- | ---- | ---- | ---- | 
+WRONG HIT SIDES: - | --X- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+*** Run = 1	Events = 20	Tracks = 20	tracksWithWrongLRChoices = 20	wrongLRChoices = 20	allHits =20	leadingWrongHits = 20
+09-Mar-2020 20:31:48 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/filtered_vacuum_20um_mainFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 20 passed = 20 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0         20         20          0 nonePlusWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 4.532311 Real = 4.599019
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1169.14 VmHWM = 316.31
+
+Art has completed and will exit with status 0.

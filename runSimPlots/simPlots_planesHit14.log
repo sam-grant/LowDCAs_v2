@@ -1,0 +1,40 @@
+09-Mar-2020 23:58:13 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_20um_mainFit_allTimes.root"
+09-Mar-2020 23:58:14 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_20um_mainFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 101st record. run: 1 subRun: 1 event: 101 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 201st record. run: 1 subRun: 1 event: 201 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 301st record. run: 1 subRun: 1 event: 301 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 401st record. run: 1 subRun: 1 event: 401 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 501st record. run: 1 subRun: 1 event: 501 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 601st record. run: 1 subRun: 1 event: 601 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 701st record. run: 1 subRun: 1 event: 701 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 801st record. run: 1 subRun: 1 event: 801 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 901st record. run: 1 subRun: 1 event: 901 at 09-Mar-2020 23:58:21 CDT
+Begin processing the 2000th record. run: 1 subRun: 1 event: 2000 at 09-Mar-2020 23:58:22 CDT
+Begin processing the 3000th record. run: 1 subRun: 1 event: 3000 at 09-Mar-2020 23:58:22 CDT
+Begin processing the 5000th record. run: 1 subRun: 1 event: 5000 at 09-Mar-2020 23:58:23 CDT
+Begin processing the 9000th record. run: 1 subRun: 2 event: 4000 at 09-Mar-2020 23:58:24 CDT
+Begin processing the 17000th record. run: 1 subRun: 4 event: 2000 at 09-Mar-2020 23:58:27 CDT
+Begin processing the 33000th record. run: 1 subRun: 7 event: 3000 at 09-Mar-2020 23:58:34 CDT
+Begin processing the 65000th record. run: 1 subRun: 13 event: 5000 at 09-Mar-2020 23:58:45 CDT
+Begin processing the 129000th record. run: 1 subRun: 26 event: 4000 at 09-Mar-2020 23:59:10 CDT
+Begin processing the 257000th record. run: 1 subRun: 52 event: 2000 at 10-Mar-2020 00:00:14 CDT
+Begin processing the 513000th record. run: 1 subRun: 103 event: 3000 at 10-Mar-2020 00:02:49 CDT
+Begin processing the 1025000th record. run: 1 subRun: 205 event: 5000 at 10-Mar-2020 00:08:20 CDT
+Begin processing the 2049000th record. run: 1 subRun: 410 event: 4000 at 10-Mar-2020 00:18:30 CDT
+10-Mar-2020 00:22:27 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_20um_mainFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 2495000 passed = 2495000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0    2495000    2495000          0 nonePlusWrongPlanesHitCut
+TrigReport     0    0    2495000    2495000          0 oneWrongPlanesHitCut
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 999.701022 Real = 1450.162609
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1361.35 VmHWM = 456.614
+

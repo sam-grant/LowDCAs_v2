@@ -1,0 +1,24 @@
+02-Mar-2020 17:15:46 CST  Initiating request to open input file "../../../runSim/File19/gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
+02-Mar-2020 17:15:46 CST  Opened input file "../../../runSim/File19/gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
+Begin processing the 1st record. run: 1 subRun: 380 event: 1 at 02-Mar-2020 17:15:52 CST
+02-Mar-2020 17:15:52 CST  Opened output file with pattern "fails_filter_tQ.root"
+02-Mar-2020 17:15:52 CST  Opened output file with pattern "passes_filter_tQ.root"
+Begin processing the 101st record. run: 1 subRun: 380 event: 101 at 02-Mar-2020 17:15:52 CST
+Begin processing the 201st record. run: 1 subRun: 380 event: 201 at 02-Mar-2020 17:15:53 CST
+Begin processing the 301st record. run: 1 subRun: 380 event: 301 at 02-Mar-2020 17:15:53 CST
+02-Mar-2020 17:15:53 CST  Closed input file "../../../runSim/File19/gm2tracker_sim_test_vacuum_20um_fullSeqFit_allTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 378 passed = 0 failed = 378
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          0          0          0 o1
+TrigReport     0    0        378        378          0 o2
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 5.500164 Real = 6.022586
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1173.32 VmHWM = 342.086
+

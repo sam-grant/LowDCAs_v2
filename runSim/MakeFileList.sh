@@ -1,5 +1,19 @@
 # Gas gun files with material
 path=/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852
+
+# 218 doesn't work 
+
+for i in {200..225}; do
+
+    if [[ $i -eq 218 ]]; then
+        break
+    fi
+	 
+ #    mkdir Files/File${i} 
+    ls $path/gm2ringsim_muon_gasgun_truth_22551${i}_1567190852.1.root > Files/File${i}
+done 
+
+
 # Gas gun without material
 #path=/data/gm2/MCEvents/v9_37_00_Vacuum/
 #for i in {0..499..20}; do 
@@ -10,11 +24,11 @@ path=/pnfs/GM2/mc/run1_gasgun_1062/runs_1567190000/1567190852
 # done
 
 # REGULAR GAS GUN FILES 
-# 218 doesn't work 
-for i in {200..225}; do
-    mkdir Files/File${i} 
-   # ls $path/gm2ringsim_muon_gasgun_truth_22551${i}_1567190852.1.root > VacuumFiles/File${i}
-done   
+## 218 doesn't work 
+#for i in {200..225}; do
+    #mkdir Files/File${i} 
+#    ls $path/gm2ringsim_muon_gasgun_truth_22551${i}_1567190852.1.root > VacuumFiles/File${i}
+#done   
 
 
 # THIS IS A SILLY

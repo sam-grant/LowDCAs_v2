@@ -2,7 +2,7 @@
 inFile=$1
 echo $inFile
 
-#dir="garfield"
+dir="garfield"
 #dir="gauss"
 #dir="perfect_2"
 
@@ -25,4 +25,3 @@ for i in {200..225}; do
 
 done
 
-cd ../

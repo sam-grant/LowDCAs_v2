@@ -1,0 +1,49 @@
+13-Mar-2020 11:13:49 CDT  Initiating request to open input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_2um_truthLR_allTimes_noMaterial_withBinning.root"
+13-Mar-2020 11:13:50 CDT  Opened input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_2um_truthLR_allTimes_noMaterial_withBinning.root"
+Begin processing the 1st record. run: 1 subRun: 1 event: 1 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 101st record. run: 1 subRun: 1 event: 101 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 201st record. run: 1 subRun: 1 event: 201 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 301st record. run: 1 subRun: 1 event: 301 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 401st record. run: 1 subRun: 1 event: 401 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 501st record. run: 1 subRun: 1 event: 501 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 601st record. run: 1 subRun: 1 event: 601 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 701st record. run: 1 subRun: 1 event: 701 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 801st record. run: 1 subRun: 1 event: 801 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 901st record. run: 1 subRun: 1 event: 901 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 2000th record. run: 1 subRun: 1 event: 2000 at 13-Mar-2020 11:14:02 CDT
+Begin processing the 3000th record. run: 1 subRun: 1 event: 3000 at 13-Mar-2020 11:14:03 CDT
+Begin processing the 5000th record. run: 1 subRun: 1 event: 5000 at 13-Mar-2020 11:14:03 CDT
+Begin processing the 9000th record. run: 1 subRun: 2 event: 4000 at 13-Mar-2020 11:14:04 CDT
+Begin processing the 17000th record. run: 1 subRun: 4 event: 2000 at 13-Mar-2020 11:14:07 CDT
+Begin processing the 33000th record. run: 1 subRun: 7 event: 3000 at 13-Mar-2020 11:14:11 CDT
+Begin processing the 65000th record. run: 1 subRun: 13 event: 5000 at 13-Mar-2020 11:14:20 CDT
+Begin processing the 129000th record. run: 1 subRun: 26 event: 4000 at 13-Mar-2020 11:14:38 CDT
+Begin processing the 257000th record. run: 1 subRun: 52 event: 2000 at 13-Mar-2020 11:15:15 CDT
+Begin processing the 513000th record. run: 1 subRun: 103 event: 3000 at 13-Mar-2020 11:16:28 CDT
+Begin processing the 1025000th record. run: 1 subRun: 205 event: 5000 at 13-Mar-2020 11:18:53 CDT
+Begin processing the 2049000th record. run: 1 subRun: 410 event: 4000 at 13-Mar-2020 11:23:41 CDT
+13-Mar-2020 11:25:47 CDT  Closed input file "/gm2/data/users/sgrant/LowDCAs_v2/tracks/vacuum_2um_truthLR_allTimes_noMaterial_withBinning.root"
+%MSG-i summary:  SummaryPlots:summaryPlots@EndJob 13-Mar-2020 11:25:47 CDT  ModuleEndJob
+
+--------- Tracker Summary Plots Report ---------
+  Total num events = 2495000
+  Total num events containing digits = 136059 (5.45327%)
+  Total num events containing islands = 136059 (5.45327%)
+------------------------------------------------
+
+%MSG
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 2495000 passed = 2495000 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0    2495000    2495000          0 summaryPlots
+TrigReport     0    0    2495000    2495000          0 geanePlots
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 712.410698 Real = 713.485947
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1494.6 VmHWM = 622.653
+

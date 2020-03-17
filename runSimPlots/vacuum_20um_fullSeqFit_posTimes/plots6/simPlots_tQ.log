@@ -1,0 +1,36 @@
+02-Mar-2020 17:11:31 CST  Initiating request to open input file "../../../runSim/File6/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+02-Mar-2020 17:11:31 CST  Opened input file "../../../runSim/File6/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+Begin processing the 1st record. run: 1 subRun: 120 event: 1 at 02-Mar-2020 17:11:38 CST
+02-Mar-2020 17:11:38 CST  Opened output file with pattern "passes_filter_tQ.root"
+02-Mar-2020 17:11:38 CST  Opened output file with pattern "fails_filter_tQ.root"
+Begin processing the 101st record. run: 1 subRun: 120 event: 101 at 02-Mar-2020 17:11:38 CST
+Begin processing the 201st record. run: 1 subRun: 120 event: 201 at 02-Mar-2020 17:11:39 CST
+Begin processing the 301st record. run: 1 subRun: 120 event: 301 at 02-Mar-2020 17:11:39 CST
+Begin processing the 401st record. run: 1 subRun: 120 event: 401 at 02-Mar-2020 17:11:39 CST
+Begin processing the 501st record. run: 1 subRun: 120 event: 501 at 02-Mar-2020 17:11:40 CST
+Begin processing the 601st record. run: 1 subRun: 120 event: 601 at 02-Mar-2020 17:11:40 CST
+Begin processing the 701st record. run: 1 subRun: 120 event: 701 at 02-Mar-2020 17:11:40 CST
+Begin processing the 801st record. run: 1 subRun: 120 event: 801 at 02-Mar-2020 17:11:40 CST
+Begin processing the 901st record. run: 1 subRun: 120 event: 901 at 02-Mar-2020 17:11:41 CST
+Begin processing the 2000th record. run: 1 subRun: 120 event: 2000 at 02-Mar-2020 17:11:44 CST
+Begin processing the 3000th record. run: 1 subRun: 120 event: 3000 at 02-Mar-2020 17:11:47 CST
+Begin processing the 5000th record. run: 1 subRun: 120 event: 5000 at 02-Mar-2020 17:11:53 CST
+Begin processing the 9000th record. run: 1 subRun: 121 event: 4000 at 02-Mar-2020 17:12:07 CST
+Begin processing the 17000th record. run: 1 subRun: 123 event: 2000 at 02-Mar-2020 17:12:33 CST
+Begin processing the 33000th record. run: 1 subRun: 126 event: 3000 at 02-Mar-2020 17:13:25 CST
+02-Mar-2020 17:14:00 CST  Closed input file "../../../runSim/File6/gm2tracker_sim_test_vacuum_2002-Mar-2020 17:14:00 CST  Closed input file "../../../runSim/File6/gm2tracker_sim_test_vacuum_20um_fullSeqFit_posTimes.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 66648 passed = 0 failed = 66648
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          0          0          0 o1
+TrigReport     0    0      66648      66648          0 o2
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 117.133194 Real = 218.215530
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1195.22 VmHWM = 362.471
+

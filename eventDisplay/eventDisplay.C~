@@ -1,0 +1,48 @@
+// Old school ROOT macro to save event displays
+// Old school in the sense that it doesn't work, ahhhhhhhhh
+{
+  // Get file
+  TFile *f1 = TFile::Open("twentyEvents_vacuum_20um_mainFit_allTimes.root");
+  cout<<"Getting file "<<f1<<endl;
+  // Get hists
+  int S1[4] = {1,7,8,14};
+  string E1[4] = {"1187/Station_18_Island_0","2932/Station_18_Island_0","2835/Station_18_Island_0","4082/Station_12_Island_0"};
+  
+  for(int i = 0; i < 4; i++) {
+    string n1 = "R1_S"+to_string(S1[i])+"_E"+E1[i];
+    cout<<n1<<endl;
+    TH2 *h1 = (TH2*)f1->Get(("SingleEventViewer/"+n1).c_str());
+    h1->SetName(n1.c_str());
+    cout<<h1<<endl;
+    // Draw
+    TCanvas *c1 = new TCanvas(n1.c_str(),"",800,600);
+    h1->Draw();
+    c1->SaveAs((n1+".png").c_str());
+    delete c1;//    exit(0);
+    delete h1;
+  }
+  //  f1->Close();
+
+  TFile *f2 = TFile::Open("longTracks_eightEvents.root"); 
+  cout<<"Getting file "<<f2<<endl;
+  // Get hists
+  int S2[4] = {109,180,220,256};
+  int E2[4] = {1660,3617,2449,2300};
+  
+  for(int i = 0; i < 4; i++) {
+    string n2 = "R1_S"+to_string(S2[i])+"_E"+to_string(E2[i]);
+    cout<<n2<<endl;
+    TH2F *h2 = (TH2F*)f2->Get(("SingleEventViewer/"+n2).c_str());
+    h2->SetName(n2.c_str());
+
+    // Draw
+    TCanvas *c2 = new TCanvas(n2.c_str(),"",800,600);
+    h2->Draw();
+    c2->SaveAs((n2+".png").c_str());
+    delete c2;
+    delete h2;
+    //    delete c2;//    exit(0);
+
+  }
+  //  f2->Close();
+}

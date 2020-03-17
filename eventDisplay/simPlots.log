@@ -1,0 +1,18 @@
+09-Mar-2020 23:49:49 CDT  Initiating request to open input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+09-Mar-2020 23:49:49 CDT  Opened input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+Begin processing the 1st record. run: 1 subRun: 109 event: 1660 at 09-Mar-2020 23:49:53 CDT
+09-Mar-2020 23:49:53 CDT  Closed input file "../runSimPlots/passesHighFilterLongTracks_plots.root"
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 8 passed = 8 failed = 0
+
+TrigReport ------ Modules in End-Path: end_path ------------
+TrigReport  Trig Bit#        Run    Success      Error Name
+TrigReport     0    0          8          8          0 nonePlusWrong
+
+TimeReport ---------- Time  Summary ---[sec]----
+TimeReport CPU = 3.992394 Real = 4.006179
+
+MemReport  ---------- Memory  Summary ---[base-10 MB]----
+MemReport  VmPeak = 1196.13 VmHWM = 314.921
+

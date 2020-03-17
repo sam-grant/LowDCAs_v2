@@ -6,21 +6,29 @@ source: {
 
   module_type: RootInput
 
+  inputCommands : ["keep *",
+    "drop gm2strawtracker::TrackerAlignmentConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::TrackerTimeConstantsArtRecord_*_*_*"]//,
+    // @sequence::trackingChain.inputDrops]
+  //fileNames : ["gm2tracker_reco.root"]
+  maxEvents   : -1
 }
 
 outputs : {
   o1 : {
       module_type : RootOutput
-      fileName : "passes_filter_all.root" 
+//      fileName : "passes_filter_all.root" 
+//      fileName : "vacuum_20um_fullSeqFit_allTimes.root"
+     // fileName: "vacuum_2um_truthLR_allTimes_noGeom.root"
+       fileName: "merged_file.root" 
   }
 
 } // end of outputs block
 
 physics : { 
 
-
   outputs   : [ o1 ]
   trigger_paths : []
   end_paths     : [outputs]
-
 }
+

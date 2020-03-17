@@ -47,20 +47,21 @@ def Ratio(wrongHist, allHist):
 
 	return ratio
 
-names = ["vacuum_20um_mainFit_allTimes","vacuum_20um_mainFit_posTimes","vacuum_20um_fullSeqFit_posTimes","vacuum_20um_fullSeqFit_allTimes"]
+names = ["simPlots_planesHit14"] # vacuum_20um_mainFit_allTimes","vacuum_20um_mainFit_posTimes","vacuum_20um_fullSeqFit_posTimes","vacuum_20um_fullSeqFit_allTimes"]
 
 for i in range(0,len(names)):
 
 	# Grab files
-	file = TFile.Open("../runSimPlots/"+names[i]+"/"+names[i]+".root")
+#	file = TFile.Open("../runSimPlots/"+names[i]+"/"+names[i]+".root")
+	file = TFile.Open("../runSimPlots/"+names[i]+".root")
 
 	# Grab plain DCA histograms
-	h1 = file.Get("nonePlusWrong/DCA");
+	h1 = file.Get("oneWrongPlanesHitCut/WrongHits/DCA");
 	# Draw it
-	FancyDraw1D(h1, ";Measured DCA [#mum];Hits","../images/DCAs_"+names[i],0)
+	FancyDraw1D(h1, ";Measured DCA [#mum];Hits","../images/DCAs_wrongHits_"+names[i],0)
 
 	# Grab numerator hists
-	h2 = file.Get("oneWrong/WrongHits/DCA")
+	h2 = file.Get("oneWrongPlanesHitCut/WrongHits/DCA")
 	
 	# Get ratio hist
 	r1 = Ratio(h2, h1)

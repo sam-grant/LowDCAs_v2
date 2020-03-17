@@ -1,4 +1,3 @@
-
 // Simple version of MC low DCAs plotter, for de-bugging
 // Sam Grant - Dec 2019
 
@@ -6,7 +5,7 @@
 #include "geom/strawtracker.fcl"
 #include "conDBParams.fcl"
 
-process_name : plot2
+process_name : plotAgain
 
 source : {
   module_type : RootInput
@@ -33,7 +32,7 @@ services : {
       }
       LogToFile : {
         type      : "file"
-        filename  : "simPlots.log"
+        filename  : "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_withBinning.root"
 //        filename  : "LowDCAsPlots.log"
         append    :  false
         threshold : "INFO"
@@ -55,62 +54,15 @@ services : {
   TrackQuality : {}
 
   TFileService: {
-      fileName: "simPlots.root"
+      fileName: "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_noBinning.root"
 //    fileName: "LowDCAsPlots.root"
   }
 
 } // end of services block
 physics : {
-  
- // producers : { 
-
-    filters : {
-
-      // Put many muons into same fill 
-     // fillEvents : @local::fill_params
-
-      //trackFilter : 
-      ////TrackFilter : 
-      //{
-      //  //module_type : WrongLRDigitFilter
-      //   module_type : TrackFilter //TrackFilter // erFillTypeFilter
-      //   fillType    : 1
-      //   throwOnEmptyHeaderCollection : false
-      //   TrackModuleLabel : "tracks0"
-      //  //TrackInstanceName : "straws"
-      //}
-
-      wrongLRDigitFilter : 
-      //TrackFilter : 
-      {
-        //module_type : WrongLRDigitFilter
-         module_type : WrongLRDigitFilter //TrackFilter // erFillTypeFilter
-         fillType    : 1
-         throwOnEmptyHeaderCollection : false
-         TrackModuleLabel : "tracks0"
-         TrackInstanceName : "straws"
-      }
-
-    } // filters
-
-  //} // producers
-
-  //fpath: [ trackFilter, wrongLRDigitFilter ] 
-  // filter_path : [ wrongLRDigitFilter ] 
-  
-  //} // end of filter block
 
   analyzers : {
 
-     // wrongLRDigitFilter : 
-     // {
-     //   module_type : WrongLRDigitFilter
-     //   // module_type : TrackerFillTypeFilter
-     //   //fillType    : 1
-     //   //throwOnEmptyHeaderCollection : false
-     //   //TrackModuleLabel : "tracks0"
-     //   //TrackInstanceName : "straws"
-     // }
 
 
     nonePlusWrong : {
@@ -121,6 +73,21 @@ physics : {
       TrackInstanceName : "straws"
       nonePlusWrong : true
       dirName : "nonePlusWrong"
+
+       //SelectEvents: [ filter_path ]
+
+    }
+
+
+    nonePlusWrongPlanesHitCut : {
+ 
+      module_type :  LowDCAsTruthPlots
+ 
+      TrackModuleLabel : "tracks0"
+      TrackInstanceName : "straws"
+      nonePlusWrong : true
+      dirName : "nonePlusWrongPlanesHitCut"
+      numPlanesHitCut : 14
 
        //SelectEvents: [ filter_path ]
 
@@ -156,6 +123,20 @@ physics : {
       TrackInstanceName : "straws"
       oneWrong : true
       dirName : "oneWrong"
+    }
+
+    oneWrongPlanesHitCut : {
+ 
+      module_type :  LowDCAsTruthPlots
+ 
+      TrackModuleLabel : "tracks0"
+      TrackInstanceName : "straws"
+      oneWrong : true
+      dirName : "oneWrongPlanesHitCut"
+      numPlanesHitCut : 14
+
+       //SelectEvents: [ filter_path ]
+
     }
 
     twoPlusWrong : {
@@ -201,8 +182,6 @@ physics : {
       dirName : "threeWrong"
 
     }
-
-
 
     fourPlusWrong : {
  
@@ -250,33 +229,23 @@ physics : {
 
   } // ana
 
-  fpath : [ wrongLRDigitFilter ] 
+  //fpath : [ wrongLRDigitFilter ] 
 
 
-  plot : [nonePlusWrong, oneWrong]
+ // plot : [nonePlusWrongPlanesHitCut, oneWrongPlanesHitCut] // , nonePlusWrongPlanesHitCut, oneWrong]
+   plot : [nonePlusWrong, oneWrong] // , nonePlusWrongPlanesHitCut, oneWrong]
   // plot_again : [nonePlusWrong, oneWrong]
 //  plot : [ nonePlusWrong, noneWrong, onePlusWrong, oneWrong, twoPlusWrong, twoWrong, 
 //          threePlusWrong, threeWrong, fourPlusWrong, fourWrong, fivePlusWrong, fiveWrong ] // , trackSummaryPlots ] 
-  outputs   : [ o1, o2 ]
+//  outputs   : [ o1, o2 ]
 
-  trigger_paths : [fpath] 
+  trigger_paths : [] // fpath] 
 
   // end_paths     : [plot, outputs]
-  end_paths     : [outputs]
+  end_paths     : [plot]
 
 } // end of physics block
 
 
-outputs : {
-  o1 : {
-      module_type : RootOutput
-      fileName : "passes_filter.root" 
-      SelectEvents: [ "fpath&noexception" ]
-  }
-  o2 : {
-      module_type : RootOutput
-      fileName : "fails_filter.root" 
-      SelectEvents: [ "!fpath&noexception" ]
-  }
-} // end of outputs block
+
 
