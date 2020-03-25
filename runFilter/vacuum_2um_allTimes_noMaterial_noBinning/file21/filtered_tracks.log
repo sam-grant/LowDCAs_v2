@@ -1,0 +1,22 @@
+25-Mar-2020 01:57:45 CDT  Initiating request to open input file "/gm2/data/users/sgrant/tracks/lowDCAs/vacuum_2um_allTimes_noMaterial_noBinning/gm2tracker_sim_21.root"
+25-Mar-2020 01:57:46 CDT  Opened input file "/gm2/data/users/sgrant/tracks/lowDCAs/vacuum_2um_allTimes_noMaterial_noBinning/gm2tracker_sim_21.root"
+Begin processing the 1st record. run: 1 subRun: 420 event: 1 at 25-Mar-2020 01:57:59 CDT
+25-Mar-2020 01:57:59 CDT  Opened output file with pattern "filtered_tracks_allWrongLeadingHits.root"
+25-Mar-2020 01:57:59 CDT  Opened output file with pattern "filtered_tracks_lowDCAs.root"
+25-Mar-2020 01:57:59 CDT  Opened output file with pattern "filtered_tracks_highDCAs.root"
+25-Mar-2020 01:57:59 CDT  Opened output file with pattern "filtered_tracks_allRightLeadingHits.root"
+Begin processing the 101st record. run: 1 subRun: 420 event: 101 at 25-Mar-2020 01:57:59 CDT
+Begin processing the 201st record. run: 1 subRun: 420 event: 201 at 25-Mar-2020 01:57:59 CDT
+Begin processing the 301st record. run: 1 subRun: 420 event: 301 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 401st record. run: 1 subRun: 420 event: 401 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 501st record. run: 1 subRun: 420 event: 501 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 601st record. run: 1 subRun: 420 event: 601 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 701st record. run: 1 subRun: 420 event: 701 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 801st record. run: 1 subRun: 420 event: 801 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 901st record. run: 1 subRun: 420 event: 901 at 25-Mar-2020 01:58:00 CDT
+Begin processing the 2000th record. run: 1 subRun: 420 event: 2000 at 25-Mar-2020 01:58:03 CDT
+Begin processing the 3000th record. run: 1 subRun: 420 event: 3000 at 25-Mar-2020 01:58:05 CDT
+Begin processing the 5000th record. run: 1 subRun: 420 event: 5000 at 25-Mar-2020 01:58:08 CDT
+Begin processing the 9000th record. run: 1 subRun: 421 event: 4000 at 25-Mar-2020 01:58:18 CDT
+Begin processing the 17000th record. run: 1 subRun: 423 event: 2000 at 25-Mar-2020 01:58:34 CDT
+Begin processing the 33000th record. run: 1 subRun: 426 event: 3000 at 25-Mar-2020 01:59:09 CDT

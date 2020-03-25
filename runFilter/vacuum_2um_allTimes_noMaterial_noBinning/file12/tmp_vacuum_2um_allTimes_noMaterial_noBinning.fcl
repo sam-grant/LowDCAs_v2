@@ -1,0 +1,216 @@
+// Filter tracks according WrongLRDigitFilter_module.cc
+// Sam Grant - March 2020
+
+//
+// EASIER TO APPLY QUALITY CUTS USING PLOTTING MODULE
+//
+
+#include "messageParams.fcl"
+#include "geom/strawtracker.fcl"
+#include "conDBParams.fcl"
+
+process_name : filter
+
+source : {
+  module_type : RootInput
+  inputCommands : ["keep *",
+    "drop gm2strawtracker::TrackerAlignmentConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::TrackerTimeConstantsArtRecord_*_*_*",
+    "drop gm2strawtracker::StrawDigitArtRecords_digitTimeSync_straws_offline" ]//,
+    // @sequence::trackingChain.inputDrops]
+  //fileNames : ["gm2tracker_reco.root"]
+  maxEvents   : -1
+}
+
+
+services : {
+
+  message : {
+    debugModules : []
+    suppressInfo : []
+
+    destinations : {
+      LogToConsole : {
+        type       : "cout"
+        threshold  : "INFO"
+        categories : @local::message_categories
+      }
+      LogToFile : {
+        type      : "file"
+        filename  : "filtered_tracks.log" // Append fcl file using bash script
+//        filename  : "LowDCAsPlots.log"
+        append    :  false
+        threshold : "INFO"
+        categories : @local::message_categories
+      }
+    }
+  } // end of message services
+
+  DetectorHolder    : {}
+  ActionHolder      : {}
+  CoordSystemsStore : {}
+  Gm2Constants      : {}
+  RandomNumberGenerator : {}
+
+  Geometry : { strawtracker : @local::strawtracker_geom }
+  StrawTrackerGeometry : {}
+  StrawTrackerGeometryConstants : { DatabaseURL : @local::condb_prod_params } // dev db is @local::condb_dev_params
+
+  // See TrackQuality
+  TrackQuality : {} // ignoredCuts : [3, 11, 12, 13, 14] }
+
+ // TFileService: {
+ //     fileName: "passesHighFilter_plots.root"
+//    fileName: "LowDCAsPlots.root"
+ // }
+
+} // end of services block
+physics : {
+
+    filters : {
+
+
+//      filterOneWrongPerTrack : // DEFAULT
+//      //TrackFilter : 
+//      {
+//
+//         module_type : WrongLRDigitFilter 
+//         fillType    : 1
+//         throwOnEmptyHeaderCollection : false
+//         TrackModuleLabel : "tracks0"
+//         TrackInstanceName : "straws"
+//
+//         // Steering fcl params
+//         // applyTrackQuality : false
+//         // numPlanesHitCut : 0 // 12
+//         // filterDCAs : 1
+//         // considerLeadingHit : false 
+//         // leadingHitCondition : -1 // null value
+//      }
+
+      // 0 (no filtering), 1 (filter >2000 um), 2 (filter <500 um)
+
+      filterLowDCAs : 
+      //TrackFilter : 
+      {
+
+         module_type : WrongLRDigitFilter 
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracksMainFit"
+         TrackInstanceName : "straws"
+         dirName : "filterLowDCAs"
+
+         // Steering fcl params
+         applyTrackQuality : false
+         numPlanesHitCut : 0 // 12
+         filterDCAs : 1
+         considerLeadingHit : false 
+         leadingHitCondition : -1 // null value
+      }
+
+      filterHighDCAs : 
+      //TrackFilter : 
+      {
+
+         module_type : WrongLRDigitFilter 
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracksMainFit"
+         TrackInstanceName : "straws"
+         dirName : "filterHighDCAs"
+
+         // Steering fcl params
+         applyTrackQuality : false
+         numPlanesHitCut : 0 // 12
+         filterDCAs : 2
+         considerLeadingHit : false 
+         leadingHitCondition : -1 // null value
+      }
+
+
+      filterAllWrongLeadingHits : 
+      //TrackFilter : 
+      {
+
+         module_type : WrongLRDigitFilter 
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracksMainFit"
+         TrackInstanceName : "straws"
+         dirName : "filterAllWrongLeadingHits"
+
+         // Steering fcl params
+         applyTrackQuality : false
+         numPlanesHitCut : 0 // 12
+         filterDCAs : 0
+         considerLeadingHit : true
+         leadingHitCondition : 2 // wrong hit
+      }
+
+      filterAllRightLeadingHits : 
+      //TrackFilter : 
+      {
+
+         module_type : WrongLRDigitFilter 
+         fillType    : 1
+         throwOnEmptyHeaderCollection : false
+         TrackModuleLabel : "tracksMainFit"
+         TrackInstanceName : "straws"
+         dirName : "filterAllRightLeadingHits"
+
+         // Steering fcl params
+         applyTrackQuality : false
+         numPlanesHitCut : 0 // 12
+         filterDCAs : 0
+         considerLeadingHit : true
+         leadingHitCondition : 0 // Correct hit
+      }
+
+
+    } // filters
+
+  // filter paths
+  fpath1 : [ filterLowDCAs ] //, filterHighDCAs, filterAllWrongLeadingHits, filterAllRightLeadingHits ] // filter paths
+  fpath2 : [ filterHighDCAs ]
+  fpath3 : [ filterAllWrongLeadingHits ]
+  fpath4 : [ filterAllRightLeadingHits ]
+
+  outputs   : [ o1, o2, o3, o4 ] //, o2 ] 
+
+  trigger_paths : [ fpath1, fpath2, fpath3, fpath4 ] 
+
+  end_paths     : [outputs]
+
+} // end of physics block
+
+
+outputs : {
+  o1 : {
+      module_type : RootOutput
+      fileName : "filtered_tracks_lowDCAs.root" 
+      SelectEvents : [ "fpath1&noexception" ]
+  }
+  o2 : {
+      module_type : RootOutput
+      fileName : "filtered_tracks_highDCAs.root" 
+      SelectEvents : [ "fpath2&noexception" ]
+  }
+  o3 : {
+      module_type : RootOutput
+      fileName : "filtered_tracks_allWrongLeadingHits.root" 
+      SelectEvents : [ "fpath3&noexception" ]
+  }
+  o4 : {
+      module_type : RootOutput
+      fileName : "filtered_tracks_allRightLeadingHits.root" 
+      SelectEvents : [ "fpath4&noexception" ]
+  }
+
+} // end of outputs block
+
+// outputs.o1.fileName : "xxx.root"
+physics.filters.filterLowDCAs.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterHighDCAs.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterAllWrongLeadingHits.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterAllRightLeadingHits.TrackModuleLabel : 'tracksMainFit'

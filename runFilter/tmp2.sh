@@ -1,7 +1,7 @@
 # Config
 config=vacuum_2um_allTimes_noMaterial_noBinning
-fitMode=tracksMainFit
-#fitMode=tracksFullSeqFit
+#fitMode=tracksMainFit
+fitMode=tracksFullSeqFit
 #fitMode=truthLRFit
 
 # get piped input file
