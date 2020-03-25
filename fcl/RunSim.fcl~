@@ -33,7 +33,7 @@ services :
       }
       LogToFile : {
         type      : "file"
-        filename  : "gm2tracker_sim_vacuum_2um_allTimes_noMaterial_noBinning.log"
+        filename  : "gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root"
         append    :  false
         threshold : "INFO"
         categories : @local::message_categories
@@ -95,9 +95,11 @@ physics :
      // Fit the tracks
      tracksTruthLR : @local::geanefit_params
      tracksMainFit : @local::geanefit_params
-     tracksFullSeqFit : @local::geanefit_params
 
 
+     // Reco chain
+    // @table::trackingChain.producers
+  //   @table::caloChain.producers
   } // end of producer block
 
 
@@ -107,8 +109,21 @@ physics :
      // Put many muons into same fill
      fillEvents : @local::fill_params
 
+     // Throw away everything that isn't a wrong hit above 2000 um
+     //WrongLRDigitFilter :
+     // {
+     //   module_type : WrongLRDigitFilter
+     //   fillType    : 1
+     //   throwOnEmptyHeaderCollection : false
+     // }
   } // end of filter block
 
+  // Note this doesn't have DQC but we have to put this name here or we'd need different
+  // versions of RunTrackingPlots for data and MC!
+   // strawPathwithDQC : [fillEvents, digitizer,  @sequence::trackingChain.trackingPath, noDigitsFilter, @sequence::caloChain.caloSimPath, trackCaloMatching]
+//  strawPathwithDQC : [trackFilter, fillEvents, digitizer,  @sequence::trackingChain.trackingPath, @sequence::caloChain.caloSimPath, trackCaloMatching]
+//  strawPathwithDQC : [trackFilter, fillEvents, digitizer,  @sequence::trackingChain.trackingPath, @sequence::caloChain.caloSimPath, trackCaloMatching, trackCaloMatchMCFilter]
+  // My path, reconstructing tracks with different lockLowDCA values
    path : [
      artg4,
      fillEvents,
@@ -125,13 +140,13 @@ physics :
      t0Finder,
      driftDistReco,
      tracksTruthLR,
-     tracksMainFit,
-     tracksFullSeqFit
+     tracksMainFit
      ]
 
 
   outputPath    : [out]
-  trigger_paths : [path]
+  // plotPath : [ trackCaloMatchingAnaTrack, trackCaloMatchingAnaPositron ]
+  trigger_paths : [path]//, caloPath]
   end_paths     : [outputPath]
 } // end of physics block
 
@@ -139,11 +154,11 @@ outputs :
 {
   out : {
      module_type  : RootOutput
-     fileName     : "gm2tracker_sim_vacuum_2um_allTimes_noMaterial_noBinning.root"
+     fileName     : "gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root"
      dataTier     : "full"
      outputCommands : [ "keep *",
                         "drop gm2truth*_*_*_mdc*",
-                         @sequence::trackingChain.outputDrops
+                   @sequence::trackingChain.outputDrops
                 //      "drop gm2calo::Rider*_*_*_*",
                 //      "drop gm2calo::CaloRiderView*_*_*_*",
                 //      "drop gm2calo::CaloCrystalHit*_*_*_*",
@@ -162,9 +177,8 @@ outputs :
 // dca calc patched parameters
 
 // Keep detailed art records
-physics.producers.tracksTruthLR.keepTrackDetailArtRecord : true
-physics.producers.tracksMainFit.keepTrackDetailArtRecord : true
-physics.producers.tracksFullSeqFit.keepTrackDetailArtRecord : true
+physics.producers.tracksTruthLR.keepTrackDetailArtRecords : true
+physics.producers.tracksMainFit.keepTrackDetailArtRecords : true
 
 //
 // MAKE TRACKING AS PERFECT AS POSSIBLE
@@ -172,12 +186,11 @@ physics.producers.tracksFullSeqFit.keepTrackDetailArtRecord : true
 
 // Truth t0 and secondary removal
 physics.producers.driftDistReco.useTrueDigitT0 : true
-physics.producers.t0Finder.calculatorName : truthData
+// physics.producers.t0Finder.calculatorName : truthData
 
 // Remove secondaries
 physics.producers.digitizer.promoteSecondaryToDigit : false
 physics.producers.tracksMainFit.onlyPrimaryPositrons : true
-physics.producers.tracksTruthLR.onlyPrimaryPositrons : true
 physics.producers.tracksTruthLR.onlyPrimaryPositrons : true
 
 // Make negative drift times positive
@@ -192,7 +205,6 @@ physics.producers.driftDistReco.driftTimeResolution : 0.05494506
 // Use truth LR info (this is in geaneFitParams)
 physics.producers.tracksTruthLR.fitMode : "truthLRFit"
 physics.producers.tracksMainFit.fitMode : "mainFit"
-physics.producers.tracksFullSeqFit.fitMode : "fullSeqFit"
 
 // Drift time estimator patch
 physics.producers.digitizer.driftTimeModelName : "GaussianDriftModel"

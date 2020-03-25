@@ -210,3 +210,7 @@ outputs : {
 } // end of outputs block
 
 // outputs.o1.fileName : "xxx.root"
+physics.filters.filterLowDCAs.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterHighDCAs.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterAllWrongLeadingHits.TrackModuleLabel : 'tracksMainFit'
+physics.filters.filterAllRightLeadingHits.TrackModuleLabel : 'tracksMainFit'

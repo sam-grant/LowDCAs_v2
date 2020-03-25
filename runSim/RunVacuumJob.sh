@@ -38,7 +38,7 @@ echo $filesToRun
 
 #gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGauss.fcl -s $filesToRun
 #gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanPerfect.fcl -s $filesToRun
-gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimTestPerfect.fcl -s $filesToRun
+gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSim.fcl -s $filesToRun
 # gm2 -c /gm2/app/users/sgrant/analysis/LowDCAs_v2/fcl/RunSimScanGarfield.fcl -s $filesToRun
 
 # Return to run dir

@@ -1,0 +1,323 @@
+=============================================
+Processing file: File0/gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_withBinning.root
+# Read SQLiteDB from file, total size: 3.6 MiB.
+
+artg4: {
+   module_type: "BuildCoordSystems"
+}
+
+candidateCleaner: {
+   module_type: "CandidateCleaner"
+}
+
+clustering: {
+   clusterPositionError: 2.5
+   maxDigitsOnIsland: 250
+   module_type: "ClusterFormation"
+}
+
+deadTime: {
+   module_type: "ImposeDeadTime"
+}
+
+digitTimeSync: {
+   module_type: "DigitTimeSyncer"
+}
+
+digitizer: {
+   allowNegativeTimes: true
+   driftTimeModelName: "GaussianDriftModel"
+   driftTimeResolution: 2.747253
+   driftVelocity: 5.46e-2
+   includeSecondaryEloss: true
+   kineticEnergyThreshold: 1
+   module_type: "Digitalizer"
+   promoteSecondaryToDigit: false
+   removeFailedEfficHits: true
+   smearedDriftTimeSeed: 0
+}
+
+driftDistReco: {
+   calculatorName: "linearDriftDistanceEstimator"
+   driftTimeResolution: 2.747253
+   driftVelocity: 5.46e-2
+   module_type: "DriftDistanceCal"
+   useDatabase: false
+   useTrueDigitT0: true
+}
+
+fillEvents: {
+   KeepCaloHits: false
+   KeepFiberHarpHits: false
+   KeepGhostDetHits: true
+   KeepGhostFiberHarpHits: false
+   KeepIBMSFiberHits: false
+   KeepIBMSTruthHits: false
+   KeepKillTracks: false
+   KeepLookupHits: false
+   KeepRingTrackingHits: true
+   KeepStrawHits: true
+   KeepTrackingActions: false
+   KeepTrajectories: true
+   KeepXtalHits: false
+   MaxEventsPerFile: -1
+   Seed: 54321
+   StoredMuons: 1
+   StoredMuonsSigma: 0
+   errorOnFailureToPut: false
+   module_type: "FillBuilder"
+}
+
+killStraws: {
+   module_type: "KillStraws"
+}
+
+out: {
+   SelectEvents: [
+      "path"
+   ]
+   dataTier: "full"
+   fileName: "gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_withBinning.root"
+   module_type: "RootOutput"
+   outputCommands: [
+      "keep *",
+      "drop gm2truth*_*_*_mdc*",
+      "drop gm2truth::GhostDetectorArtRecords_artg4_trackerdummyplane_*",
+      "drop gm2strawtracker::StrawDigitArtRecords_removeFlash_*_*",
+      "drop gm2strawtracker::StrawDigitArtRecords_killStraws_*_*",
+      "drop gm2strawtracker::StrawDigitArtRecords_digitTimeSync_*_*",
+      "drop gm2strawtracker::StrawSeedArtRecords_seeds_*_*",
+      "drop gm2strawtracker::TrackCandidateArtRecords_trackCandidates_*_*",
+      "drop gm2strawtracker::TrackCandidateArtRecords_candidateCleaner_*_*"
+   ]
+   streamName: "out"
+}
+
+out1: {
+   FCMDPlugins: [
+      {
+         campaign: "run1"
+         fhicl_name: "gm2ringsim_particle_gun.fcl"
+         plugin_type: "Metadata"
+         requestid: "1"
+         run_config: "nominal"
+      }
+   ]
+   dataTier: "truth"
+   fileName: "/data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.00000.root"
+   module_type: "RootOutput"
+   outputCommands: [
+      "keep *",
+      "drop art::TriggerResults_TriggerResults__mdc1",
+      "drop art::RNGsnapshots_randomsaver__mdc1",
+      "drop gm2truth::IBMSFiberArtRecords_artg4_ibms_mdc1",
+      "drop gm2truth::IBMSTruthArtRecords_artg4_ibms_mdc1",
+      "drop gm2truth::KillTracksArtRecords_artg4__mdc1",
+      "drop gm2truth::LookupArtRecords_artg4_calorimeter_mdc1",
+      "drop gm2truth::RingArtRecords_artg4_Ring_mdc1",
+      "drop gm2truth::XtalArtRecords_artg4_calorimeter_mdc1",
+      "drop gm2truth::XtalPhotonArtRecords_artg4_calorimeter_mdc1"
+   ]
+   streamName: "out1"
+}
+
+randomsaver: {
+   module_type: "RandomNumberSaver"
+}
+
+removeFlash: {
+   module_type: "RemoveFlash"
+}
+
+seeds: {
+   driftCircleNSteps: 50
+   dummyDigitDriftDistance: 2.5
+   maxClusterTimeSeparation: 50
+   maxPlaneGapsInSeed: 0
+   maxWireSeparation: 1
+   module_type: "SeedFormation"
+   positionErrorSet: {
+      digit1: [
+         1,
+         28,
+         8e-1
+      ]
+      digit2: [
+         1.5,
+         27,
+         5e-1
+      ]
+      digit3: [
+         7.5e-1,
+         18,
+         4e-1
+      ]
+      digit4: [
+         7.5e-1,
+         20,
+         4e-1
+      ]
+      rError: [
+         1,
+         8.5e-1,
+         4e-1,
+         4e-1
+      ]
+   }
+   reconstructPosition: false
+   relaxWireSeparation: 3
+   removeDuplicateSeeds: false
+   threeDimPositionModel: "UseDriftCircleEstimator"
+   useClusterTimingCut: true
+   useGeometryLR: true
+}
+
+source: {
+   firstRun: 1
+   firstSubRun: 17
+   maxEvents: 5000
+   module_type: "EmptyEvent"
+}
+
+t0Finder: {
+   calculatorName: "meanTime"
+   createIslandForFailT0: true
+   driftVelocity: 5.46e-2
+   meanTimeOffset: 2.46e1
+   module_type: "T0Finder"
+   tofBetweenModules: 4.5e-1
+}
+
+timeIslands: {
+   absoluteTimeWindowWidth: 100
+   finerTimeWindowWidth: 20
+   maxTimeWindowWidth: 80
+   module_type: "TimeIsland"
+   relativeTimeWindowWidth: 100
+   sortRealDigits: true
+   sortSimDigits: true
+   useAbsoluteTimeWindowWidth: false
+}
+
+trackCandidates: {
+   dcaTolerance: 10
+   fastFitterParams: {
+      fitterName: "SimpleCircleFitter"
+      linearFitterSorter: "NoFitter"
+      maxCircleChi2Formation: 50
+      maxLinearChi2Formation: 50
+      maxProjectionCovariance: 1
+      maxProjectionTolerance: 25
+      maxRadialFieldComponent: 5e-2
+      maxSlopeCovariance: 1
+      maxSlopeTolerance: 25
+      requiredFitConverges: false
+      requiredMergeConsistent: false
+      useHitsInFringeField: false
+      useTruthData: false
+   }
+   longTrackFinderParams: {
+      applyClusterSelection: true
+      avgSeedRMSTime: 5
+      candidateSeedsMaxTime: 15
+      candidateSeedsMaxWire: 5
+      candidateSeedsStrictTime: 5
+      candidateTracksMaxTime: 60
+      maxOverlapSeeds: 5e-1
+      maxSeedsInChain: 5
+      maxSeedsToBeMultiTrackCand: 8
+      maxTimeSeparation: 75
+      maxWireNumbersBetweenSeeds: 4
+      maxWireSeparation: 5
+      maxWireSeparationForNeighbours: 32
+      minPlanesPerFit: 5
+      minSeedsForRemoval: 2
+      minSeedsPerFit: 2
+      nSeedsNearRefSeed: 4
+      removeHighActivityModules: true
+      requiredFitConverges: false
+      shareSeeds: false
+      timeSeparationTolerance: 25
+      useFrontFaceFiducialCriteria: false
+      wireMoveDisplacement: 2
+   }
+   makeLongFinderPlots: false
+   maxSeedsOnIsland: 75
+   module_type: "TrackFinding"
+   trackFinderName: "LongTrackFinder"
+}
+
+tracks: {
+   G4EVERBOSE: 0
+   convergenceCriteria: 1e-1
+   fitMode: "mainFit"
+   fitterType: "fullFitter"
+   lockLowDCAs: 0
+   matrixDebug: false
+   module_type: "GeaneReco"
+   numPassesSeqFit: 3
+   numPassesWireFit: 3
+   onlyPrimaryPositrons: false
+   trackingVerbose: 0
+   useCircleGuess: true
+   useNodes: false
+   useTangentLR: true
+}
+
+tracks0: {
+   G4EVERBOSE: 0
+   convergenceCriteria: 1e-1
+   fitMode: "truthLRFit"
+   fitterType: "fullFitter"
+   keepTrackDetailArtRecord: true
+   lockLowDCAs: 0
+   matrixDebug: false
+   module_type: "GeaneReco"
+   numPassesSeqFit: 3
+   numPassesWireFit: 3
+   onlyPrimaryPositrons: true
+   trackingVerbose: 0
+   useCircleGuess: true
+   useNodes: false
+   useTangentLR: true
+}
+
+vertices: {
+   checkVolumes: true
+   cutPoorPValues: false
+   distanceBeyondTangentPoint: 10
+   doBackwardsExtrap: true
+   doForwardsExtrap: true
+   extrapolateToTrueAzimuth: false
+   extrapolater: "RKExtrapolater"
+   extrapolationDistance: 1000
+   fillTruthData: true
+   initialRadius: 45
+   keepHitVolumes: true
+   keepSteps: false
+   largeStepSize: 2e-2
+   minNumPlanes: 0
+   module_type: "TrackExtrapolation"
+   numberOfSteps: 10000
+   onlyKeepStepsInVolume: false
+   onlyKeepVolumeEvents: false
+   pValueCut: 5e-3
+   pmax: 99999
+   pmin: 0
+   returnAtHitVolume: false
+   returnAtTangentPoint: true
+   smallStepSize: 5e-2
+   smearStartMomentum: false
+   smearingFactor: 2e-2
+   stepSize: 5e-1
+   stepsBeyondMin: 5
+   storeFailedEvents: false
+   targetZpos: -7.06e1
+   tolerance: 0
+   useLargeStepsInStorageField: true
+   useOnlyPDPs: true
+   useSmallStepsAtLowRadius: true
+   useSmallStepsNearTangentPoint: true
+   useTruth: false
+}
+

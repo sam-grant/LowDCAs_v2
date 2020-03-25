@@ -6,5 +6,5 @@
 for file in `cd VacuumFiles && ls File*`; do
   echo $file
 #  return
-#done | xargs -i --max-procs=25 bash -c ". RunVacuumJob.sh {}"
-done | xargs -i --max-procs=25 bash -c ". RunVacuumJob.sh {}"
+done | xargs -i --max-procs=30 bash -c ". RunVacuumJob.sh {}"
+#done | xargs -i --max-procs=2 bash -c ". RunVacuumJob.sh {}"

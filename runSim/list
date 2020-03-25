@@ -1,25 +1,149 @@
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{0..20}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{20..40}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{40..60}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{60..80}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{80..100}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{100..120}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{120..140}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{140..160}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{160..180}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{180..200}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{200..220}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{220..240}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{240..260}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{260..280}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{280..300}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{300..320}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{320..340}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{340..360}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{360..380}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{380..400}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{400..420}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{420..440}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{440..460}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{460..480}.root
-ls /data/gm2/MCEvents/v9_37_00_Vacuum/gm2ringsim_particle_gun.*{480..500}.root
+File10:
+total 379M
+-rw-r--r-- 1 sgrant gm2 379M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:48 File10
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:49 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File0:
+total 356M
+-rw-r--r-- 1 sgrant gm2 356M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:47 File0
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:48 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File1:
+total 373M
+-rw-r--r-- 1 sgrant gm2 373M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:47 File1
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:48 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File12:
+total 375M
+-rw-r--r-- 1 sgrant gm2 375M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:49 File12
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:50 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File11:
+total 367M
+-rw-r--r-- 1 sgrant gm2 367M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:48 File11
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:49 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File13:
+total 388M
+-rw-r--r-- 1 sgrant gm2 388M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:49 File13
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:50 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File16:
+total 385M
+-rw-r--r-- 1 sgrant gm2 385M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:51 File16
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:52 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File14:
+total 387M
+-rw-r--r-- 1 sgrant gm2 387M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:50 File14
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:51 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File15:
+total 374M
+-rw-r--r-- 1 sgrant gm2 374M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:50 File15
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:51 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File17:
+total 375M
+-rw-r--r-- 1 sgrant gm2 375M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:51 File17
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:52 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File18:
+total 373M
+-rw-r--r-- 1 sgrant gm2 373M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:52 File18
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:53 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File19:
+total 379M
+-rw-r--r-- 1 sgrant gm2 379M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:52 File19
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:53 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File2:
+total 365M
+-rw-r--r-- 1 sgrant gm2 365M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:53 File2
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:54 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File20:
+total 378M
+-rw-r--r-- 1 sgrant gm2 378M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:53 File20
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:54 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File21:
+total 371M
+-rw-r--r-- 1 sgrant gm2 371M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:54 File21
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:54 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File22:
+total 379M
+-rw-r--r-- 1 sgrant gm2 379M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:54 File22
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:54 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File23:
+total 380M
+-rw-r--r-- 1 sgrant gm2 380M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:54 File23
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:55 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File24:
+total 370M
+-rw-r--r-- 1 sgrant gm2 370M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:54 File24
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:55 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File3:
+total 382M
+-rw-r--r-- 1 sgrant gm2 382M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:55 File3
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:56 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File4:
+total 383M
+-rw-r--r-- 1 sgrant gm2 383M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:55 File4
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:56 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File5:
+total 372M
+-rw-r--r-- 1 sgrant gm2 372M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:56 File5
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:57 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File6:
+total 374M
+-rw-r--r-- 1 sgrant gm2 374M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:56 File6
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:57 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File7:
+total 370M
+-rw-r--r-- 1 sgrant gm2 370M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:57 File7
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:58 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File8:
+total 369M
+-rw-r--r-- 1 sgrant gm2 369M Mar 20 19:14 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:57 File8
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:58 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root
+
+File9:
+total 386M
+-rw-r--r-- 1 sgrant gm2 386M Mar 20 19:15 gm2tracker_sim_vacuum_2um_mainFit_allTimes_noMaterial_noBinning.root
+-rw-r--r-- 1 sgrant gm2 1.4K Mar 21 15:58 File9
+-rw-r--r-- 1 sgrant gm2  251 Mar 21 15:59 gm2tracker_sim_vacuum_2um_truthLR_allTimes_noMaterial_noBinning.root

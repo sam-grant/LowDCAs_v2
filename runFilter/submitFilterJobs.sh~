@@ -1,0 +1,4 @@
+for file in `ls files/file*`; do
+  echo $file
+#  return
+done | xargs -i --max-procs=1 bash -c ". runFilter.sh {}"

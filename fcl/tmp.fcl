@@ -178,7 +178,6 @@ physics.producers.t0Finder.calculatorName : truthData
 physics.producers.digitizer.promoteSecondaryToDigit : false
 physics.producers.tracksMainFit.onlyPrimaryPositrons : true
 physics.producers.tracksTruthLR.onlyPrimaryPositrons : true
-physics.producers.tracksTruthLR.onlyPrimaryPositrons : true
 
 // Make negative drift times positive
 physics.producers.digitizer.allowNegativeTimes : true

@@ -32,7 +32,7 @@ services : {
       }
       LogToFile : {
         type      : "file"
-        filename  : "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_withBinning.root"
+        filename  : "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_withBinning.log"
 //        filename  : "LowDCAsPlots.log"
         append    :  false
         threshold : "INFO"
@@ -54,7 +54,7 @@ services : {
   TrackQuality : {}
 
   TFileService: {
-      fileName: "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_noBinning.root"
+      fileName: "simPlots_vacuum_20um_mainFit_allTimes_noMaterial_withBinning.root"
 //    fileName: "LowDCAsPlots.root"
   }
 
